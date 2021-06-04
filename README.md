@@ -1,2 +1,2 @@
 # Be-Secure
-Be-Secure is a Network of Network for blockchain based cybersecurity applications
+Be-Secure is an umbrella project of open source security tools ,projects and applications.
