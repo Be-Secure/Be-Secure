@@ -7,7 +7,7 @@
   <ol>
     <li>
       <a href="#About-The-Project">About The Project</a></li>
-       <a href="#tech-stack">Tech stack</a></li>
+      <li> <a href="#tech-stack">Tech stack</a></li>
     <li><a href="#How-to-contribute">How to contribute</a></li>
   </ol>
 </details>
