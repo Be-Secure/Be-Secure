@@ -1,9 +1,5 @@
-# Be-Secure
-Be-Secure is an umbrella project of open source security tools ,projects and applications.
-
  <h2 align="center">Be-Secure[Community Edition]</h2>
-   
-<p> <center> <h4 align="center"> A secure environment provider for your tech mission </h4> </p>
+
 
 <!-- TABLE OF CONTENTS -->
 <details open="open">
