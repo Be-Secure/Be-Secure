@@ -1,15 +1,15 @@
-<h2 align="center">Be-Secure[Community Edition]</h2>
+<h2 align="center">Be-Secure</h2>
 
 
 # Be-Secure 
 
-Adoption of open source software components in applications have increased over the years, today open source software is part of IT strategy for many organizations. Securing such application is of utmost importance to minimize the impact from security threats and enhance overall security posture of organizations.
+Be-Secure is an umbrella of open source security projects and utilities driven as a community initiative by Wipro. The Be-Secure projects are focused on enabling open source community to enhance security for their open source projects and help build a security community around open source. These security projects and utilities will be tracked by Wipro and its network of trusted security partners.  There is a growing trend of open source adoption today and this growth is driving creation of lot more open source components. It is essential to have a mechanism and community to focus on security of these open source software components.
 
 
-Be-Secure is an umbrella of open source security projects and utilities driven as a community initiative by Wipro. These security projects and utilities will be tracked by Wipro’s open source security team and its network of trusted security partners. This is unique proposition leveraging expertise from Wipro and its network of security partners to curate, develop and manage security projects that will help end users to strengthen the security posture of their applications or IT systems or open source projects.
+There are lot many open source tech stacks out there in the world. As a start, the focus is currently set on the most popular open source tech stacks. These tech stacks have been grouped into 5 different open source security tech stack categories. This approach will help to focus and drive security projects/ utilities more efficiently by addressing the specific security requirements of these tech stacks.
 Be-Secure projects will revolve around a set of predefined open source security tech stacks that are curated based on their usage. 
 
-#### The different open source security tech stacks are –
+#### The different open source security tech stacks that has been identified based on the characteristics and type of usage are –
 
     *   Security of DevOps Tool stack
     
@@ -22,12 +22,11 @@ Be-Secure projects will revolve around a set of predefined open source security 
     *   Open source security tool security stack
   
 
-Our vision for Be-Secure is to be one stop for all users to address their open source security requirements. 
+The vision of Be-Secure community is to be one stop for all users to contribute and consume security projects to address security needs of open source projects.
 
 # Be-Secure Projects / Utilities:
+   One of the first utilities to be created as part of Be-Secure project is BeSman.
 
-   •	BeSman – is a command-line utility for provision of customized security environments for each open source tech stack. Please refer the following link : https://github.com/Be-Secure/BeSman. You can leverage BeSman to build your own security environments that suits your needs. 
+   •	BeSman – is a command-line utility to provision customized environments for each open source tech stack. These environments are known as BeSman environments. Please refer the following link (https://github.com/Be-Secure/BeSman) to know more about BeSman. It is built using bash and can be easily customized to provision new environments for an open source tech stack based on open source project requirements. Anyone can leverage BeSman utility to build customized environments for their projects.
   
-For more information on Be-Secure, please visit our [be-secure website](https://jobyko.github.io).
-
-
+For more information on Be-Secure, please visit our [site](https://jobyko.github.io).
