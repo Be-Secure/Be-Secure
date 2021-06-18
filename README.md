@@ -29,4 +29,4 @@ The vision of Be-Secure community is to be one stop for all users to contribute 
 
    •	BeSman – is a command-line utility to provision customized environments for each open source tech stack. These environments are known as BeSman environments. Please refer the following link (https://github.com/Be-Secure/BeSman) to know more about BeSman. It is built using bash and can be easily customized to provision new environments for an open source tech stack based on open source project requirements. Anyone can leverage BeSman utility to build customized environments for their projects.
   
-For more information on Be-Secure, please visit our [site](https://jobyko.github.io).
+For more information on Be-Secure, please visit our [site](https://jobyko.github.io/Be-Secure_web/).
