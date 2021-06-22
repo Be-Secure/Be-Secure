@@ -1,8 +1,5 @@
 <h2 align="center">Be-Secure</h2>
 
-
-## Be-Secure 
-
 Its an umbrella of open-source security projects and utilities driven as a community initiative by Wipro. The Be-Secure projects are focused on enabling open-source communities to enhance security for their open-source projects and help build a security community around open-source. These security projects and utilities will be tracked by Wipro and its network of trusted security partners.  There is a growing trend of open-source adoption today and this growth is driving creation of lot more open-source components. It is essential to have a mechanism and community to focus on security of these open-source software components.
 
 
