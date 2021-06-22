@@ -19,7 +19,7 @@ Be-Secure projects will revolve around a set of predefined open-source security 
     *   Open-source security tool security stack
   
 
-The vision of Be-Secure community, is a future where the Be-Secure community becomes the one-stop for all open-source security tools and technologies that interoperate without the need for customized integrations with security handled proactively.
+We envision a future where the Be-Secure community becomes the one-stop for all open-source security tools and technologies that interoperate without the need for customized integrations with security handled proactively.
 
 ## Be-Secure Projects / Utilities:
    One of the first utilities to be created as part of Be-Secure project is BeSman.
