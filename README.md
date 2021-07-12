@@ -1,29 +1,37 @@
-<h2 align="center">Be-Secure</h2>
 
 The Be-Secure projects are focused on enabling open-source communities to enhance security for their open-source projects and help build a security community around open-source. There is a growing trend of open-source adoption today and this growth is driving creation of lot more open-source components. It is essential to have a mechanism and community to focus on security of these open-source software components.
 
+###   Why Be-Secure:
 
-There are lot many open-source tech stacks out there in the world. As a start, the focus is currently set on the most popular open-source tech stacks. These tech stacks have been grouped into 5 different open-source security tech stack categories. This approach will help to focus and drive security projects/ utilities more efficiently by addressing the specific security requirements of these tech stacks.
-Be-Secure projects will revolve around a set of predefined open-source security tech stacks that are curated based on their usage. 
+Increased focus on open source projects now demands better focus on their security. Be-Secure projects addresses this need by focusing on addressing common security requirements of open source projects in a timely manner. Frequent tracking of changes to open source projects is essential to identify new changes and their security risk impact.
 
-#### The different open-source security tech stacks that has been identified based on the characteristics and type of usage are –
+###   What is Be-Secure open source security tech stack:
 
-    *   Security of DevOps Tool stack
-    
-    *   Language and framework security stack
-    
-    *   Application security stack 
-    
-    *   Distributed application / blockchain security stack
-    
-    *   Open-source security tool security stack
-  
+Security for open source is a challenge considering the vast no of open source technologies and their frequent changes. Addressing this challenge, we have grouped various open source technologies into Be-Secure open source security tech stacks. These open source security tech stacks are identified based on their characteristics and type of usage.
 
-We envision a future where the Be-Secure community becomes the one-stop for all open-source security tools and technologies that interoperate without the need for customized integrations with security handled proactively.
+###   Getting started:
 
-## Be-Secure Projects / Utilities:
-   One of the first utilities to be created as part of Be-Secure project is BeSman.
+You can map your projects to the Be-Secure open source security tech stack. Please refer the section (BeSecure Open Source security tech stack) for more details. Once you have identified the Be-Secure open source tech stack, you can then identify the BeSman environments for your project. BeSman environments comprise of dev and security testing environments for each identified open source security tech stack. These environments can be customized per project needs to help you to utilize these environments in a seamless manner to secure your projects. Once you have identified the required BeSman environments, you can access the same from the following GitHub repository ().
 
-BeSman – is a command-line utility to provision customized environments for each open-source tech stack. These environments are known as BeSman environments. Please refer the following link (https://github.com/Be-Secure/BeSman) to know more about BeSman. It is built using bash and can be easily customized to provision new environments for an open-source tech stack based on open-source project requirements. Anyone can leverage BeSman utility to build customized environments for their projects.
-  
-For more information on Be-Secure, please visit our [site](https://Be-Secure.github.io).
+We have a Be-Secure Community Dashboard which can be used to identify the security stature of various open source projects we track. To access the dashboard, please visit this section (). This is a good option to identify the security of your project. In case if your project is not available in the dashboard, please do let us know. We plan to grow the list of open source projects we track and report their security posture using our community dashboard.
+
+You can also contribute to our existing projects, please refer the following section () to more details.
+
+Seven stages of Be-Secure CE security assessment:
+
+We have defined a seven stage approach to assess and enhance the security posture of open source projects. Each stage is defined with a definitive objective and all together they will help strengthen the security posture of open source projects in a consistent manner. To know more about this, please visit the following section ().
+
+###   OSS projects we track:
+
+We have identified a set of open source projects that we will be tracking and assessing their security posture as a community activity. This list will be a growing list where new projects gets added as we move forward. Please visit this section () for more details.
+
+###   OSS projects we contribute:
+
+We have defined and developed a command line utility known as BeSman. We are contributing this utility to the community and will continue to help enhance its capabilities as we move on. For more details visit the section ().
+
+###   How to contribute:
+
+We invite all open source enthusiasts to join our community and enhance your capability as an open source security specialist. To know more about how to contribute to Be-Secure community initiative, please visit the following section ().
+
+For more information on Be-Secure please visit our [site](https://Be-Secure.github.io).
+ 
