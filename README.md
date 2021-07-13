@@ -13,25 +13,25 @@ Security for open source is a challenge considering the vast no of open source t
 
 You can map your projects to the Be-Secure open source security tech stack. Please refer the section [BeSecure Open Source security tech stack](https://be-secure.github.io/#besec_info/Project_contribute/) for more details. Once you have identified the Be-Secure open source tech stack, you can then identify the BeSman environments for your project. BeSman environments comprise of dev and security testing environments for each identified open source security tech stack. These environments can be customized per project needs to help you to utilize these environments in a seamless manner to secure your projects. Once you have identified the required BeSman environments, you can access the same from the following GitHub repository [repo](https://github.com/Be-Secure/)
 
-We have a Be-Secure Community Dashboard which can be used to identify the security stature of various open source projects we track. To access the dashboard, please visit [this section] (https://be-secure.github.io/#besec_info/Community_dashboard). This is a good option to identify the security of your project. In case if your project is not available in the dashboard, please do let us know. We plan to grow the list of open source projects we track and report their security posture using our community dashboard.
+We have a Be-Secure Community Dashboard which can be used to identify the security stature of various open source projects we track. To access the dashboard, please visit [this section](https://be-secure.github.io/#besec_info/Community_dashboard). This is a good option to identify the security of your project. In case if your project is not available in the dashboard, please do let us know. We plan to grow the list of open source projects we track and report their security posture using our community dashboard.
 
-You can also contribute to our existing projects, please refer the [following section] (https://be-secure.github.io/#besec_info/Project_contribute) to more details.
+You can also contribute to our existing projects, please refer the [following section](https://be-secure.github.io/#besec_info/Project_contribute) to more details.
 
 Seven stages of Be-Secure CE security assessment:
 
-We have defined a seven stage approach to assess and enhance the security posture of open source projects. Each stage is defined with a definitive objective and all together they will help strengthen the security posture of open source projects in a consistent manner. To know more about this, please visit the [following section] (https://be-secure.github.io/#besec_info/Tech_stack).
+We have defined a seven stage approach to assess and enhance the security posture of open source projects. Each stage is defined with a definitive objective and all together they will help strengthen the security posture of open source projects in a consistent manner. To know more about this, please visit the [following section](https://be-secure.github.io/#besec_info/Tech_stack).
 
 ###   OSS projects we track:
 
-We have identified a set of open source projects that we will be tracking and assessing their security posture as a community activity. This list will be a growing list where new projects gets added as we move forward. Please visit [this section] (https://be-secure.github.io/#besec_info/tracked_projects) for more details.
+We have identified a set of open source projects that we will be tracking and assessing their security posture as a community activity. This list will be a growing list where new projects gets added as we move forward. Please visit [this section](https://be-secure.github.io/#besec_info/tracked_projects) for more details.
 
 ###   OSS projects we contribute:
 
-We have defined and developed a command line utility known as BeSman. We are contributing this utility to the community and will continue to help enhance its capabilities as we move on. For more details visit the [section] (https://be-secure.github.io/#besec_info/Project_contribute).
+We have defined and developed a command line utility known as BeSman. We are contributing this utility to the community and will continue to help enhance its capabilities as we move on. For more details visit the [section](https://be-secure.github.io/#besec_info/Project_contribute).
 
 ###   How to contribute:
 
-We invite all open source enthusiasts to join our community and enhance your capability as an open source security specialist. To know more about how to contribute to Be-Secure community initiative, please visit the [following section] (https://be-secure.github.io/#besec_info/More_info).
+We invite all open source enthusiasts to join our community and enhance your capability as an open source security specialist. To know more about how to contribute to Be-Secure community initiative, please visit the [following section](https://be-secure.github.io/#besec_info/More_info).
 
 For more information on Be-Secure please visit our [site](https://Be-Secure.github.io).
  
