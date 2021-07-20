@@ -20,13 +20,13 @@ Community members can provide information and notifications about product defect
 
 TAVOSS is Trusted And Verified Open Source software that has undergone a security assessment by the Be-Secure Community.
 
-#### Security Testing Environments
+#### BeSman Development and Security Assessment Environments
 
 Open source is vast and we have frequent new releases ,bug fixes and patches published every day . It is impossible for any single organization to keep track of all theses changes. Hence we have identified few BeSecure Open source tech stacks or BeSecure technology blue prints which we call as BeSman environments to help the BeSecure community navigate through security assessment of these open source projects. 
 
 The open source projects are categorized based on  purpose,interoperability and technology ,They include other open source dependencies that are most frequently required to develop enterprise grade open source solutions.
 
-Each BeSecure tech stack will be associated with two types of BeSman environment namely the provisioning or development environment [Dev] as well as the security testing or security sandbox environment [Sec].
+Each BeSecure tech stack will be associated with atleast two types of BeSman environment namely the development or provisioning environment [Dev] as well as the security testing or security sandbox environment [Sec].
 
 #### BeSecure Open Source Tech stacks are –
 
