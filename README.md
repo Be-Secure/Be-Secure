@@ -22,7 +22,7 @@ TAVOSS is Trusted And Verified Open Source software that has undergone a securit
 
 #### BeSman Development and Security Assessment Environments
 
-Open source is vast and we have frequent new releases ,bug fixes and patches published every day . It is impossible for any organization to keep track of all the changes that happen across the open source landscape . Hence we have identified few BeSecure Open source tech stacks or BeSecure technology blue prints which we call as BeSman environments to help the BeSecure community navigate through security assessment of these open source projects. 
+Open source is vast and we have frequent new releases ,bug fixes and patches published every day . It is impossible for any organization to keep track of all the changes that happen across the open source landscape . Hence we have identified five BeSecure Open source tech stacks or blue prints which we call as BeSman environments to help the BeSecure community navigate through security assessment of these open source projects. 
 
 The open source projects are categorized based on  purpose,interoperability and technology ,They include other open source dependencies that are most frequently required to develop enterprise grade open source solutions.
 
