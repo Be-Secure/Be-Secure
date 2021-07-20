@@ -2,8 +2,8 @@
 
 Be Secure is an umbrella of open source security project.
 
-#### Trusted and Verified Open source software (TAVOSS) 
 
+#### Trusted and Verified Open source software (TAVOSS) 
 
 
 #### BeSecure Open Source Tech stacks are –
