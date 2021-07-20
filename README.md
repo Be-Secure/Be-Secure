@@ -8,13 +8,16 @@ Open source is the way forward to develop new capabilities through collaboration
 
 #### Who is Be-Secure for –
 
-Developers can easily learn secure development practices and are proactively guided by their tools to apply those practices and automatically informed when action is needed to prevent, remediate, or mitigate security issues.
+Organisations, open source developers, security researchers, auditors, and regulators can all benefit from Be-Secure.
 
-Developers, auditors, and regulators can create and easily distribute security policies that are enforced through tooling and automation, providing continuous assurance of the results.
+Developers can easily learn secure development practices and are proactively guided by BeSman environments to apply those practices and automatically informed when action is needed to prevent, remediate, or mitigate security issues.
 
-Developers and researchers can identify security issues (including unintentional vulnerabilities and malicious software) and have this information swiftly flow - backward through the supply chain to someone who can rapidly address the issue.
+Developers, auditors, and regulators can create new BeSman Environments and easily distribute security policies that are enforced through tooling and automation, providing continuous assurance of the results.
 
-Community members can provide information and notifications about product defects, mitigations, quality, and supportability and have this information rapidly flow forward across the ecosystem system to all users, and users can rapidly update their software or implement mitigations as appropriate.
+Security assessment environments aid Developers and researchers to identify security issues ,like unintentional vulnerabilities and have this information swiftly flow - backward through the supply chain to someone who can rapidly address the issue.
+
+Be-Secure Community members can provide information and notifications about product defects, mitigations, quality, and supportability and have this information rapidly flow forward across the ecosystem system to all users, and users can rapidly update their software or implement mitigations as appropriate.
+
 
 #### TAVOSS 
 
