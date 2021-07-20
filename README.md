@@ -26,15 +26,15 @@ Open source is vast and it is impossible for anyone organization to keep track o
 
 #### BeSecure Open Source Tech stacks are –
 
-    *   DevOps[DO] :  [Dev]()  | [Sec]()
+    *   DevOps[DO] :  [Dev](Link to BeSman Dev environment List)  | [Sec](Link to BeSman Sec Environment List)
     
-    *   Language and framework [L&F] : [Dev]()  | [Sec]()
+    *   Language and framework [L&F] : [Dev](Link to BeSman Dev environment List)  | [Sec](Link to BeSman Sec Environment List)
     
-    *   Application [A] :   [Dev]()  | [Sec]() 
+    *   Application [A] :   [Dev](Link to BeSman Dev environment List)  | [Sec](Link to BeSman Sec Environment List) 
     
-    *   Distributed & Decentralized Application [DA] : [Dev]()  | [Sec]()
+    *   Distributed & Decentralized Application [DA] : [Dev](Link to BeSman Dev environment List)  | [Sec](Link to BeSman Sec Environment List)
     
-    *   Open-source Security Tool [S] :  [Dev]()  | [Sec]()
+    *   Open-source Security Tool [S] :  [Dev](Link to BeSman Dev environment List)  | [Sec](Link to BeSman Sec Environment List)
   
 
 #### OSS Project We Track :
