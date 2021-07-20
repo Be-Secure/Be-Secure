@@ -10,14 +10,6 @@ Open source is the way forward to develop new capabilities through collaboration
 
 Organisations, open source developers, security researchers, auditors, and regulators can all benefit from Be-Secure.
 
-Developers can easily learn secure development practices and are proactively guided by BeSman environments to apply those practices and automatically informed when action is needed to prevent, remediate, or mitigate security issues.
-
-Developers, auditors, and regulators can create new BeSman Environments and easily distribute security policies that are enforced through tooling and automation, providing continuous assurance of the results.
-
-Security assessment environments aid Developers and researchers to identify security issues ,like unintentional vulnerabilities and have this information swiftly flow - backward through the supply chain to someone who can rapidly address the issue.
-
-Be-Secure Community members can provide information and notifications about product defects, mitigations, quality, and supportability and have this information rapidly flow forward across the ecosystem system to all users, and users can rapidly update their software or implement mitigations as appropriate.
-
 
 #### TAVOSS 
 
@@ -43,6 +35,16 @@ Each BeSecure tech stack will be associated with atleast two types of BeSman env
     
     *   Open-source Security Tool [S] :  [Dev](Link to BeSman Dev environment List)  | [Sec](Link to BeSman Sec Environment List)
   
+#### Benefits from Be-Secure –
+
+Developers can easily learn secure development practices and are proactively guided by BeSman environments to apply those practices and automatically informed when action is needed to prevent, remediate, or mitigate security issues.
+
+Developers, auditors, and regulators can create new BeSman Environments and easily distribute security policies that are enforced through tooling and automation, providing continuous assurance of the results.
+
+Security assessment environments aid Developers and researchers to identify security issues ,like unintentional vulnerabilities and have this information swiftly flow - backward through the supply chain to someone who can rapidly address the issue.
+
+Be-Secure Community members can provide information and notifications about product defects, mitigations, quality, and supportability and have this information rapidly flow forward across the ecosystem system to all users, and users can rapidly update their software or implement mitigations as appropriate.
+
 
 #### OSS Project We Track :
 
