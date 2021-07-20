@@ -26,7 +26,7 @@ Open source is vast and we have frequent new releases ,bug fixes and patches pub
 
 The open source projects are categorized based on  purpose,interoperability and technology ,They include other open source dependencies that are most frequently required to develop enterprise grade open source solutions.
 
-Each BeSecure tech stack will be associated with atleast two types of BeSman environment namely the development or provisioning environment [Dev] as well as the security testing or security sandbox environment [Sec].
+Each BeSecure tech stack will be associated with atleast two types of BeSman environments namely the Development or Provisioning environment [Dev] as well as the security testing or security sandbox environment [Sec].
 
 #### BeSecure Open Source Tech stacks are –
 
