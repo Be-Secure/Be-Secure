@@ -4,7 +4,7 @@ Be Secure is an umbrella of open source security project.
 
 #### Why Be-Secure
 
-Today open source is the way forward to develop new capabilities through collaboration with open source community projects. Organizations have realized the benefits from open source software. This realization has led them to increase their adoption of open source projects to build business capabilities. This approach necessitates the focus on security for open source projects. Be-Secure projects focus on addressing common security requirements of open source projects. They are open for customizations to address specific needs.
+Open source is the way forward to develop new capabilities through collaboration with open source community projects. Organizations have realized the benefits from open source software. This realization has led them to increase their adoption of open source projects to build business capabilities. This approach necessitates the focus on security for open source projects. Be-Secure projects focus on addressing common security requirements of open source projects. 
 
 #### Who is Be-Secure for –
 
