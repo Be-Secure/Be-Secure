@@ -22,7 +22,11 @@ TAVOSS is Trusted And Verified Open Source software that has undergone a securit
 
 #### Security Testing Environments
 
-Open source is vast and it is impossible for anyone organization to keep track of all the changes . Hence we have identified few BeSecure Open source tech stacks or blue prints that we call as environments to help the BeSecure community  to do focused security assessment of key open source projects and technology used frequently to build enterprise grade open source solution. Each BeSecure tech stack will be associated with two types of BeSman environment namely the provisioning or development environment [Dev] as well as the security testing or security sandbox environment [Sec].
+Open source is vast and we have frequent new releases ,bug fixes and patches published every day . It is impossible for any single organization to keep track of all theses changes. Hence we have identified few BeSecure Open source tech stacks or BeSecure technology blue prints which we call as BeSman environments to help the BeSecure community navigate through security assessment of these open source projects. 
+
+The open source projects are categorized based on  purpose,interoperability and technology and include open source dependencies that are most frequently required to build enterprise grade open source solutions.
+
+Each BeSecure tech stack will be associated with two types of BeSman environment namely the provisioning or development environment [Dev] as well as the security testing or security sandbox environment [Sec].
 
 #### BeSecure Open Source Tech stacks are –
 
@@ -43,8 +47,7 @@ Open source is vast and it is impossible for anyone organization to keep track o
 
 #### OSS Project We Contribute :
 
-[**BeSman**](https://github.com/Be-Secure/BeSman) is a command-line utility to provision customized environments for each TAVOSS tech stack. These environments are known 
-as BeSman environments. 
+[**BeSman**](https://github.com/Be-Secure/BeSman) or BeSecure Manager of BeSman for short is a command-line utility to provision customized environments for each TAVOSS tech stack known as BeSman environments. 
 
 [**OAH-Bes-vm**]() for easy local deployment of Besman environmens.
 
