@@ -18,6 +18,9 @@ Community members can provide information and notifications about product defect
 
 #### Trusted and Verified Open source software (TAVOSS) 
 
+TAVOSS , is trusted and verified open source that has been verified and assessed by the Be-Secure Community.
+
+Open source is vast and it is impossible for anyone organization to keep track of all the changes . Hence we have identified few BeSecure Open source Tech stacks blue prints to help the BeSecure community focus on key open source projects and technology that are used frequently to build open source solution.
 
 #### BeSecure Open Source Tech stacks are –
 
