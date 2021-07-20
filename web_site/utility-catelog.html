@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 15px;
+  line-height: 1.42857143;
+  color: #333;  
+  padding: 10px;
+  background:#0c3272;
+}
+
+
+
+#customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#customers td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #0c3272;
+  color: white;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 5px;
+  text-align: left;
+  background: #154378;
+  color: rgb(127, 178, 255);
+  background-image: url("dist/images/sectools1.jpg");
+}
+
+.header h1 {
+  font-size: 50px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: rgb(17, 21, 73);
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 100%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: #f1f1f1;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <table>
+<tr><td><img src="./dist/images/besec_logo.jpg" style="width: 120px; height: 120px;"></td></tr>
+  </table>
+  <br><b>An umbrella of open source security projects and utilities</b>
+</div>
+
+<div class="topnav">
+  <a href="./base.html" style="float:right">Home</a>
+</div>
+<h2 style="color: #f1f1f1;"><center>Utility list</center></h2>
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      
+      <table id="customers">
+            <thead>
+            <tr>
+            <th>Sl.No</th>
+            <th>Utility/application name</th>
+            <th>Current Version</th>
+            <th>Latest version</th>
+            <th>Remarks</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+            <td>01</td>
+            <td>git</td>
+            <td>NA</td>
+            <td>2.32</td>
+            <td></td>
+            </tr>
+            <tr>
+            <td>02</td>
+            <td>vscode</td>
+            <td>NA</td>
+            <td>1.57</td>
+            <td></td>
+            </tr>
+            <tr>
+            <td>03</td>
+            <td>pytest</td>
+            <td>NA</td>
+            <td>6.2</td>
+            <td></td>
+            </tr>
+            <tr>
+            <td>04</td>
+            <td>Pypi</td>
+            <td>NA</td>
+            <td>21.1.2</td>
+            <td></td>
+            </tr>
+            <tr>
+            <td>05</td>
+            <td>bash</td>
+            <td>NA</td>
+            <td>5.1</td>
+            <td></td>
+            </tr>
+            <tr>
+            <td>06</td>
+            <td>ansible</td>
+            <td>NA</td>
+            <td>2.9</td>
+            <td></td>
+            </tr>
+            <tr>
+            <td>07</td>
+            <td>Jenkin</td>
+            <td>NA</td>
+            <td>2.29</td>
+            <td></td>
+            </tr>
+            <tr>
+            <td>08</td>
+            <td>Python</td>
+            <td>NA</td>
+            <td>3.9</td>
+            <td></td>
+            </tr>
+            <tr>
+            <td>09</td>
+            <td>Ruby</td>
+            <td>NA</td>
+            <td>3.0.1</td>
+            <td></td>
+            </tr>
+            <tr>
+            <td>10</td>
+            <td>Java</td>
+            <td>NA</td>
+            <td>8</td>
+            <td></td>
+            </tr>
+            <tr>
+            <td>11</td>
+            <td>Apache Mavan</td>
+            <td>NA</td>
+            <td>3.8.1</td>
+            <td></td>
+            </tr>
+            <tr>
+            <td>12</td>
+            <td>Selenium</td>
+            <td>NA</td>
+            <td>4.0.0</td>
+            <td></td>
+            </tr>
+            <tr>
+            <td>13</td>
+            <td>NPM</td>
+            <td>NA</td>
+            <td>7.18.1</td>
+            <td></td>
+            </tr>
+            <tr>
+            <td>14</td>
+            <td>Junit</td>
+            <td>NA</td>
+            <td>4.13.2</td>
+            <td></td>
+            </tr>
+            <tr>
+            <td>15</td>
+            <td>Go</td>
+            <td>NA</td>
+            <td>1.13</td>
+            <td></td>
+            </tr>
+            <tr>
+            <td>16</td>
+            <td>Docker</td>
+            <td>NA</td>
+            <td>18.09.8</td>
+            <td></td>
+            </tr>
+            <tr>
+            <td>17</td>
+            <td>NodeJS</td>
+            <td>NA</td>
+            <td>14.17.1</td>
+            <td></td>
+            </tr>
+            <tr>
+            <td>18</td>
+            <td>Sonarqube</td>
+            <td>NA</td>
+            <td>8.9.1</td>
+            <td></td>
+            </tr>
+            <tr>
+            <td>19</td>
+            <td>Vega</td>
+            <td>NA</td>
+            <td>5.20.2</td>
+            <td></td>
+            </tr>
+            <tr>
+            <td>20</td>
+            <td>Grabber</td>
+            <td>NA</td>
+            <td>7.5.1</td>
+            <td></td>
+            </tr>
+            <tr>
+            <td>21</td>
+            <td>OpenVAS</td>
+            <td>NA</td>
+            <td>21.04.1</td>
+            <td></td>
+            </tr>
+            <tr>
+            <td>22</td>
+            <td>Gosec</td>
+            <td>NA</td>
+            <td>2.8.1</td>
+            <td></td>
+            </tr>
+            <tr>
+            <td>23</td>
+            <td>GoLismero</td>
+            <td>NA</td>
+            <td>2.0</td>
+            <td></td>
+            </tr>
+            <tr>
+            <td>24</td>
+            <td>Metasploit</td>
+            <td>NA</td>
+            <td>14.19.1</td>
+            <td></td>
+            </tr>
+            </tbody>
+            </table>
+            <p><a href="./index.md"><strong>back to main page</strong></a></p>
+            
+              <br>
+                
+            
+                <br>
+
+    
+   
+</div>
+
+
+
+    
+</div>
+
+</div>
+
+<!-- <div class="footer">
+<h2>Footer</h2>
+</div> -->
+
+</body>
+</html>
