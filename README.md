@@ -16,23 +16,25 @@ Developers and researchers can identify security issues (including unintentional
 
 Community members can provide information and notifications about product defects, mitigations, quality, and supportability and have this information rapidly flow forward across the ecosystem system to all users, and users can rapidly update their software or implement mitigations as appropriate.
 
-#### Trusted and Verified Open source software (TAVOSS) 
+#### TAVOSS 
 
-TAVOSS , is trusted and verified open source that has been verified and assessed by the Be-Secure Community.
+TAVOSS is Trusted And Verified Open Source software that has undergone a security assessment by the Be-Secure Community.
 
-Open source is vast and it is impossible for anyone organization to keep track of all the changes . Hence we have identified few BeSecure Open source Tech stacks blue prints to help the BeSecure community focus on key open source projects and technology that are used frequently to build open source solution.
+#### Security Testing Environments
+
+Open source is vast and it is impossible for anyone organization to keep track of all the changes . Hence we have identified few BeSecure Open source tech stacks or blue prints that we call as environments to help the BeSecure community  to do focused security assessment of key open source projects and technology used frequently to build enterprise grade open source solution. Each BeSecure tech stack will be associated with two types of BeSman environment namely the provisioning or development environment [Dev] as well as the security testing or security sandbox environment [Sec].
 
 #### BeSecure Open Source Tech stacks are –
 
-    *   DevOps[DO] 
+    *   DevOps[DO] :  [Dev]()  | [Sec]()
     
-    *   Language and framework [L&F] 
+    *   Language and framework [L&F] : [Dev]()  | [Sec]()
     
-    *   Application [A} 
+    *   Application [A] :   [Dev]()  | [Sec]() 
     
-    *   Distributed & Decentralized Application 
+    *   Distributed & Decentralized Application [DA] : [Dev]()  | [Sec]()
     
-    *   Open-source Security Tool [S]
+    *   Open-source Security Tool [S] :  [Dev]()  | [Sec]()
   
 
 #### OSS Project We Track :
