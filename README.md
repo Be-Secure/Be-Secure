@@ -2,8 +2,9 @@
 
 Be Secure is an umbrella of open source security project.
 
+#### Trusted and Verified Open source software (TAVOSS) 
 
-#### Open Source Tech stacks are –
+#### BeSecure Open Source Tech stacks are –
 
     *   DevOps[DO] 
     
@@ -23,7 +24,9 @@ Be Secure is an umbrella of open source security project.
 [**BeSman**](https://github.com/Be-Secure/BeSman) is a command-line utility to provision customized environments for each TAVOSS tech stack. These environments are known 
 as BeSman environments. Please refer the following link to know more about BeSman. 
 
-[**OAH-Bes-vm**]
+[**OAH-Bes-vm**] 
+
+[**Lighthouse**] BeSecure Dashboard 
 
 
 
