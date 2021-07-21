@@ -25,15 +25,15 @@ Each BeSecure tech stack will be associated with atleast two types of BeSman env
 
 #### BeSecure Open Source Tech stacks are –
 
-    *   DevOps[DO] :  [Dev](Link to BeSman Dev environment List)  | [Sec](Link to BeSman Sec Environment List)
+    * DevOps[DO] :  [Dev](Link to BeSman Dev environment List)  | [Sec](Link to BeSman Sec Environment List)
     
-    *   Language and framework [L&F] : [Dev](Link to BeSman Dev environment List)  | [Sec](Link to BeSman Sec Environment List)
+    * Language and framework [L&F] : [Dev](Link to BeSman Dev environment List)  | [Sec](Link to BeSman Sec Environment List)
     
-    *   Application [A] :   [Dev](Link to BeSman Dev environment List)  | [Sec](Link to BeSman Sec Environment List) 
+    * Application [A] :   [Dev](Link to BeSman Dev environment List)  | [Sec](Link to BeSman Sec Environment List) 
     
-    *   Distributed & Decentralized Application [DA] : [Dev](Link to BeSman Dev environment List)  | [Sec](Link to BeSman Sec Environment List)
+    * Distributed & Decentralized Application [DA] : [Dev](Link to BeSman Dev environment List)  | [Sec](Link to BeSman Sec Environment List)
     
-    *   Open-source Security Tool [S] :  [Dev](Link to BeSman Dev environment List)  | [Sec](Link to BeSman Sec Environment List)
+    * Open-source Security Tool [S] :  [Dev](Link to BeSman Dev environment List)  | [Sec](Link to BeSman Sec Environment List)
   
 #### Benefits from Be-Secure –
 
