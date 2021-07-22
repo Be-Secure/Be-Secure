@@ -54,7 +54,7 @@ Be-Secure Community members can provide information and notifications about prod
 
 [**BeSman**](https://github.com/Be-Secure/BeSman) or Be-Secure Manager of BeSman for short is a command-line utility to provision customized environments for each TAVOSS tech stack known as Be-Secure environments. 
 
-[**oah-bes-vm**]() for easy local deployment of Besman environmens.
+[**oah-bes-vm**]() for easy local deployment of Be-Secure environmens.
 
 [**BeSlighthouse**]() BeSlighthouse is a community dashboard for TAVOSS Components that are security assessed by the Be-Secure community.. 
 
