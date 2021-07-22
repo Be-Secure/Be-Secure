@@ -15,15 +15,15 @@ Organisations, open source developers, security researchers, auditors, and regul
 
 TAVOSS is Trusted And Verified Open Source software that has undergone a security assessment by the Be-Secure Community.
 
-#### BeSman Development and Security Assessment Environments
+#### Be-Secure Development and Security Assessment Environments
 
-Open source is vast and we have frequent new releases ,bug fixes and patches published every day . It is impossible for any organization to keep track of all the changes that happen across the open source landscape . Hence we have identified five BeSecure Open source tech stacks or blue prints which we call as BeSman environments to help the BeSecure community navigate through security assessment of these open source projects. 
+Open source is vast and we have frequent new releases ,bug fixes and patches published every day . It is impossible for any organization to keep track of all the changes that happen across the open source landscape . Hence we have identified five Be-Secure Open source tech stacks or blue prints which we call as Be-Secure environments to help the Be-Secure community navigate through security assessment of these open source projects. 
 
 The open source projects are categorized based on  purpose,interoperability and technology ,They include other open source dependencies that are most frequently required to develop enterprise grade open source solutions.
 
-Each BeSecure tech stack will be associated with atleast two types of BeSman environments namely the Development or Provisioning environment [Dev] as well as the security testing or security sandbox environment [Sec].
+Each Be-Secure technology stack will be associated with atleast two types of BeSman environments namely the Development or Provisioning environment [Dev] as well as the security testing or security sandbox environment [Sec].
 
-#### BeSecure Open Source Tech stacks are –
+#### Be-Secure Open Source Technology stacks are –
 
     * DevOps[DO] :  [Dev](Link to BeSman Dev environment List)  | [Sec](Link to BeSman Sec Environment List)
     
