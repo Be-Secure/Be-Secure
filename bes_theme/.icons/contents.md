@@ -1,0 +1,1 @@
+## This folder '.icons' is going to contain the Be-Secure logo as well as other icons to be appeared in the front end
