@@ -1,0 +1,104 @@
+////
+///Placeholder for Copyright ///
+////
+
+// ----------------------------------------------------------------------------
+// Rules
+// ----------------------------------------------------------------------------
+
+// Icon definitions
+:root {
+  --md-details-icon: svg-load("bes_theme/chevron-right.svg");
+}
+
+// ----------------------------------------------------------------------------
+
+// Scoped in typesetted content to match specificity of regular content
+.md-typeset {
+
+  // Details
+  details {
+    @extend .admonition;
+
+    display: flow-root;
+    padding-top: 0;
+    overflow: visible;
+
+    // Details title icon - rotate icon on transition to open state
+    &[open] > summary::after {
+      transform: rotate(90deg);
+    }
+
+    // Adjust spacing for details in closed state
+    &:not([open]) {
+      padding-bottom: 0;
+      box-shadow: none;
+
+      // Hack: we cannot set `overflow: hidden` on the `details` element (which
+      // is why we set it to `overflow: visible`, as the outline would not be
+      // visible when focusing. Therefore, we must set the border radius on the
+      // summary explicitly.
+      > summary {
+        border-radius: px2rem(2px);
+      }
+    }
+
+    // Hack: omit margin collapse
+    &::after {
+      display: table;
+      content: "";
+    }
+  }
+
+  // Details title
+  summary {
+    @extend .admonition-title;
+
+    display: block;
+    min-height: px2rem(20px);
+    padding: px2rem(8px) px2rem(36px) px2rem(8px) px2rem(40px);
+    border-top-left-radius: px2rem(2px);
+    border-top-right-radius: px2rem(2px);
+    cursor: pointer;
+
+    // Adjust for right-to-left languages
+    [dir="rtl"] & {
+      padding: px2rem(8px) px2rem(44px) px2rem(8px) px2rem(36px);
+    }
+
+    // Hide outline for pointer devices
+    &:not(.focus-visible) {
+      outline: none;
+      -webkit-tap-highlight-color: transparent;
+    }
+
+    // Details marker
+    &::after {
+      position: absolute;
+      top: px2rem(8px);
+      right: px2rem(8px);
+      width: px2rem(20px);
+      height: px2rem(20px);
+      background-color: currentColor;
+      mask-image: var(--md-details-icon);
+      mask-repeat: no-repeat;
+      mask-size: contain;
+      transform: rotate(0deg);
+      transition: transform 250ms;
+      content: "";
+
+      // Adjust for right-to-left languages
+      [dir="rtl"] & {
+        right: initial;
+        left: px2rem(8px);
+        transform: rotate(180deg);
+      }
+    }
+
+    // Hide native details marker
+    &::marker,
+    &::-webkit-details-marker {
+      display: none;
+    }
+  }
+}

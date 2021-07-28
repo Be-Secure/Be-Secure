@@ -1,0 +1,8 @@
+<!--Placeholder for Copyright -->
+
+<!-- Import translations for given language and fallback -->
+{% import "partials/languages/" ~ config.theme.language ~ ".html" as lang %}
+{% import "partials/languages/en.html" as fallback %}
+
+<!-- Re-export translations -->
+{% macro t(key) %}{{ lang.t(key) or fallback.t(key) }}{% endmacro %}

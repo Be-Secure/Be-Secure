@@ -1,0 +1,73 @@
+<!--Placeholder for Copyright -->
+
+<!-- Determine analytics property (deprecated, removed in v8) -->
+{% if config.google_analytics %}
+  {% set property = config.google_analytics[0] %}
+{% endif %}
+
+<!-- Determine analytics property -->
+{% if config.extra.analytics %}
+  {% set property = config.extra.analytics.property | d("", true) %}
+{% endif %}
+
+<!-- Google Analytics 4 (G-XXXXXXXXXX) -->
+{% if property.startswith("G-") %}
+  <script>
+    window.dataLayer = window.dataLayer || []
+    function gtag() { dataLayer.push(arguments) }
+
+    /* Set up integration and send page view */
+    gtag("js", new Date())
+    gtag("config", "{{ property }}")
+
+    /* Register virtual event handlers */
+    document.addEventListener("DOMContentLoaded", function() {
+
+      /* Send page view on location change */
+      if (typeof location$ !== "undefined")
+        location$.subscribe(function(url) {
+          gtag("config", "{{ property }}", {
+            page_path: url.pathname
+          })
+        })
+    })
+  </script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id={{ property }}">
+  </script>
+
+<!-- Google Analytics (UA-XXXXXXXX-X) -->
+{% elif property.startswith("UA-") %}
+  <script>
+    window.ga = window.ga || function() {
+      (ga.q = ga.q || []).push(arguments)
+    }
+    ga.l = +new Date()
+
+    /* Set up integration and send page view */
+    ga("create", "{{ property }}", "auto")
+    ga("set", "anonymizeIp", true)
+    ga("send", "pageview")
+
+    /* Register virtual event handlers */
+    document.addEventListener("DOMContentLoaded", function() {
+      if (document.forms.search) {
+        var query = document.forms.search.query
+        query.addEventListener("blur", function() {
+          if (this.value) {
+            var path = document.location.pathname;
+            ga("send", "pageview", path + "?q=" + this.value)
+          }
+        })
+      }
+
+      /* Send page view on location change */
+      if (typeof location$ !== "undefined")
+        location$.subscribe(function(url) {
+          ga("send", "pageview", url.pathname)
+        })
+    })
+  </script>
+  <script async src="https://www.google-analytics.com/analytics.js"></script>
+{% endif %}
+
+

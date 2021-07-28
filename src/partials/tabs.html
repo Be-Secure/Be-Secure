@@ -1,0 +1,19 @@
+<!--Placeholder for Copyright -->
+
+<!-- Hack: unset variable, as we're using it recursively in tabs-item.html -->
+{% set class = "" %}
+
+<!-- Navigation tabs -->
+<nav
+  class="md-tabs"
+  aria-label="{{ lang.t('tabs.title') }}"
+  data-md-component="tabs"
+>
+  <div class="md-tabs__inner md-grid">
+    <ul class="md-tabs__list">
+      {% for nav_item in nav %}
+        {% include "partials/tabs-item.html" %}
+      {% endfor %}
+    </ul>
+  </div>
+</nav>

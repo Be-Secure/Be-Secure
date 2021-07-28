@@ -1,0 +1,37 @@
+# Placehplder for copyright
+
+# -----------------------------------------------------------------------------
+# Node, TypeScript, Python
+# -----------------------------------------------------------------------------
+
+# Dependencies
+node_modules
+__pycache__
+venv
+
+# Build files
+build
+MANIFEST
+manifest.json
+site
+
+# Configuration
+typings
+webpack.config.ts
+
+# Distribution files
+dist
+mkdocs_material.egg-info
+
+# Caches and logs
+*.cpuprofile
+*.log
+*.tsbuildinfo
+.eslintcache
+
+# -----------------------------------------------------------------------------
+# General
+# -----------------------------------------------------------------------------
+
+# Temporary files
+tmp

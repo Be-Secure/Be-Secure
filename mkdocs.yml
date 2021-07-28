@@ -1,5 +1,195 @@
+# Project information
 site_name: Be-Secure
+# site_url: https://be-github.io/Be-Secure/
+site_description: >-
+  An umbrella of open source security projects, tools, sandbox environments to perform security assessments and secure open source technology stacks.
+
+# Repository
 repo_name: Be-Secure/Be-Secure
 repo_url: https://github.com/Be-Secure/Be-Secure
+edit_uri: ""
 
-# TBD
+# Copyright
+# #
+
+# Configuration
+theme:
+  name: null
+  custom_dir: !ENV [THEME_DIR, "bes_theme"]
+
+  # Static files
+  static_templates:
+    - 404.html
+
+  # Don't include MkDocs' JavaScript
+  include_search_page: false
+  search_index_only: true
+
+  # Default values, taken from mkdocs_theme.yml
+  language: en
+  features:
+    - content.code.annotate
+    - content.tabs.link
+    # - navigation.instant
+    - navigation.sections
+    - navigation.tabs
+    - navigation.top
+    - navigation.tracking
+    - search.highlight
+    - search.share
+    - search.suggest
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: bes_theme/toggle-switch-off-outline
+        name: Switch to dark mode
+    - scheme: slate
+      primary: red
+      accent: red
+      toggle:
+        icon: bes_theme/toggle-switch
+        name: Switch to light mode
+  font:
+    text: Roboto
+    code: Roboto Mono
+  favicon: assets/favicon.png
+  logo: assets/favicon.png
+  icon:
+    logo: logo
+
+# # Plugins
+# plugins:
+#   - search
+#   - redirects:
+#       redirect_maps:
+#         changelog/insiders.md: insiders/changelog.md
+#         extensions/admonition.md: reference/admonitions.md
+#         extensions/codehilite.md: reference/code-blocks.md
+#         extensions/footnotes.md: reference/footnotes.md
+#         extensions/metadata.md: reference/meta-tags.md
+#         extensions/permalinks.md: setup/setting-up-navigation.md #permalink
+#         extensions/pymdown.md: reference/admonitions.md
+#         plugins/revision-date.md: setup/adding-a-git-repository.md #revision-date
+#         plugins/search.md: setup/setting-up-site-search.md
+#         releases/4.md: upgrading.md #upgrading-from-4x-to-5x
+#         releases/5.md: upgrading.md #upgrading-from-3x-to-4x
+#         releases/changelog.md: changelog.md
+#         setup/adding-social-links.md: setup/setting-up-the-footer.md
+#         sponsorship.md: insiders/index.md
+#   - minify:
+#       minify_html: true
+
+# Customization
+# extra:
+#   analytics:
+#     provider: google
+#     # property: !ENV GOOGLE_ANALYTICS_KEY
+#   social:
+#     - icon: fontawesome/brands/github
+#       link: https://github.com/squidfunk
+#     - icon: fontawesome/brands/gitter
+#       link: https://gitter.im/squidfunk/Be-Secure
+#     - icon: fontawesome/brands/docker
+#       link: https://hub.docker.com/r/squidfunk/Be-Secure/
+#     - icon: fontawesome/brands/twitter
+#       link: https://twitter.com/squidfunk
+#     - icon: fontawesome/brands/linkedin
+#       link: https://linkedin.com/in/squidfunk/
+#     - icon: fontawesome/brands/instagram
+#       link: https://instagram.com/squidfunk
+
+# Extensions
+markdown_extensions:
+  # - admonition
+  # - abbr
+  # - attr_list
+  # - def_list
+  # - footnotes
+  - meta
+  # - md_in_html
+  # - toc:
+  #     permalink: true
+  # - pymdownx.arithmatex:
+  #     generic: true
+  # - pymdownx.betterem:
+  #     smart_enable: all
+  # - pymdownx.caret
+  # - pymdownx.critic
+  # - pymdownx.details
+  # - pymdownx.emoji:
+  #     emoji_index: !!python/name:bes_themex.emoji.twemoji
+  #     emoji_generator: !!python/name:bes_themex.emoji.to_svg
+  # - pymdownx.highlight
+  # - pymdownx.inlinehilite
+  # - pymdownx.keys
+  # - pymdownx.magiclink:
+  #     repo_url_shorthand: true
+  #     user: squidfunk
+  #     repo: Be-Secure
+  # - pymdownx.mark
+  # - pymdownx.smartsymbols
+  # - pymdownx.superfences:
+  #     custom_fences:
+  #       - name: mermaid
+  #         class: mermaid-experimental
+  #         format: !!python/name:pymdownx.superfences.fence_code_format
+  # - pymdownx.tabbed
+  # - pymdownx.tasklist:
+  #     custom_checkbox: true
+  # - pymdownx.tilde
+
+# Page tree
+nav:
+  - Home: index.md
+  - Learn about Be-Secure: more_about_bescure.md
+  - Getting started: getting_started.md
+  # - Insiders: insiders/index.md
+  # - Getting started:
+  #   - Installation: getting-started.md
+  #   - Creating your site: creating-your-site.md
+  #   - Publishing your site: publishing-your-site.md
+  #   - Customization: customization.md
+  #   - Troubleshooting: troubleshooting.md
+  #   - Data privacy: data-privacy.md
+  #   - License: license.md
+  #   - Releases:
+  #     - Changelog: changelog.md
+  #     - Upgrade guide: upgrading.md
+  #     - Deprecations: deprecations.md
+  # - Setup:
+  #   - Changing the colors: setup/changing-the-colors.md
+  #   - Changing the fonts: setup/changing-the-fonts.md
+  #   - Changing the language: setup/changing-the-language.md
+  #   - Changing the logo and icons: setup/changing-the-logo-and-icons.md
+  #   - Setting up navigation: setup/setting-up-navigation.md
+  #   - Setting up site search: setup/setting-up-site-search.md
+  #   - Setting up site analytics: setup/setting-up-site-analytics.md
+  #   - Setting up tags: setup/setting-up-tags.md
+  #   - Setting up versioning: setup/setting-up-versioning.md
+  #   - Setting up the header: setup/setting-up-the-header.md
+  #   - Setting up the footer: setup/setting-up-the-footer.md
+  #   - Adding a git repository: setup/adding-a-git-repository.md
+  #   - Adding a comment system: setup/adding-a-comment-system.md
+  # - Reference:
+  #   - Abbreviations: reference/abbreviations.md
+  #   - Admonitions: reference/admonitions.md
+  #   - Buttons: reference/buttons.md
+  #   - Code blocks: reference/code-blocks.md
+  #   - Content tabs: reference/content-tabs.md
+  #   - Data tables: reference/data-tables.md
+  #   - Diagrams: reference/diagrams.md
+  #   - Footnotes: reference/footnotes.md
+  #   - Formatting: reference/formatting.md
+  #   - Icons + Emojis: reference/icons-emojis.md
+  #   - Images: reference/images.md
+  #   - Lists: reference/lists.md
+  #   - MathJax: reference/mathjax.md
+  #   - Meta tags: reference/meta-tags.md
+  #   - Variables: reference/variables.md
+  # - Insiders:
+  #   - Sponsorship: insiders/index.md
+  #   - Getting started:
+  #     - Installation: insiders/getting-started.md
+  #     - Changelog: insiders/changelog.md

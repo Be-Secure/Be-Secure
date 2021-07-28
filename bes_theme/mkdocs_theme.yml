@@ -33,7 +33,7 @@ font:
 icon:
 
 # Favicon to be rendered
-# favicon: assets/images/favicon.png
+favicon: assets/images/favicon.png
 
 # Material includes the search in the header as a partial, not as a separate
 # template, so it's correct that search.html is missing
