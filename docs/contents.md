@@ -1,0 +1,1 @@
+## This 'docs' folder is going to contain the md files and images for the contents of the webpage.

@@ -1,0 +1,1 @@
+## This folder 'partials' can contain the extra templates for header, footer, navigation, toc etc.
