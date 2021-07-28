@@ -1,0 +1,45 @@
+////
+///Placeholder for Copyright ///
+////
+
+// ----------------------------------------------------------------------------
+// Rules
+// ----------------------------------------------------------------------------
+
+// Scoped in typesetted content to match specificity of regular content
+.md-typeset {
+
+  // [tablet +]: Allow for rendering content as sidebars
+  @include break-from-device(tablet) {
+
+    // Modifier to float block elements
+    .inline {
+      float: left;
+      width: px2rem(234px);
+      margin-top: 0;
+      margin-right: px2rem(16px);
+      margin-bottom: px2rem(16px);
+
+      // Adjust for right-to-left languages
+      [dir="rtl"] & {
+        float: right;
+        margin-right: 0;
+        margin-left: px2rem(16px);
+      }
+
+      // Modifier to move to end (ltr: right, rtl: left)
+      &.end {
+        float: right;
+        margin-right: 0;
+        margin-left: px2rem(16px);
+
+        // Adjust for right-to-left languages
+        [dir="rtl"] & {
+          float: left;
+          margin-right: px2rem(16px);
+          margin-left: 0;
+        }
+      }
+    }
+  }
+}

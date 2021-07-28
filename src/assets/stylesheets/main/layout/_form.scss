@@ -1,0 +1,66 @@
+////
+///Placeholder for Copyright ///
+////
+
+// ----------------------------------------------------------------------------
+// Rules
+// ----------------------------------------------------------------------------
+
+// Scoped in typesetted content to match specificity of regular content
+.md-typeset {
+
+  // Form button
+  .md-button {
+    display: inline-block;
+    padding: px2em(10px) px2em(32px);
+    color: var(--md-primary-fg-color);
+    font-weight: 700;
+    border: px2rem(2px) solid currentColor;
+    border-radius: px2rem(2px);
+    cursor: pointer;
+    transition:
+      color            125ms,
+      background-color 125ms,
+      border-color     125ms;
+
+    // Primary button
+    &--primary {
+      color: var(--md-primary-bg-color);
+      background-color: var(--md-primary-fg-color);
+      border-color: var(--md-primary-fg-color);
+    }
+
+    // Button on focus/hover
+    &:focus,
+    &:hover {
+      color: var(--md-accent-bg-color);
+      background-color: var(--md-accent-fg-color);
+      border-color: var(--md-accent-fg-color);
+    }
+  }
+
+  // Form input
+  .md-input {
+    height: px2rem(36px);
+    padding: 0 px2rem(12px);
+    font-size: px2rem(16px);
+    border-radius: px2rem(2px);
+    box-shadow:
+      0 px2rem(4px)   px2rem(10px) hsla(0, 0%, 0%, 0.1),
+      0 px2rem(0.5px) px2rem(1px)  hsla(0, 0%, 0%, 0.1);
+    transition: box-shadow 250ms;
+
+    // Input on focus/hover
+    &:focus,
+    &:hover {
+      box-shadow:
+        0 px2rem(8px)   px2rem(20px) hsla(0, 0%, 0%, 0.15),
+        0 px2rem(0.5px) px2rem(1px)  hsla(0, 0%, 0%, 0.15);
+    }
+
+    // Stretch to full width
+    &--stretch {
+      width: 100%;
+    }
+  }
+}

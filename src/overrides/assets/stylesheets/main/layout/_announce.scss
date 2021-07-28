@@ -1,0 +1,28 @@
+////
+///Placeholder for Copyright ///
+////
+
+// ----------------------------------------------------------------------------
+// Rules
+// ----------------------------------------------------------------------------
+
+// Announcement bar
+.md-announce {
+
+  // Text link, also on focus/hover
+  a,
+  a:focus,
+  a:hover {
+    color: currentColor;
+  }
+
+  // Don't wrap name of blog article
+  strong {
+    white-space: nowrap;
+  }
+
+  // Twitter icon
+  .twitter {
+    margin-left: 0.2em;
+  }
+}

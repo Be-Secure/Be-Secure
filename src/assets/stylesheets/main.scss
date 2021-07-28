@@ -1,0 +1,57 @@
+////
+///Placeholder for Copyright ///
+////
+
+// ----------------------------------------------------------------------------
+// Dependencies
+// ----------------------------------------------------------------------------
+
+@import "bes_theme-color";
+@import "bes_theme-shadows";
+
+// ----------------------------------------------------------------------------
+// Local imports
+// ----------------------------------------------------------------------------
+
+@import "utilities/break";
+@import "utilities/convert";
+
+@import "config";
+
+@import "main/reset";
+@import "main/colors";
+@import "main/icons";
+@import "main/typeset";
+
+@import "main/layout/base";
+@import "main/layout/announce";
+@import "main/layout/clipboard";
+@import "main/layout/content";
+@import "main/layout/dialog";
+@import "main/layout/form";
+@import "main/layout/header";
+@import "main/layout/footer";
+@import "main/layout/nav";
+@import "main/layout/search";
+@import "main/layout/select";
+@import "main/layout/sidebar";
+@import "main/layout/source";
+@import "main/layout/tabs";
+@import "main/layout/top";
+@import "main/layout/version";
+
+@import "main/extensions/markdown/admonition";
+@import "main/extensions/markdown/footnotes";
+@import "main/extensions/markdown/toc";
+
+@import "main/extensions/pymdownx/arithmatex";
+@import "main/extensions/pymdownx/critic";
+@import "main/extensions/pymdownx/details";
+@import "main/extensions/pymdownx/emoji";
+@import "main/extensions/pymdownx/highlight";
+@import "main/extensions/pymdownx/keys";
+@import "main/extensions/pymdownx/tabbed";
+@import "main/extensions/pymdownx/tasklist";
+
+@import "main/modifiers";
+@import "main/shame";
