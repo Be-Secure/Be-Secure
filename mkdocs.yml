@@ -143,8 +143,13 @@ markdown_extensions:
 # Page tree
 nav:
   - Home: index.md
-  - Learn about Be-Secure: more_about_bescure.md
-  - Getting started: getting_started.md
+  - About: bes_introduction.md
+  - Tech stack: tech_stack.md
+  - Tracked OSS projects: projects_we_track.md
+  - Our OSS projects: our_oss_project.md
+  - Security Assessment: assessment.md
+  - Contribute: contribute.md
+
   # - Insiders: insiders/index.md
   # - Getting started:
   #   - Installation: getting-started.md
