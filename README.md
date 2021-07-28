@@ -25,16 +25,16 @@ Each Be-Secure technology stack will be associated with atleast two types of BeS
 
 #### Be-Secure Open Source Technology stacks are –
 
-    * DevOps[DO] :  [Dev](Link to BeSman Dev environment List)  | [Sec](Link to BeSman Sec Environment List)
-    
-    * Language and framework [L&F] : [Dev](Link to BeSman Dev environment List)  | [Sec](Link to BeSman Sec Environment List)
-    
-    * Application [A] :   [Dev](Link to BeSman Dev environment List)  | [Sec](Link to BeSman Sec Environment List) 
-    
-    * Distributed & Decentralized Application [DA] : [Dev](Link to BeSman Dev environment List)  | [Sec](Link to BeSman Sec Environment List)
-    
-    * Open-source Security Tool [S] :  [Dev](Link to BeSman Dev environment List)  | [Sec](Link to BeSman Sec Environment List)
-  
+* [DevOps [DO]](./docs/bes-devops-tech-stack.md)  
+
+* [Language and framework [L&F]](./docs/bes-lang-framework-tech-stack.md)  
+
+* [Application [A]](./bes-app-tech-stack.md) 
+
+* [Distributed & Decentralized Application [DA]](./bes-dist-decent-tech-stack.md) 
+
+* [Open-source Security Tool [S]](./bes-open-source-security-tool-tech-stack.md) 
+ 
 #### Benefits from Be-Secure –
 
 Developers can easily learn secure development practices and are proactively guided by BeSman environments to apply those practices and automatically informed when action is needed to prevent, remediate, or mitigate security issues.
