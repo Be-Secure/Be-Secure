@@ -1,0 +1,185 @@
+////
+///Placeholder for Copyright ///
+////
+
+// ----------------------------------------------------------------------------
+// Keyframes
+// ----------------------------------------------------------------------------
+
+// Show repository facts
+@keyframes facts {
+  0% {
+    height: 0;
+  }
+
+  100% {
+    height: px2rem(13px);
+  }
+}
+
+// Show repository fact
+@keyframes fact {
+  0% {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateY(0%);
+    opacity: 1;
+  }
+}
+
+// ----------------------------------------------------------------------------
+// Rules
+// ----------------------------------------------------------------------------
+
+// Icon definitions
+:root {
+  --md-source-forks-icon: svg-load("octicons/repo-forked-16.svg");
+  --md-source-repositories-icon: svg-load("octicons/repo-16.svg");
+  --md-source-stars-icon: svg-load("octicons/star-16.svg");
+  --md-source-version-icon: svg-load("octicons/tag-16.svg");
+}
+
+// ----------------------------------------------------------------------------
+
+// Repository information
+.md-source {
+  display: block;
+  font-size: px2rem(13px);
+  line-height: 1.2;
+  white-space: nowrap;
+  outline-color: var(--md-accent-fg-color);
+  // Hack: promote to own layer to reduce jitter
+  backface-visibility: hidden;
+  transition: opacity 250ms;
+
+  // Repository information on hover
+  &:hover {
+    opacity: 0.7;
+  }
+
+  // Repository icon
+  &__icon {
+    display: inline-block;
+    width: px2rem(40px);
+    height: px2rem(48px);
+    vertical-align: middle;
+
+    // Align with margin only (as opposed to normal button alignment)
+    svg {
+      margin-top: px2rem(12px);
+      margin-left: px2rem(12px);
+
+      // Adjust for right-to-left languages
+      [dir="rtl"] & {
+        margin-right: px2rem(12px);
+        margin-left: initial;
+      }
+    }
+
+    // Adjust spacing if icon is present
+    + .md-source__repository {
+      margin-left: px2rem(-40px);
+      padding-left: px2rem(40px);
+
+      // Adjust for right-to-left languages
+      [dir="rtl"] & {
+        margin-right: px2rem(-40px);
+        margin-left: initial;
+        padding-right: px2rem(40px);
+        padding-left: initial;
+      }
+    }
+  }
+
+  // Repository name
+  &__repository {
+    display: inline-block;
+    max-width: calc(100% - #{px2rem(24px)});
+    margin-left: px2rem(12px);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    vertical-align: middle;
+  }
+
+  // Repository facts
+  &__facts {
+    margin: px2rem(2px) 0 0;
+    padding: 0;
+    overflow: hidden;
+    font-size: px2rem(11px);
+    list-style-type: none;
+    opacity: 0.75;
+
+    // Show after the data was loaded
+    [data-md-state="done"] & {
+      animation: facts 250ms ease-in;
+    }
+  }
+
+  // Repository fact
+  &__fact {
+    display: inline-block;
+
+    // Show after the data was loaded
+    [data-md-state="done"] & {
+      animation: fact 400ms ease-out;
+    }
+
+    // Repository fact icon
+    &::before {
+      display: inline-block;
+      width: px2rem(12px);
+      height: px2rem(12px);
+      margin-right: px2rem(2px);
+      vertical-align: text-top;
+      background-color: currentColor;
+      mask-repeat: no-repeat;
+      mask-size: contain;
+      content: "";
+    }
+
+    // Adjust spacing for repository fact icon
+    &:nth-child(1n+2)::before {
+      margin-left: px2rem(8px);
+    }
+
+    // Adjust for right-to-left languages
+    [dir="rtl"] & {
+      margin-right: initial;
+      margin-left: px2rem(2px);
+
+      // Adjust spacing for repository fact icon
+      &:nth-child(1n+2)::before {
+        margin-right: px2rem(8px);
+        margin-left: initial;
+      }
+    }
+
+    // Repository fact: version
+    &--version::before {
+      mask-image: var(--md-source-version-icon);
+    }
+
+    // Repository fact: stars
+    &--stars::before {
+      mask-image: var(--md-source-stars-icon);
+    }
+
+    // Repository fact: forks
+    &--forks::before {
+      mask-image: var(--md-source-forks-icon);
+    }
+
+    // Repository fact: repositories
+    &--repositories::before {
+      mask-image: var(--md-source-repositories-icon);
+    }
+  }
+}

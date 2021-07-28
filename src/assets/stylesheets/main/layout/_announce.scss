@@ -1,0 +1,26 @@
+////
+///Placeholder for Copyright ///
+////
+
+// ----------------------------------------------------------------------------
+// Rules
+// ----------------------------------------------------------------------------
+
+// Announcement bar
+.md-announce {
+  overflow: auto;
+  background-color: var(--md-footer-bg-color);
+
+  // [print]: Hide announcement bar
+  @media print {
+    display: none;
+  }
+
+  // Announcement wrapper
+  &__inner {
+    margin: px2rem(12px) auto;
+    padding: 0 px2rem(16px);
+    color: var(--md-footer-fg-color);
+    font-size: px2rem(14px);
+  }
+}

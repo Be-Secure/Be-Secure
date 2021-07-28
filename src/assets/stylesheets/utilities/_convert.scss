@@ -1,0 +1,61 @@
+////
+///Placeholder for Copyright ///
+////
+
+@use "sass:math";
+
+// ----------------------------------------------------------------------------
+// Helpers
+// ----------------------------------------------------------------------------
+
+///
+/// Strip units from a number
+///
+@function strip-units($number) {
+  @return math.div($number, ($number * 0 + 1));
+}
+
+///
+/// Convert color in HEX to HSL
+///
+/// Note, that we need to strip the `deg` units from the `hue` value, as they
+/// were added in Color Level 4, which not all browsers support.
+///
+@function hex2hsl($color) {
+  @return
+    round(strip-units(hue($color))),
+    round(saturation($color)),
+    round(lightness($color));
+}
+
+// ----------------------------------------------------------------------------
+
+///
+/// Convert font size in px to em
+///
+@function px2em($size, $base: 16px) {
+  @if unit($size) == px {
+    @if unit($base) == px {
+      @return math.div($size, $base) * 1em;
+    } @else {
+      @error "Invalid base: #{$base} - unit must be 'px'";
+    }
+  } @else {
+    @error "Invalid size: #{$size} - unit must be 'px'";
+  }
+}
+
+///
+/// Convert font size in px to rem
+///
+@function px2rem($size, $base: 20px) {
+  @if unit($size) == px {
+    @if unit($base) == px {
+      @return math.div($size, $base) * 1rem;
+    } @else {
+      @error "Invalid base: #{$base} - unit must be 'px'";
+    }
+  } @else {
+    @error "Invalid size: #{$size} - unit must be 'px'";
+  }
+}

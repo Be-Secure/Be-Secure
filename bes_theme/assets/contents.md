@@ -1,1 +1,0 @@
-## This folder 'assets' can contain the folders - images, javascripts, stylesheets. 
