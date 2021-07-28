@@ -29,11 +29,11 @@ Each Be-Secure technology stack will be associated with atleast two types of BeS
 
 * [Language and framework [L&F]](./docs/bes-lang-framework-tech-stack.md)  
 
-* [Application [A]](./bes-app-tech-stack.md) 
+* [Application [A]](./docs/bes-app-tech-stack.md) 
 
-* [Distributed & Decentralized Application [DA]](./bes-dist-decent-tech-stack.md) 
+* [Distributed & Decentralized Application [DA]](./docs/bes-dist-decent-tech-stack.md) 
 
-* [Open-source Security Tool [S]](./bes-open-source-security-tool-tech-stack.md) 
+* [Open-source Security Tool [S]](./docs/bes-open-source-security-tool-tech-stack.md) 
  
 #### Benefits from Be-Secure –
 
