@@ -1,11 +1,8 @@
-<<<<<<< HEAD
-=======
+
 ## Be-Secure
->>>>>>> d5475629c819ebefba702ab1cd2199669c3d2798
 
 Be Secure is an umbrella of open source security project.
 
-<<<<<<< HEAD
 ###   Why Be-Secure:
 
 Increased focus on open source projects now demands better focus on their security. Be-Secure projects addresses this need by focusing on addressing common security requirements of open source projects in a timely manner. Frequent tracking of changes to open source projects is essential to identify new changes and their security risk impact.
@@ -39,7 +36,7 @@ We have defined and developed a command line utility known as BeSman. We are con
 We invite all open source enthusiasts to join our community and enhance your capability as an open source security specialist. To know more about how to contribute to Be-Secure community initiative, please visit the [following section](https://be-secure.github.io/#besec_info/More_info).
 
 For more information on Be-Secure please visit our [site](https://Be-Secure.github.io).
-=======
+
 #### Why Be-Secure
 
 Open source is the way forward to develop new capabilities through collaboration with open source community projects. Organizations have realized the benefits from open source software. This realization has led them to increase their adoption of open source projects to build business capabilities. This approach necessitates the focus on security for open source projects. Be-Secure projects focus on addressing common security requirements of open source projects. 
@@ -95,9 +92,3 @@ Be-Secure Community members can provide information and notifications about prod
 [**oah-bes-vm**]() for easy local deployment of Be-Secure environmens.
 
 [**BeSlighthouse**]() BeSlighthouse is a community dashboard for TAVOSS Components that are security assessed by the Be-Secure community.. 
-
-
-
->>>>>>> d5475629c819ebefba702ab1cd2199669c3d2798
- 
-
