@@ -60,16 +60,16 @@ Each Be-Secure technology stack will be associated with atleast two types of BeS
 
 #### Be-Secure Open Source Technology stacks are –
 
-    * DevOps[DO] :  [Dev](Link to BeSman Dev environment List)  | [Sec](Link to BeSman Sec Environment List)
-    
-    * Language and framework [L&F] : [Dev](Link to BeSman Dev environment List)  | [Sec](Link to BeSman Sec Environment List)
-    
-    * Application [A] :   [Dev](Link to BeSman Dev environment List)  | [Sec](Link to BeSman Sec Environment List) 
-    
-    * Distributed & Decentralized Application [DA] : [Dev](Link to BeSman Dev environment List)  | [Sec](Link to BeSman Sec Environment List)
-    
-    * Open-source Security Tool [S] :  [Dev](Link to BeSman Dev environment List)  | [Sec](Link to BeSman Sec Environment List)
-  
+* [DevOps [DO]](./docs/bes-devops-tech-stack.md)  
+
+* [Language and framework [L&F]](./docs/bes-lang-framework-tech-stack.md)  
+
+* [Application [A]](./docs/bes-app-tech-stack.md) 
+
+* [Distributed & Decentralized Application [DA]](./docs/bes-dist-decent-tech-stack.md) 
+
+* [Open-source Security Tool [S]](./docs/bes-open-source-security-tool-tech-stack.md) 
+ 
 #### Benefits from Be-Secure –
 
 Developers can easily learn secure development practices and are proactively guided by BeSman environments to apply those practices and automatically informed when action is needed to prevent, remediate, or mitigate security issues.
@@ -89,6 +89,9 @@ Be-Secure Community members can provide information and notifications about prod
 
 [**BeSman**](https://github.com/Be-Secure/BeSman) or Be-Secure Manager of BeSman for short is a command-line utility to provision customized environments for each TAVOSS tech stack known as Be-Secure environments. 
 
-[**oah-bes-vm**]() for easy local deployment of Be-Secure environmens.
+[**oah-bes-vm**](https://github.com/Be-Secure/oah-bes-vm) for easy local deployment of Be-Secure environmens.
 
-[**BeSlighthouse**]() BeSlighthouse is a community dashboard for TAVOSS Components that are security assessed by the Be-Secure community.. 
+
+[**BeSlighthouse**](https://github.com/Be-Secure/BeSLighthouse) BeSlighthouse is a community dashboard for TAVOSS Components that are security assessed by the Be-Secure community.. 
+
+
