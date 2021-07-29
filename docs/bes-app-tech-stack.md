@@ -1,6 +1,6 @@
 ---
 template: main.html
-title: Application Tech Stack
+title: A Tech Stack
 hide: 
     - navigation
     - toc

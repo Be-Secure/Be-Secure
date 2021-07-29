@@ -1,13 +1,13 @@
 ---
 template: main.html
-title: tech stack
+title: Tech Stack
 hide: 
     - navigation
     - toc
 ---
 
 
-<h1> Be-Secure Open Source Security tech stacks: </h1>
+<h1> Be-Secure Open Source Security Tech Stacks: </h1>
 
 <p> Open source is a vast technology space. We have frequent releases, bug fixes / patches being published very frequently. It is quite a tedious and time consuming effort for an organization to keep track of all changes that happen across the open source software landscape. Hence we have categorised open source technologies into five Be-Secure Open Source security tech stacks or blue prints to help the Be-Secure community navigate through security assessment of open source projects that are part of one of these categories. </p>
 
