@@ -1,13 +1,13 @@
 ---
 template: main.html
-title: Application tech stack
+title: Application Tech Stack
 hide: 
     - navigation
     - toc
 ---
 
 
-<h1> Application [A] tech stack </h1>
+<h1> Application [A] Tech Stack </h1>
 
 <img src="./assets/images/app_logo.jpeg" alt="DO" width="200px" height="200px">
 <!-- ![app tech stack](./assets/images/app_logo.jpeg) -->
