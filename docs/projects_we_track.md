@@ -102,8 +102,8 @@ The OpenDXL Ontology project is focused on the development of an open and intero
 <br><a href="https://github.com/Be-Secure/opendxl-ontology "><right>LEARN MORE</right></a>
 </p>
 
-<img src="../assets/images/projects-logos/cs-suite-logo.JPG" alt="no image"  height="100px"  width="100px" align="left"> <br>
-<h2>cs-suite</h2><p>
+<!-- <img src="../assets/images/projects-logos/cs-suite-logo.JPG" alt="no image"  height="80px"  width="150px" align="left"> <br> -->
+<h2>CS-Suite</h2><p>
 CS Suite is a one stop tool for auditing the security posture of the AWS infrastructure and does system audits as well. CS Suite leverages current open source tools capabilities and has other missing checks added into one tool to rule them all.
 <br><a href="https://github.com/Be-Secure/cs-suite "><right>LEARN MORE</right></a>
 </p>
@@ -128,7 +128,7 @@ FuzzBench is a free service that evaluates fuzzers on a wide variety of real-wor
 <br><a href="https://github.com/Be-Secure/fuzzbench"><right>LEARN MORE</right></a>
 </p>
 
-<img src="../assets/images/projects-logos/ghidra-logo.JPG" alt="no image"  height="100px"  width="100px" align="left"> <br>
+<!-- <img src="../assets/images/projects-logos/ghidra-logo.JPG" alt="no image"  height="100px"  width="100px" align="left"> <br> -->
 <h2>ghidra</h2><p>
 Ghidra is a software reverse engineering (SRE) framework created and maintained by the National Security Agency Research Directorate. This framework includes a suite of full-featured, high-end software analysis tools that enable users to analyze compiled code on a variety of platforms including Windows, macOS, and Linux. Capabilities include disassembly, assembly, decompilation, graphing, and scripting, along with hundreds of other features.
 <br><a href="https://github.com/Be-Secure/ghidra"><right>LEARN MORE</right></a>
@@ -147,7 +147,7 @@ Apache Syncope is an Open Source system for managing digital identities in enter
 </p>
 
 
-<img src="../assets/images/projects-logos/p-zero-logo.JPG " alt="no image"  height="100px"  width="100px" align="left"> <br>
+<img src="../assets/images/projects-logos/p-zero-logo.JPG " alt="no image"  height="100px"  width="130px" align="left"> <br>
 <h2>pritunl-zero</h2><p>
 Pritunl-Zero is a zero trust system that provides secure authenticated access to internal services from untrusted networks without the use of a VPN.
 <br><a href="https://github.com/Be-Secure/pritunl-zero "><right>LEARN MORE</right></a>
@@ -165,7 +165,7 @@ Nmap is released under a custom license, which is based on (but not compatible w
 <br><a href="https://github.com/Be-Secure/nmap.JPG"><right>LEARN MORE</right></a>
 </p>
 
-<img src="../assets/images/projects-logos/trasa.JPG" alt="no image"  height="100px"  width="100px" align="left"> <br>
+<!-- <img src="../assets/images/projects-logos/trasa.JPG" alt="no image"  height="100px"  width="100px" align="left"> <br> -->
 <h2>TRASA</h2><p>
 TRASA is a unified access control platform with identity-aware access proxy, privileged access management, two-factor authentication, device trust, and access policy features that enable secure remote access to Web, SSH, RDP, and Database services.
 <br><a href="https://github.com/Be-Secure/trasa"><right>LEARN MORE</right></a>
@@ -189,7 +189,7 @@ The Cyber Security Evaluation Tool (CSET®) is a Department of Homeland Security
 <br><a href="https://github.com/Be-Secure/cset"><right>LEARN MORE</right></a>
 </p>
 
-<img src="../assets/images/projects-logos/malcom-logo.JPG" alt="no image"  height="100px"  width="100px" align="left"> <br>
+<!-- <img src="../assets/images/projects-logos/malcom-logo.JPG" alt="no image"  height="100px"  width="100px" align="left"> <br> -->
 <h2>Malcolm</h2><p>
 Malcolm is a powerful network traffic analysis tool suite
 <br><a href="https://github.com/Be-Secure/Malcolm"><right>LEARN MORE</right></a>
@@ -220,7 +220,7 @@ Security Onion Solutions, LLC is the creator and maintainer of Security Onion, a
 <br><a href="https://github.com/Be-Secure/securityonion"><right>LEARN MORE</right></a>
 </p>
 
-<img src="../assets/images/projects-logos/opencit-logo.JPG" alt="no image"  height="100px"  width="100px" align="left"> <br>
+<!-- <img src="../assets/images/projects-logos/opencit-logo.JPG" alt="no image"  height="100px"  width="100px" align="left"> <br> -->
 <h2>OpenCTI</h2><p>
 OpenCTI is an open source platform allowing organizations to manage their cyber threat intelligence knowledge and observables. It has been created in order to structure, store, organize and visualize technical and non-technical information about cyber threats.
 <br><a href="https://github.com/Be-Secure/opencti"><right>LEARN MORE</right></a>
@@ -246,12 +246,6 @@ Automate analysis and trust decisions on the security posture of open source pro
 <br><a href="https://github.com/Be-Secure/scorecard"><right>LEARN MORE</right></a>
 </p>
 <br><p><br><p>
-
-<img src="../assets/images/projects-logos/zap.JPG" alt="no image"  height="100px"  width="100px" align="left"> <br>
-<h2>ZAP</h2><p>
-The OWASP Zed Attack Proxy (ZAP) is one of the world’s most popular free security tools and is actively maintained by a dedicated international team of volunteers. It can help you automatically find security vulnerabilities in your web applications while you are developing and testing your applications. It's also a great tool for experienced pentesters to use for manual security testing.
-<br><a href="https://github.com/Be-Secure/zaproxy"><right>LEARN MORE</right></a>
-</p>
 
 
 <!-- <img src="../assets/images/projects-logos/ " alt="no image"  height="100px"  width="100px" align="left"> <br> -->
