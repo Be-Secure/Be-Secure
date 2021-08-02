@@ -160,7 +160,7 @@ Pacu is an open-source AWS exploitation framework, designed for offensive securi
 </p>
 
 <img src="../assets/images/projects-logos/nmap.JPG" alt="no image"  height="100px"  width="100px" align="left"> <br>
-<h2>Nmap</h2><p>
+<h2>Nmap</h2><br><p>
 Nmap is released under a custom license, which is based on (but not compatible with) GPLv2. The Nmap license allows free usage by end users, and we also offer a commercial license for companies that wish to redistribute Nmap technology with their products.
 <br><a href="https://github.com/Be-Secure/nmap.JPG"><right>LEARN MORE</right></a>
 </p>
