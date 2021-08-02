@@ -77,7 +77,7 @@ DefectDojo is a security program and vulnerability management tool. DefectDojo a
 <br><a href="https://github.com/Be-Secure/django-DefectDojo "><right>LEARN MORE</right></a>
 </p>
 
-<img src="../assets/images/projects-logos/zap.JPG " alt="no image"  height="100px"  width="100px" align="left"> <br>
+<img src="../assets/images/projects-logos/zap.JPG " alt="no image"  height="100px"  width="80px" align="left"> <br>
 <h2>OWASP Zed Attack Proxy</h2><br><p>
 The OWASP Zed Attack Proxy (ZAP) is one of the world’s most popular free security tools and is actively maintained by a dedicated international team of volunteers. It can help you automatically find security vulnerabilities in your web applications while you are developing and testing your applications. It's also a great tool for experienced pentesters to use for manual security testing
 <br><a href="https://github.com/Be-Secure/zaproxy "><right>LEARN MORE</right></a>
@@ -102,7 +102,7 @@ The OpenDXL Ontology project is focused on the development of an open and intero
 <br><a href="https://github.com/Be-Secure/opendxl-ontology "><right>LEARN MORE</right></a>
 </p>
 
-<img src="../assets/images/projects-logos/cs-suite-logo.JPG" alt="no image"  height="80px"  width="150px" align="left"> <br>
+<img src="../assets/images/projects-logos/cs-suite-logo.JPG" alt="no image"  height="80px"  width="130px" align="left"> <br>
 <h2>CS-Suite</h2><br><p>
 CS Suite is a one stop tool for auditing the security posture of the AWS infrastructure and does system audits as well. CS Suite leverages current open source tools capabilities and has other missing checks added into one tool to rule them all.
 <br><a href="https://github.com/Be-Secure/cs-suite "><right>LEARN MORE</right></a>
@@ -128,8 +128,8 @@ FuzzBench is a free service that evaluates fuzzers on a wide variety of real-wor
 <br><a href="https://github.com/Be-Secure/fuzzbench"><right>LEARN MORE</right></a>
 </p>
 
-<img src="../assets/images/projects-logos/ghidra-logo.JPG" alt="no image"  height="100px"  width="100px" align="left"> <br>
-<h2>ghidra</h2><p>
+<img src="../assets/images/projects-logos/ghidra-logo.JPG" alt="no image"  height="100px"  width="110px" align="left"> <br>
+<h2>ghidra</h2><br><p>
 Ghidra is a software reverse engineering (SRE) framework created and maintained by the National Security Agency Research Directorate. This framework includes a suite of full-featured, high-end software analysis tools that enable users to analyze compiled code on a variety of platforms including Windows, macOS, and Linux. Capabilities include disassembly, assembly, decompilation, graphing, and scripting, along with hundreds of other features.
 <br><a href="https://github.com/Be-Secure/ghidra"><right>LEARN MORE</right></a>
 </p>
@@ -140,14 +140,14 @@ This repository contains libraries to generate ε- and (ε, δ)-differentially p
 <br><a href="https://github.com/Be-Secure/differential-privacy"><right>LEARN MORE</right></a>
 </p>
 
-<img src="../assets/images/projects-logos/syncope.JPG"  alt="no image"  height="100px"  width="100px" align="left"> <br>
-<h2>Syncope</h2><p>
+<img src="../assets/images/projects-logos/syncope.JPG"  alt="no image"  height="100px"  width="110px" align="left"> <br>
+<h2>Syncope</h2><br><p>
 Apache Syncope is an Open Source system for managing digital identities in enterprise environments, implemented in Java EE technology and released under Apache 2.0 license.
 <br><a href="https://github.com/Be-Secure/syncope "><right>LEARN MORE</right></a>
 </p>
 
 
-<img src="../assets/images/projects-logos/p-zero-logo.JPG " alt="no image"  height="100px"  width="130px" align="left"> <br>
+<img src="../assets/images/projects-logos/p-zero-logo.JPG " alt="no image"  height="100px"  width="110px" align="left"> <br>
 <h2>pritunl-zero</h2><br><p>
 Pritunl-Zero is a zero trust system that provides secure authenticated access to internal services from untrusted networks without the use of a VPN.
 <br><a href="https://github.com/Be-Secure/pritunl-zero "><right>LEARN MORE</right></a>
@@ -159,7 +159,7 @@ Pacu is an open-source AWS exploitation framework, designed for offensive securi
 <br><a href="https://github.com/Be-Secure/pacu.JPG"><right>LEARN MORE</right></a>
 </p>
 
-<img src="../assets/images/projects-logos/nmap.JPG" alt="no image"  height="100px"  width="100px" align="left"> <br>
+<img src="../assets/images/projects-logos/nmap.JPG" alt="no image"  height="100px"  width="120px" align="left"> <br>
 <h2>Nmap</h2><br><p>
 Nmap is released under a custom license, which is based on (but not compatible with) GPLv2. The Nmap license allows free usage by end users, and we also offer a commercial license for companies that wish to redistribute Nmap technology with their products.
 <br><a href="https://github.com/Be-Secure/nmap.JPG"><right>LEARN MORE</right></a>
@@ -183,8 +183,8 @@ Snort 3 is the next generation Snort IPS (Intrusion Prevention System). This fil
 <br><a href="https://github.com/Be-Secure/snort3"><right>LEARN MORE</right></a>
 </p>
 
-<img src="../assets/images/projects-logos/cset-logo.JPG" alt="no image"  height="100px"  width="100px" align="left"> <br>
-<h2>CSET</h2><p>
+<img src="../assets/images/projects-logos/cset-logo.JPG" alt="no image"  height="100px"  width="120px" align="left"> <br>
+<h2>CSET</h2><br><p>
 The Cyber Security Evaluation Tool (CSET®) is a Department of Homeland Security (DHS) product that assists organizations in protecting their key national cyber assets. It was developed by cybersecurity experts under the direction of CISA. The tool provides users with a systematic and repeatable approach to assessing the security posture of their cyber systems and networks
 <br><a href="https://github.com/Be-Secure/cset"><right>LEARN MORE</right></a>
 </p>
