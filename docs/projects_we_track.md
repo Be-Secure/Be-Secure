@@ -89,9 +89,6 @@ BeEF is short for The Browser Exploitation Framework. It is a penetration testin
 <br><a href="https://github.com/Be-Secure/beef "><right>LEARN MORE</right></a>
 </p>
 
-<<<<<<< HEAD
-<img src="./assets/images/projects-logos/opendxl-logo.JPG " alt="no image"  height="100px"  width="100px" align="left"> <br>
-=======
 <!-- <img src="./assets/images/projects-logos/beef.JPG" alt="no image"  height="100px"  width="100px" align="left"> <br> -->
 <h2>STIX-shifter </h2><p>
 STIX-shifter is an open source python library allowing software to connect to products that house data repositories by using STIX Patterning, and return results as STIX Observations.
@@ -100,13 +97,12 @@ STIX-shifter is an open source python library allowing software to connect to pr
 
 
 <img src="../assets/images/projects-logos/opendxl-logo.JPG " alt="no image"  height="100px"  width="100px" align="left"> <br>
->>>>>>> 5292c65bedb854b48b9cd11e0cc86827b8d706d6
 <h2>OpenDXL Ontology</h2><p>
 The OpenDXL Ontology project is focused on the development of an open and interoperable cybersecurity messaging format for use with the OpenDXL messaging bus. 
 <br><a href="https://github.com/Be-Secure/opendxl-ontology "><right>LEARN MORE</right></a>
 </p>
 
-<img src="./assets/images/projects-logos/cs-suite-logo.JPG" alt="no image"  height="100px"  width="100px" align="left"> <br>
+<img src="../assets/images/projects-logos/cs-suite-logo.JPG" alt="no image"  height="100px"  width="100px" align="left"> <br>
 <h2>cs-suite</h2><p>
 CS Suite is a one stop tool for auditing the security posture of the AWS infrastructure and does system audits as well. CS Suite leverages current open source tools capabilities and has other missing checks added into one tool to rule them all.
 <br><a href="https://github.com/Be-Secure/cs-suite "><right>LEARN MORE</right></a>
@@ -119,7 +115,7 @@ STIX-shifter is an open source python library allowing software to connect to pr
 <br><a href="https://github.com/OpenSCAP/stix-shifter" style="text-align:right;">LEARN MORE</a>
 </p>
 
-<img src="./assets/images/projects-logos/openscap.JPG" alt="no image"  height="100px"  width="100px" align="left"> <br>
+<img src="../assets/images/projects-logos/openscap.JPG" alt="no image"  height="100px"  width="100px" align="left"> <br>
 <h2>openscap</h2><p>
 The oscap program is a command line tool that allows users to load, scan, validate, edit, and export SCAP documents.
 <br><a href="https://github.com/Be-Secure/openscap"><right>LEARN MORE</right></a>
@@ -132,7 +128,7 @@ FuzzBench is a free service that evaluates fuzzers on a wide variety of real-wor
 <br><a href="https://github.com/Be-Secure/fuzzbench"><right>LEARN MORE</right></a>
 </p>
 
-<img src="./assets/images/projects-logos/ghidra-logo.JPG" alt="no image"  height="100px"  width="100px" align="left"> <br>
+<img src="../assets/images/projects-logos/ghidra-logo.JPG" alt="no image"  height="100px"  width="100px" align="left"> <br>
 <h2>ghidra</h2><p>
 Ghidra is a software reverse engineering (SRE) framework created and maintained by the National Security Agency Research Directorate. This framework includes a suite of full-featured, high-end software analysis tools that enable users to analyze compiled code on a variety of platforms including Windows, macOS, and Linux. Capabilities include disassembly, assembly, decompilation, graphing, and scripting, along with hundreds of other features.
 <br><a href="https://github.com/Be-Secure/ghidra"><right>LEARN MORE</right></a>
@@ -144,32 +140,32 @@ This repository contains libraries to generate ε- and (ε, δ)-differentially p
 <br><a href="https://github.com/Be-Secure/differential-privacy"><right>LEARN MORE</right></a>
 </p>
 
-<img src="./assets/images/projects-logos/syncope.JPG"  alt="no image"  height="100px"  width="100px" align="left"> <br>
+<img src="../assets/images/projects-logos/syncope.JPG"  alt="no image"  height="100px"  width="100px" align="left"> <br>
 <h2>Syncope</h2><p>
 Apache Syncope is an Open Source system for managing digital identities in enterprise environments, implemented in Java EE technology and released under Apache 2.0 license.
 <br><a href="https://github.com/Be-Secure/syncope "><right>LEARN MORE</right></a>
 </p>
 
 
-<img src="./assets/images/projects-logos/p-zero.JPG " alt="no image"  height="100px"  width="100px" align="left"> <br>
+<img src="../assets/images/projects-logos/p-zero-logo.JPG " alt="no image"  height="100px"  width="100px" align="left"> <br>
 <h2>pritunl-zero</h2><p>
 Pritunl-Zero is a zero trust system that provides secure authenticated access to internal services from untrusted networks without the use of a VPN.
 <br><a href="https://github.com/Be-Secure/pritunl-zero "><right>LEARN MORE</right></a>
 </p>
 
-<img src="./assets/images/projects-logos/pacu.JPG " alt="no image"  height="100px"  width="100px" align="left"> <br>
+<img src="../assets/images/projects-logos/pacu.JPG " alt="no image"  height="100px"  width="100px" align="left"> <br>
 <h2>Pacu</h2><p>
 Pacu is an open-source AWS exploitation framework, designed for offensive security testing against cloud environments. Created and maintained by Rhino Security Labs, Pacu allows penetration testers to exploit configuration flaws within an AWS account, using modules to easily expand its functionality.
 <br><a href="https://github.com/Be-Secure/pacu.JPG"><right>LEARN MORE</right></a>
 </p>
 
-<img src="./assets/images/projects-logos/nmap.JPG" alt="no image"  height="100px"  width="100px" align="left"> <br>
+<img src="../assets/images/projects-logos/nmap.JPG" alt="no image"  height="100px"  width="100px" align="left"> <br>
 <h2>Nmap</h2><p>
 Nmap is released under a custom license, which is based on (but not compatible with) GPLv2. The Nmap license allows free usage by end users, and we also offer a commercial license for companies that wish to redistribute Nmap technology with their products.
 <br><a href="https://github.com/Be-Secure/nmap.JPG"><right>LEARN MORE</right></a>
 </p>
 
-<img src="./assets/images/projects-logos/trasa.JPG" alt="no image"  height="100px"  width="100px" align="left"> <br>
+<img src="../assets/images/projects-logos/trasa.JPG" alt="no image"  height="100px"  width="100px" align="left"> <br>
 <h2>TRASA</h2><p>
 TRASA is a unified access control platform with identity-aware access proxy, privileged access management, two-factor authentication, device trust, and access policy features that enable secure remote access to Web, SSH, RDP, and Database services.
 <br><a href="https://github.com/Be-Secure/trasa"><right>LEARN MORE</right></a>
@@ -187,13 +183,13 @@ Snort 3 is the next generation Snort IPS (Intrusion Prevention System). This fil
 <br><a href="https://github.com/Be-Secure/snort3"><right>LEARN MORE</right></a>
 </p>
 
-<img src="./assets/images/projects-logos/cset-logo.JPG" alt="no image"  height="100px"  width="100px" align="left"> <br>
+<img src="../assets/images/projects-logos/cset-logo.JPG" alt="no image"  height="100px"  width="100px" align="left"> <br>
 <h2>CSET</h2><p>
 The Cyber Security Evaluation Tool (CSET®) is a Department of Homeland Security (DHS) product that assists organizations in protecting their key national cyber assets. It was developed by cybersecurity experts under the direction of CISA. The tool provides users with a systematic and repeatable approach to assessing the security posture of their cyber systems and networks
 <br><a href="https://github.com/Be-Secure/cset"><right>LEARN MORE</right></a>
 </p>
 
-<img src="./assets/images/projects-logos/malcom-logo.JPG" alt="no image"  height="100px"  width="100px" align="left"> <br>
+<img src="../assets/images/projects-logos/malcom-logo.JPG" alt="no image"  height="100px"  width="100px" align="left"> <br>
 <h2>Malcolm</h2><p>
 Malcolm is a powerful network traffic analysis tool suite
 <br><a href="https://github.com/Be-Secure/Malcolm"><right>LEARN MORE</right></a>
@@ -212,60 +208,53 @@ OSSEC is a full platform to monitor and control your systems. It mixes together 
 </p>
 
 
-<img src="./assets/images/projects-logos/zeek-logo.JPG" alt="no image"  height="100px"  width="100px" align="left"> <br>
+<img src="../assets/images/projects-logos/zeek-logo.JPG" alt="no image"  height="100px"  width="100px" align="left"> <br>
 <h2>Zeek</h2><p>
 A powerful framework for network traffic analysis and security monitoring.
 <br><a href="https://github.com/Be-Secure/zeek "><right>LEARN MORE</right></a>
 </p>
 
-<img src="./assets/images/projects-logos/Security-onion-logo.JPG" alt="no image"  height="100px"  width="100px" align="left"> <br>
+<img src="../assets/images/projects-logos/Security-onion-logo.JPG" alt="no image"  height="100px"  width="100px" align="left"> <br>
 <h2>Security Onion Solutions</h2><p>
 Security Onion Solutions, LLC is the creator and maintainer of Security Onion, a free and open platform for threat hunting, network security monitoring, and log management. Security Onion includes best-of-breed free and open tools including Suricata, Zeek, Wazuh, the Elastic Stack and many others
 <br><a href="https://github.com/Be-Secure/securityonion"><right>LEARN MORE</right></a>
 </p>
 
-<img src="./assets/images/projects-logos/opencit-logo.JPG" alt="no image"  height="100px"  width="100px" align="left"> <br>
+<img src="../assets/images/projects-logos/opencit-logo.JPG" alt="no image"  height="100px"  width="100px" align="left"> <br>
 <h2>OpenCTI</h2><p>
 OpenCTI is an open source platform allowing organizations to manage their cyber threat intelligence knowledge and observables. It has been created in order to structure, store, organize and visualize technical and non-technical information about cyber threats.
 <br><a href="https://github.com/Be-Secure/opencti"><right>LEARN MORE</right></a>
 </p>
 
-<img src="./assets/images/projects-logos/ " alt="no image"  height="100px"  width="100px" align="left"> <br>
+<img src="../assets/images/projects-logos/croc.JPG" alt="no image"  height="100px"  width="100px" align="left"> <br>
 <h2>Croc</h2><p>
 croc is a tool that allows any two computers to simply and securely transfer files and folders.
 <br><a href="https://github.com/Be-Secure/croc"><right>LEARN MORE</right></a>
 </p>
 
 
-<img src="./assets/images/projects-logos/security-monkey.JPG" alt="no image"  height="100px"  width="100px" align="left"> <br>
+<img src="../assets/images/projects-logos/security-monkey.JPG" alt="no image"  height="100px"  width="100px" align="left"> <br>
 <h2>Security Monkey</h2><p>
 Security Monkey monitors your AWS and GCP accounts for policy changes and alerts on insecure configurations. Support is available for OpenStack public and private clouds. Security Monkey can also watch and monitor your GitHub organizations, teams, and repositories.
 <br><a href="https://github.com/Be-Secure/security_monkey"><right>LEARN MORE</right></a>
 </p>
 
 
-<img src="./assets/images/projects-logos/security-scorecards.JPG" alt="no image"  height="100px"  width="100px" align="left"> <br>
+<img src="../assets/images/projects-logos/security-scorecards.JPG" alt="no image"  height="100px"  width="100px" align="left"> <br>
 <h2>Scorecard</h2><p>
 Automate analysis and trust decisions on the security posture of open source projects.
 <br><a href="https://github.com/Be-Secure/scorecard"><right>LEARN MORE</right></a>
 </p>
+<br><p><br><p>
 
-
-<img src="./assets/images/projects-logos/zap-logo.JPG" alt="no image"  height="100px"  width="100px" align="left"> <br>
+<img src="../assets/images/projects-logos/zap.JPG" alt="no image"  height="100px"  width="100px" align="left"> <br>
 <h2>ZAP</h2><p>
 The OWASP Zed Attack Proxy (ZAP) is one of the world’s most popular free security tools and is actively maintained by a dedicated international team of volunteers. It can help you automatically find security vulnerabilities in your web applications while you are developing and testing your applications. It's also a great tool for experienced pentesters to use for manual security testing.
 <br><a href="https://github.com/Be-Secure/zaproxy"><right>LEARN MORE</right></a>
 </p>
 
 
-<img src="./assets/images/projects-logos/beef-logo.JPG" alt="no image"  height="100px"  width="100px" align="left"> <br>
-<h2>BeEF</h2><p>
-BeEF is short for The Browser Exploitation Framework. It is a penetration testing tool that focuses on the web browser.
-<br><a href="https://github.com/Be-Secure/beef"><right>LEARN MORE</right></a>
-</p>
-
-
-<img src="./assets/images/projects-logos/ " alt="no image"  height="100px"  width="100px" align="left"> <br>
+<!-- <img src="../assets/images/projects-logos/ " alt="no image"  height="100px"  width="100px" align="left"> <br> -->
 <h2>Syft</h2><p>
 A CLI tool and go library for generating a Software Bill of Materials (SBOM) from container images and filesystems. Exceptional for vulnerability detection when used with a scanner tool like Grype.
 <br><a href="https://github.com/Be-Secure/syft"><right>LEARN MORE</right></a>
@@ -279,7 +268,7 @@ A vulnerability scanner for container images and filesystems. Easily install the
 </p>
 
 
-<img src="./assets/images/projects-logos/emmy.JPG" alt="no image"  height="100px"  width="100px" align="left"> <br>
+<img src="../assets/images/projects-logos/emmy.JPG" alt="no image"  height="100px"  width="100px" align="left"> <br>
 <h2>Emmy</h2><p>
 Emmy is a library for building protocols/applications based on zero-knowledge proofs, for example anonymous credentials. Zero-knowledge proofs are client-server protocols (in crypto terms also prover-verifier, where the prover takes on the role of the client, and the verifier takes on the role of the server) where the client proves a knowledge of a secret without actually revealing the secret
 <br><a href="https://github.com/Be-Secure/emmy"><right>LEARN MORE</right></a>
