@@ -25,16 +25,22 @@ Each Be-Secure technology stack will be associated with atleast two types of BeS
 
 #### Be-Secure Open Source Technology stacks are –
 
-* [DevOps [DO]](./docs/bes-devops-tech-stack.md)  
+* [DevOps [DO]](./docs/bes-devops-tech-stack.md) 
+<img src="docs/assets/images/devops_logo.jpeg" alt="DO" width="200px" height="200px"> 
 
 * [Language and framework [L&F]](./docs/bes-lang-framework-tech-stack.md)  
+<img src="docs/assets/images/lan_logo.jpeg" alt="L&F" width="200px" height="200px"> 
 
 * [Application [A]](./docs/bes-app-tech-stack.md) 
+<img src="docs/assets/images/app_logo.jpeg" alt="A" width="200px" height="200px"> 
 
 * [Distributed & Decentralized Application [DA]](./docs/bes-dist-decent-tech-stack.md) 
+<img src="docs/assets/images/dist_app_logo.jpeg" alt="DA" width="200px" height="200px"> 
 
 * [Open-source Security Tool [S]](./docs/bes-open-source-security-tool-tech-stack.md) 
- 
+<img src="docs/assets/images/sec_logo.jpeg" alt="S" width="200px" height="200px"> 
+
+
 #### Benefits from Be-Secure –
 
 Developers can easily learn secure development practices and are proactively guided by BeSman environments to apply those practices and automatically informed when action is needed to prevent, remediate, or mitigate security issues.
@@ -48,7 +54,7 @@ Be-Secure Community members can provide information and notifications about prod
 
 #### OSS Project We Track :
 
-[open source security assessement done By Be-secure Community](Link to TrackedOSS.md)
+[open source security assessement done By Be-secure Community](./projects_we_track.md)
 
 #### OSS Project We Contribute :
 

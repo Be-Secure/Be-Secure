@@ -1,12 +1,12 @@
 ---
 template: main.html
-title: tech stack
+title: DA Tech Stack
 hide: 
     - navigation
     - toc
 ---
 
-<h1> Distributed & Decentralized Application [DA] tech stack </h1>
+<h1> Distributed & Decentralized Application [DA] Tech Stack </h1>
 
 <img src="./assets/images/dist_app_logo.jpeg" alt="DO" width="200px" height="200px">
 

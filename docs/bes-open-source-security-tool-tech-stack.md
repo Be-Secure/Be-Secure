@@ -1,6 +1,6 @@
 ---
 template: main.html
-title: tech stack
+title: S Tech Stack
 hide: 
     - navigation
     - toc
@@ -8,7 +8,7 @@ hide:
 
 
 
-<h1> Open Source Security tool [S] tech stack </h1>
+<h1> Open Source Security Tools [S] Tech Stack </h1>
 
 <img src="./assets/images/sec_logo.jpeg" alt="DO" width="200px" height="200px">
 
