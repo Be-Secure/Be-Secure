@@ -11,10 +11,19 @@ hide:
 
 <table  style="border: none">
 
-<tr  style="border: none"><td  style="border: none"><b>STIX Shifter </b></td>
+
+<img src="./assets/images/projects-logos/beef.JPG" alt="no image"  height="100px"  width="100px" align="left"> <br>
+<h2>STIX Shifter</h2><p>
+STIX-shifter is an open source python library allowing software to connect to products that house data repositories by using STIX Patterning, and return results as STIX Observations.
+<br><a href="https://github.com/OpenSCAP/openscap" style="text-align:right;">LEARN MORE</a>
+</p>
+
+
+
+<!-- <tr  style="border: none"><td  style="border: none"><b>STIX Shifter </b></td>
 <td style="border: none">STIX-shifter is an open source python library allowing software to connect to products that house data repositories by using STIX Patterning, and return results as STIX Observations. 
 
-<br><p></td></tr><td style="border : none ;"> <a href="https://github.com/OpenSCAP/openscap "><right>LEARN MORE  <p><p></right> <a> </td>
+<br><p></td></tr><td style="border : none ;"> <a href="https://github.com/OpenSCAP/openscap "><right>LEARN MORE  <p><p></right> <a> </td> -->
 
 
 <tr style="border: none"><td style="border: none"><p><b>OpenDXL Ontology</b></td>
@@ -71,7 +80,6 @@ hide:
  <br><p></td></tr><td style="border : none ;"> <a href="https://github.com/Be-Secure/django-DefectDojo"><right>LEARN MORE</right> <a> </td>
 
 
-
  <tr  style="border: none"><td  style="border: none"><b>cs-suite </b></td>
 <td style="border: none">CS Suite is a one stop tool for auditing the security posture of the AWS infrastructure and does system audits as well. CS Suite leverages current open source tools capabilities and has other missing checks added into one tool to rule them all.
 
@@ -125,8 +133,6 @@ hide:
 <td style="border: none">TRASA is a unified access control platform with identity-aware access proxy, privileged access management, two-factor authentication, device trust, and access policy features that enable secure remote access to Web, SSH, RDP, and Database services.
  <br><p></td></tr><td style="border : none ;"> <a href="https://github.com/Be-Secure/cello"><right>LEARN MORE</right> <a> </td>
 
-  <tr style="border: none"><td style="border: none"><b>Besu</b></td>
-<td style="border: none">Besu is an Apache 2.0 licensed, MainNet compatible, Ethereum client written in Java.
 
  <br><p></td></tr><td style="border : none ;"> <a href="https://github.com/Be-Secure/caliper"><right>LEARN MORE</right> <a> </td>
 
@@ -165,7 +171,7 @@ hide:
  <br><p></td></tr><td style="border : none ;"> <a href="https://github.com/Be-Secure/iroha"><right>LEARN MORE</right> <a> </td>
 
   
-  <tr style="border: none"><td style="border: none"><b>Security-Onion</td>
+  <tr style="border: none"><td style="border: none"><b></td>
 <td style="border: none">Security Onion Solutions, LLC is the creator and maintainer of Security Onion, a free and open platform for threat hunting, network security monitoring, and log management. Security Onion includes best-of-breed free and open tools including Suricata, Zeek, Wazuh, the Elastic Stack and many others
  <br><p></td></tr><td style="border : none ;"> <a href="https://github.com/Be-Secure/aries"><right>LEARN MORE</right> <a> </td>
 
@@ -205,7 +211,6 @@ hide:
 <tr style="border: none"><td style="border: none"><b>Emmy</b></td>
 <td style="border: none">Emmy is a library for building protocols/applications based on zero-knowledge proofs, for example anonymous credentials. Zero-knowledge proofs are client-server protocols (in crypto terms also prover-verifier, where the prover takes on the role of the client, and the verifier takes on the role of the server) where the client proves a knowledge of a secret without actually revealing the secret.
  <br><p></td></tr><td style="border : none ;"> <a href="https://github.com/Be-Secure/indy-sdk "><right>LEARN MORE</right> <a> </td>
-
 
 
 </table>
