@@ -89,13 +89,6 @@ BeEF is short for The Browser Exploitation Framework. It is a penetration testin
 <br><a href="https://github.com/Be-Secure/beef "><right>LEARN MORE</right></a>
 </p>
 
-<!-- <img src="./assets/images/projects-logos/beef.JPG" alt="no image"  height="100px"  width="100px" align="left"> <br> -->
-<h2>STIX-shifter </h2><p>
-STIX-shifter is an open source python library allowing software to connect to products that house data repositories by using STIX Patterning, and return results as STIX Observations.
-<br><a href="https://github.com/Be-Secure/stix-shifter" style="text-align:right;">LEARN MORE</a>
-</p>
-
-
 <img src="../assets/images/projects-logos/opendxl-logo.JPG " alt="no image"  height="100px"  width="100px" align="left"> <br>
 <h2>OpenDXL Ontology</h2><p>
 The OpenDXL Ontology project is focused on the development of an open and interoperable cybersecurity messaging format for use with the OpenDXL messaging bus. 
