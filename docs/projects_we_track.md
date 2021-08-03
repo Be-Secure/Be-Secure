@@ -92,7 +92,7 @@ BeEF is short for The Browser Exploitation Framework. It is a penetration testin
 <!-- <img src="./assets/images/projects-logos/beef.JPG" alt="no image"  height="100px"  width="100px" align="left"> <br> -->
 <h2>STIX-shifter </h2><p>
 STIX-shifter is an open source python library allowing software to connect to products that house data repositories by using STIX Patterning, and return results as STIX Observations.
-<br><a href="https://github.com/OpenSCAP/stix-shifter" style="text-align:right;">LEARN MORE</a>
+<br><a href="https://github.com/Be-Secure/stix-shifter" style="text-align:right;">LEARN MORE</a>
 </p>
 
 
