@@ -112,7 +112,7 @@ CS Suite is a one stop tool for auditing the security posture of the AWS infrast
 <!-- <img src="./assets/images/projects-logos/beef.JPG" alt="no image"  height="100px"  width="100px" align="left"> <br> -->
 <h2>STIX-shifter </h2><p>
 STIX-shifter is an open source python library allowing software to connect to products that house data repositories by using STIX Patterning, and return results as STIX Observations.
-<br><a href="https://github.com/OpenSCAP/stix-shifter" style="text-align:right;">LEARN MORE</a>
+<br><a href="https://github.com/Be-Secure/stix-shifter" style="text-align:right;">LEARN MORE</a>
 </p>
 
 <img src="../assets/images/projects-logos/openscap.JPG" alt="no image"  height="100px"  width="100px" align="left"> <br>
@@ -156,13 +156,13 @@ Pritunl-Zero is a zero trust system that provides secure authenticated access to
 <img src="../assets/images/projects-logos/pacu.JPG " alt="no image"  height="100px"  width="100px" align="left"> <br>
 <h2>Pacu</h2><br><p>
 Pacu is an open-source AWS exploitation framework, designed for offensive security testing against cloud environments. Created and maintained by Rhino Security Labs, Pacu allows penetration testers to exploit configuration flaws within an AWS account, using modules to easily expand its functionality.
-<br><a href="https://github.com/Be-Secure/pacu.JPG"><right>LEARN MORE</right></a>
+<br><a href="https://github.com/Be-Secure/pacu"><right>LEARN MORE</right></a>
 </p>
 
 <img src="../assets/images/projects-logos/nmap.JPG" alt="no image"  height="100px"  width="120px" align="left"> <br>
 <h2>Nmap</h2><br><p>
 Nmap is released under a custom license, which is based on (but not compatible with) GPLv2. The Nmap license allows free usage by end users, and we also offer a commercial license for companies that wish to redistribute Nmap technology with their products.
-<br><a href="https://github.com/Be-Secure/nmap.JPG"><right>LEARN MORE</right></a>
+<br><a href="https://github.com/Be-Secure/nmap"><right>LEARN MORE</right></a>
 </p>
 
 <!-- <img src="../assets/images/projects-logos/trasa.JPG" alt="no image"  height="100px"  width="100px" align="left"> <br> -->
