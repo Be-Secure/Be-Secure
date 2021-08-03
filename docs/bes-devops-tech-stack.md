@@ -1,13 +1,13 @@
 ---
 template: main.html
-title: tech stack
+title: DO tech stack
 hide: 
     - navigation
     - toc
 ---
 
 
-<h1> DevOps [DO] tech stack </h1>
+<h1> DevOps [DO] Tech Stack </h1>
 
 <img src="./assets/images/devops_logo.jpeg" alt="DO" width="200px" height="200px">
 <!-- ![sec tech stack](./assets/images/devops_logo.jpeg) -->
