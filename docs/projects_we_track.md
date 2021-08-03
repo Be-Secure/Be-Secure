@@ -260,7 +260,7 @@ Emmy is a library for building protocols/applications based on zero-knowledge pr
 </p>
 
 
-<img src="./assets/images/projects-logos/dragon-logo.JPG" alt="no image"  height="100px"  width="100px" align="left"> <br>
+<img src="./assets/images/projects-logos/dragan-logo.JPG" alt="no image"  height="100px"  width="100px" align="left"> <br>
 <h2>Threat Dragon</h2><br><p>
 Threat Dragon is a free, open-source, cross-platform threat modelling application including system diagramming and a threat rule engine to auto-generate threats/mitigations. It is an OWASP Incubator Project and follows the values and principles of the threat modeling manifesto. The roadmap for the project is a simple UX, a powerful rule engine and integration with other development lifecycle tools.
 <br><a href="https://github.com/Be-Secure/threat-dragon"><right>LEARN MORE</right></a>
