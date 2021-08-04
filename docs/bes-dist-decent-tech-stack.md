@@ -8,7 +8,7 @@ hide:
 
 <h1> Distributed & Decentralized Application [DA] Tech Stack </h1>
 
-<img src="./assets/images/dist_app_logo.png" alt="DO" width="200px" height="200px">
+<img src="./assets/images/dist_app_logo.jpeg" alt="DO" width="200px" height="200px">
 
 <!-- ![app tech stack](./assets/images/dist_app_logo.jpeg) -->
 
