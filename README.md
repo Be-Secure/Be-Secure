@@ -54,7 +54,7 @@ Be-Secure Community members can provide information and notifications about prod
 
 #### OSS Project We Track :
 
-[open source security assessement done By Be-secure Community](./projects_we_track.md)
+[open source security assessement done By Be-secure Community](./docs/projects_we_track.md)
 
 #### OSS Project We Contribute :
 
