@@ -10,7 +10,7 @@ hide:
 
 <p> This section describes the seven stages of Be-Secure CE security assessment to enhance the security posture of open source projects / open source tech stacks. </p>
 
-![Security assessment](./assets/images/Enhance-BeSman.PNG)
+![Security assessment](./assets/images/Enhance-BeSman.png)
 
 <p> Once we receive a request from the community member / user of Be-Secure project to assess an open source tech stack, we will fork the respective open source project into Be-Secure namespace. Then we will commence with our seven stage security assessment as listed below - </p>
 
