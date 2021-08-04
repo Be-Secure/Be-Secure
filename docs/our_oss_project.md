@@ -100,3 +100,11 @@ We will be using [oah-installer](https://github.com/hyperledgerkochi/oah-install
 
 
 
+### **oah-bes-vm**
+
+Its the project for easy local deployment of Be-Secure environments.
+
+
+### **BeSlighthouse**
+
+BeSlighthouse is a community dashboard for TAVOSS Components that are security assessed by the Be-Secure community.
