@@ -1,5 +1,5 @@
 {% if config.theme.logo %}
-  <img src="../assets/images/favicon.png" alt="logo">
+  <img src="{{ config.theme.logo | url }}" alt="logo">
 {% else %}
   {% set icon = config.theme.icon.logo or "bes_theme/library" %}
   {% include ".icons/" ~ icon ~ ".svg" %}
