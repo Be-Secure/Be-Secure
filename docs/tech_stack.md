@@ -13,7 +13,17 @@ hide:
 
 <p> The open source projects are categorized based on purpose, interoperability and technology. They also include other open source dependencies that are frequently required to develop enterprise grade open source solutions. </p>
 
-<img : image of the tech stack to be included here />
+<h4> Be-Secure Open Source Security tech stacks are - </h4>
+
+* [DevOps [DO]](./bes-devops-tech-stack.md)  
+
+* [Language and framework [L&F]](./bes-lang-framework-tech-stack.md)  
+
+* [Application [A]](./bes-app-tech-stack.md) 
+
+* [Distributed & Decentralized Application [DA]](./bes-dist-decent-tech-stack.md) 
+
+* [Open-source Security Tool [S]](./bes-open-source-security-tool-tech-stack.md) 
 
 <p> Each BeSecure tech stack will be associated with two types of BeSman environments namely the Development or Provisioning environment [Dev] as well as the security testing or security sandbox environment [Sec]. </p>
 
@@ -25,16 +35,5 @@ hide:
 
 <p> This is a security environment configured for an open source project, pre-bundled with all the required tools and dependencies that would help the security team members to perform their security testing activities. </p>
 
-<h2> Be-Secure Open Source Security tech stacks are - </h2>
 
-
-[DevOps [DO]](./bes-devops-tech-stack.md)  
-
-[Language and framework [L&F]](./bes-lang-framework-tech-stack.md)  
-
-[Application [A]](./bes-app-tech-stack.md) 
-
-[Distributed & Decentralized Application [DA]](./bes-dist-decent-tech-stack.md) 
-
-[Open-source Security Tool [S]](./bes-open-source-security-tool-tech-stack.md) 
 
