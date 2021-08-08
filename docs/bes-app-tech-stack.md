@@ -9,7 +9,7 @@ hide:
 
 <h1> Application [A] Tech Stack </h1>
 
-<img src="./assets/images/app_logo.jpeg" alt="DO" width="200px" height="200px">
+<img src="./assets/images/app_logo.png" alt="DO" width="200px" height="200px">
 <!-- ![app tech stack](./assets/images/app_logo.jpeg) -->
 
 This security stack focuses on all open source applications and how they can be secured.
