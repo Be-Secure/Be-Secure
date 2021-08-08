@@ -1,13 +1,13 @@
 ---
 template: main.html
-title: tech stack
+title: L%F Tech Stack
 hide: 
     - navigation
     - toc
 ---
 
 
-<h1> Language & framework [L&F] tech stack </h1>
+<h1> Language & framework [L&F] Tech Stack </h1>
 
 <img src="./assets/images/lan_logo.jpeg" alt="DO" width="200px" height="200px">
 
