@@ -9,7 +9,7 @@ hide:
 
 <h1> DevOps [DO] Tech Stack </h1>
 
-<img src="./assets/images/devops_logo.jpeg" alt="DO" width="200px" height="200px">
+<img src="./assets/images/devops_logo.png" alt="DO" width="200px" height="200px">
 <!-- ![sec tech stack](./assets/images/devops_logo.jpeg) -->
 
 This security stack focuses on all kinds of open source tools used in DevOps and how they can be secured both in terms of it source code and its implementation. This would enable users to implement DevSecOps using secured DevOps tools. The identified DevOps tools will be assessed for security vulnerabilities and remediated.
