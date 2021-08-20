@@ -62,7 +62,7 @@ Be-Secure Community members can provide information and notifications about prod
 
 [**oah-bes-vm**](https://github.com/Be-Secure/oah-bes-vm) for easy local deployment of Be-Secure environments.
 
-[**BeSlighthouse**](https://github.com/Be-Secure/BeSLighthouse) BeSlighthouse is a community dashboard for TAVOSS Components that are security assessed by the Be-Secure community.
+[**BeSLighthouse**](https://github.com/Be-Secure/BeSLighthouse) BeSLighthouse is a community dashboard for TAVOSS Components that are security assessed by the Be-Secure community.
 
 
 
