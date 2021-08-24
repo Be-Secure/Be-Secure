@@ -131,7 +131,7 @@ CS Suite is a one stop tool for auditing the security posture of the AWS infrast
 
 
 <h2><b>STIX-shifter</b></h2>
-<img src="../assets/images/projects-logos/openscap.png" alt="no image"  height="100px"  width="100px" align="left"> <br>
+<!-- <img src="../assets/images/projects-logos/openscap.png" alt="no image"  height="100px"  width="100px" align="left"> <br> -->
 <b>Python library | S </b><p>
 STIX-shifter is an open source python library allowing software to connect to products that house data repositories by using STIX Patterning, and return results as STIX Observations
 </p>
