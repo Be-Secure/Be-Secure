@@ -188,7 +188,7 @@ Pacu is an open-source AWS exploitation framework, designed for offensive securi
 </p>
 <p align="right"><a href="https://github.com/Be-Secure/pacu"> LEARN MORE >> </a></p></p>
 
-<h2><b><h2>Nmap</h2><br><p>
+<h2><b>Nmap</b><br><p>
 </b></h2>
 <img src="./assets/images/projects-logos/nmap.png" alt="no image"  height="100px"  width="100px" align="left"> <br>
 <b>Network scanner | S </b><p>
