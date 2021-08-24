@@ -42,5 +42,5 @@ hide:
 <p>Team will be identify the bugs/related vulnerabilities using various security tools installed in this environment. 
  </p>
 
-
+The Security assessment report of the tracked project will be updated under [BeSLighthouse](https://be-secure.github.io/BeSLighthouse) project
 
