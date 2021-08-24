@@ -11,20 +11,20 @@ hide:
 
 
 <h2><b>Hyperledger Fabric</b></h2>
-<img src="../assets/images/projects-logos/fabric-logo.png" alt="no image"  height="100px"  width="100px" align="left"> <br>
+<img src="./assets/images/projects-logos/fabric-logo.png" alt="no image"  height="100px"  width="100px" align="left"> <br>
 <b>Blockchain solutions | DA</b><p>
 Hyperledger Fabric delivers a uniquely elastic and extensible architecture, distinguishing it from alternative blockchain solutions. Planning for the future of enterprise blockchain requires building on top of a fully-vetted, open source architecture; Hyperledger Fabric is your starting point. This project is an Active Hyperledger project. Hyperledger Fabric is a platform for distributed ledger solutions, underpinned by a modular architecture delivering high degrees of confidentiality, resiliency, flexibility and scalability. It is designed to support pluggable implementations of different components, and accommodate the complexity and intricacies that exist across the economic ecosystem.</p>
 <p align="right"><a href="https://github.com/Be-Secure/fabric"> LEARN MORE >> </a></p></p>
 
 <h2><b>Hyperledger Indy</b></h2>
-<img src="../assets/images/projects-logos/indy-logo.png" alt="no image"  height="100px"  width="100px" align="left"> <br>
+<img src="./assets/images/projects-logos/indy-logo.png" alt="no image"  height="100px"  width="100px" align="left"> <br>
 <b>Blockchain solutions | DA</b><p>
 This is the official SDK for Hyperledger Indy, which provides a distributed-ledger-based foundation for self-sovereign identity. Indy provides a software ecosystem for private, secure, and powerful identity, and the Indy SDK enables clients for it. The major artifact of the SDK is a C-callable library; there are also convenience wrappers for various programming languages and Indy CLI tool. All bugs, stories, and backlog for this project are managed through Hyperledger's Jira in project IS (note that regular Indy tickets are in the INDY project instead.)
 <p align="right"><a href="https://github.com/Be-Secure/indy-sdk"> LEARN MORE >> </a></p></p>
 
 
 <h2><b>Hyperledger BESU</b></h2>
-<img src="../assets/images/projects-logos/besu.png" alt="no image"  height="100px"  width="100px" align="left"> <br>
+<img src="./assets/images/projects-logos/besu.png" alt="no image"  height="100px"  width="100px" align="left"> <br>
 <b>Blockchain solutions | DA</b><p>
 Besu is an Apache 2.0 licensed, MainNet compatible, Ethereum client written in Java.
 </p>
@@ -32,7 +32,7 @@ Besu is an Apache 2.0 licensed, MainNet compatible, Ethereum client written in J
 
 
 <h2><b>Hyperledger Sawtooth</b></h2>
-<img src="../assets/images/projects-logos/sawtooth-logo.png" alt="no image"  height="100px"  width="100px" align="left"> <br>
+<img src="./assets/images/projects-logos/sawtooth-logo.png" alt="no image"  height="100px"  width="100px" align="left"> <br>
 <b>Blockchain solutions | DA</b><p>
 Hyperledger Sawtooth is an enterprise solution for building, deploying, and running distributed ledgers (also called blockchains). It provides an extremely modular and flexible platform for implementing transaction-based updates to shared state between untrusted parties coordinated by consensus algorithms.
 </p>
@@ -41,7 +41,7 @@ Hyperledger Sawtooth is an enterprise solution for building, deploying, and runn
 
 
 <h2><b>Hyperledger BURROW</b></h2>
-<img src="../assets/images/projects-logos/burrow-logo.png" alt="no image"  height="100px"  width="100px" align="left"> <br>
+<img src="./assets/images/projects-logos/burrow-logo.png" alt="no image"  height="100px"  width="100px" align="left"> <br>
 <b>Blockchain solutions | DA</b><p>
 Hyperledger Burrow is a permissioned Ethereum smart-contract blockchain node. It executes Ethereum EVM and WASM smart contract code (usually written in Solidity) on a permissioned virtual machine. Burrow provides transaction finality and high transaction throughput on a proof-of-stake Tendermint consensus engine.
 </p>
@@ -50,7 +50,7 @@ Hyperledger Burrow is a permissioned Ethereum smart-contract blockchain node. It
 
 
 <h2><b>Hyperledger IROHA</b></h2>
-<img src="../assets/images/projects-logos/iroha.png" alt="no image"  height="100px"  width="100px" align="left"> <br>
+<img src="./assets/images/projects-logos/iroha.png" alt="no image"  height="100px"  width="100px" align="left"> <br>
 <b>Blockchain solutions | DA</b><p>
 Iroha is a straightforward distributed ledger technology (DLT), inspired by Japanese Kaizen principle — eliminate excessiveness (muri). Iroha has essential functionality for your asset, information and identity management needs, at the same time being an efficient and trustworthy crash fault-tolerant tool for your enterprise needs.
 </p>
@@ -58,7 +58,7 @@ Iroha is a straightforward distributed ledger technology (DLT), inspired by Japa
 
 
 <h2><b>Hyperledger ARIES</b></h2>
-<img src="../assets/images/projects-logos/aries.png" alt="no image"  height="100px"  width="100px" align="left"> <br>
+<img src="./assets/images/projects-logos/aries.png" alt="no image"  height="100px"  width="100px" align="left"> <br>
 <b>Blockchain solutions | DA</b><p>
 Hyperledger Aries allows trusted online peer-to-peer interactions based on decentralized identities and verifiable credentials. Aries includes a protocol definition, tools, and reference implementations. The Aries protocol supports identities rooted in a variety of distributed ledgers or blockchains. This approach to identity is often called Self Soverign Identity (SSI).
 </p>
@@ -67,7 +67,7 @@ Hyperledger Aries allows trusted online peer-to-peer interactions based on decen
 
 
 <h2><b>Hyperledger CACTUS</b></h2>
-<img src="../assets/images/projects-logos/catcus.png" alt="no image"  height="100px"  width="100px" align="left"> <br>
+<img src="./assets/images/projects-logos/catcus.png" alt="no image"  height="100px"  width="100px" align="left"> <br>
 <b>Blockchain solutions | DA</b><p>
 Hyperledger Cactus aims to provide Decentralized, Secure and Adaptable Integration between Blockchain Networks. Hyperledger Cactus is currently undergoing a major refactoring effort to enable the desired to-be architecture which will enable plug-in based collaborative development to increase the breadth of use cases & Ledgers supported.
 </p>
@@ -75,7 +75,7 @@ Hyperledger Cactus aims to provide Decentralized, Secure and Adaptable Integrati
 
 
 <h2><b>Hyperledger CELLO</b></h2>
-<img src="../assets/images/projects-logos/cello.png" alt="no image"  height="100px"  width="100px" align="left"> <br>
+<img src="./assets/images/projects-logos/cello.png" alt="no image"  height="100px"  width="100px" align="left"> <br>
 <b>Blockchain solutions | DA</b><p>
 Hyperledger Cello is a blockchain provision and operation system, which helps manage blockchain networks in an efficient way.
 </p>
@@ -83,7 +83,7 @@ Hyperledger Cello is a blockchain provision and operation system, which helps ma
 
 
 <h2><b>Hyperledger CALIPER</b></h2>
-<img src="../assets/images/projects-logos/caliper.png" alt="no image"  height="100px"  width="100px" align="left"> <br>
+<img src="./assets/images/projects-logos/caliper.png" alt="no image"  height="100px"  width="100px" align="left"> <br>
 <b>Blockchain solutions | DA</b><p>
 Caliper is a blockchain performance benchmark framework, which allows users to test different blockchain solutions with predefined use cases, and get a set of performance test results.
 </p>
@@ -93,7 +93,7 @@ Caliper is a blockchain performance benchmark framework, which allows users to t
 <!-- sadfasdfsadfsaf -->
 
 <h2><b>DefectDojo</b></h2>
-<img src="../assets/images/projects-logos/defect-logo.png" alt="no image"  height="100px"  width="100px" align="left"> <br>
+<img src="./assets/images/projects-logos/defect-logo.png" alt="no image"  height="100px"  width="100px" align="left"> <br>
 <b>Blockchain solutions | DA</b><p>
 DefectDojo is a security program and vulnerability management tool. DefectDojo allows you to manage your application security program, maintain product and application information, triage vulnerabilities and push findings into defect trackers.
 </p>
@@ -101,7 +101,7 @@ DefectDojo is a security program and vulnerability management tool. DefectDojo a
 
 
 <h2><b>OWASP Zed Attack Proxy</b></h2>
-<img src="../assets/images/projects-logos/zap.png" alt="no image"  height="100px"  width="100px" align="left"> <br>
+<img src="./assets/images/projects-logos/zap.png" alt="no image"  height="100px"  width="100px" align="left"> <br>
 <b>Blockchain solutions | DA</b><p>
 The OWASP Zed Attack Proxy (ZAP) is one of the world’s most popular free security tools and is actively maintained by a dedicated international team of volunteers. It can help you automatically find security vulnerabilities in your web applications while you are developing and testing your applications. It's also a great tool for experienced pentesters to use for manual security testing
 </p>
@@ -109,7 +109,7 @@ The OWASP Zed Attack Proxy (ZAP) is one of the world’s most popular free secur
 
 
 <h2><b>BeEF</b></h2>
-<img src="../assets/images/projects-logos/beef.png" alt="no image"  height="100px"  width="100px" align="left"> <br>
+<img src="./assets/images/projects-logos/beef.png" alt="no image"  height="100px"  width="100px" align="left"> <br>
 <b>Blockchain solutions | DA</b><p>
 BeEF is short for The Browser Exploitation Framework. It is a penetration testing tool that focuses on the web browser.
 </p>
@@ -117,7 +117,7 @@ BeEF is short for The Browser Exploitation Framework. It is a penetration testin
 
 
 <h2><b>OpenDXL Ontology</b></h2>
-<img src="../assets/images/projects-logos/opendxl-logo.png" alt="no image"  height="100px"  width="100px" align="left"> <br>
+<img src="./assets/images/projects-logos/opendxl-logo.png" alt="no image"  height="100px"  width="100px" align="left"> <br>
 <b>Blockchain solutions | DA</b><p>
 The OpenDXL Ontology project is focused on the development of an open and interoperable cybersecurity messaging format for use with the OpenDXL messaging bus.
 </p>
@@ -126,7 +126,7 @@ The OpenDXL Ontology project is focused on the development of an open and intero
 
 
 <h2><b>CS-Suite</b></h2>
-<img src="../assets/images/projects-logos/cs-suite-logo.png" alt="no image"  height="100px"  width="100px" align="left"> <br>
+<img src="./assets/images/projects-logos/cs-suite-logo.png" alt="no image"  height="100px"  width="100px" align="left"> <br>
 <b>Blockchain solutions | DA</b><p>
 CS Suite is a one stop tool for auditing the security posture of the AWS infrastructure and does system audits as well. CS Suite leverages current open source tools capabilities and has other missing checks added into one tool to rule them all.
 </p>
@@ -143,7 +143,7 @@ STIX-shifter is an open source python library allowing software to connect to pr
 
 
 <h2><b>openscap</b></h2>
-<img src="../assets/images/projects-logos/openscap.png" alt="no image"  height="100px"  width="100px" align="left"> <br>
+<img src="./assets/images/projects-logos/openscap.png" alt="no image"  height="100px"  width="100px" align="left"> <br>
 <b>Blockchain solutions | DA</b><p>
 The oscap program is a command line tool that allows users to load, scan, validate, edit, and export SCAP documents.
 </p>
