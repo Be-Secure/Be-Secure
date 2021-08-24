@@ -15,25 +15,32 @@ hide:
 
 <h4> Be-Secure Open Source Security tech stacks are - </h4>
 
-* [DevOps [DO]](./bes-devops-tech-stack.md)  
+* [DevOps [DO]](./bes-devops-tech-stack.md) : Be-Secure tech stacks to secure open source devops tools eg. Ansible, Puppet etc.  
 
-* [Language and framework [L&F]](./bes-lang-framework-tech-stack.md)  
+* [Language and framework [L&F]](./bes-lang-framework-tech-stack.md): Be-Secure tech stacks to secure language and framework built on generic languages e.g. Ruby & Rails, PHP & Symphony, Python & Django, Javascript & Angular/Node etc.
 
-* [Application [A]](./bes-app-tech-stack.md) 
+* [Application [A]](./bes-app-tech-stack.md): Be-Secure tech stacks for fully function open source applications like Drupal, magneto, odoo etc. 
 
-* [Distributed & Decentralized Application [DA]](./bes-dist-decent-tech-stack.md) 
+* [Distributed & Decentralized Application [DA]](./bes-dist-decent-tech-stack.md): Be-Secure tech stacks for distributed and decentralized Distributed application, few e.g. are Blockchain frameworks like Hyperledger Indy, Hyperledger Fabric , Quorum etc. 
 
-* [Open-source Security Tool [S]](./bes-open-source-security-tool-tech-stack.md) 
+* [Open-source Security Tool [S]](./bes-open-source-security-tool-tech-stack.md): Be-Secure tech stacks for open source security tools eg. ZAP, BeEF etc. 
+
+<img src="../assets/images/tech_stack_list_image.png" alt="Tech stack image" width="900px" height="1200px">
 
 <p> Each BeSecure tech stack will be associated with two types of BeSman environments namely the Development or Provisioning environment [Dev] as well as the security testing or security sandbox environment [Sec]. </p>
 
-<h4> bes-<name>dev-env </h4>
 
-<p> This is a development environment configured for an open source project, pre-bundled with all the required tools and dependencies that would help the developer to perform their development activities </p>
+<h4> BeSecure Environment for Blue teams/Teaming </h4>
 
-<h4> bes-<name>sec-env </h4>
+<p> This is a development environment configured for an open source project, pre-bundled with all the required tools and dependencies that would help the developer to perform their development activities which includes adding new features, bug/vulnerability fixing etc. </p>
+<p>This is main area where the issue/vulnerabilities tracked by the Red team will be addressed. 
+ </p>
 
-<p> This is a security environment configured for an open source project, pre-bundled with all the required tools and dependencies that would help the security team members to perform their security testing activities. </p>
+<h4> BeSecure Environment for Red Teams/Teaming </h4>
+
+<p> This is a security environment configured for an open source project, pre-bundled with all the required tools and dependencies that would help the red team members to perform their security testing activities.</p>
+<p>Team will be identify the bugs/related vulnerabilities using various security tools installed in this environment. 
+ </p>
 
 
 
