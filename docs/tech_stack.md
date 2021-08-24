@@ -25,20 +25,21 @@ hide:
 
 * [Open-source Security Tool [S]](./bes-open-source-security-tool-tech-stack.md): Be-Secure tech stacks for open source security tools eg. ZAP, BeEF etc. 
 
+<img src="../assets/images/tech_stack_list_image.png" alt="Tech stack image" width="900px" height="1200px">
+
 <p> Each BeSecure tech stack will be associated with two types of BeSman environments namely the Development or Provisioning environment [Dev] as well as the security testing or security sandbox environment [Sec]. </p>
 
-<img src="./assets/images/tech_stack_list_image.png" alt="DO" width="400px" height="500px">
 
 <h4> BeSecure Environment for Blue teams/Teaming </h4>
 
-<p> This is a development environment configured for an open source project, pre-bundled with all the required tools and dependencies that would help the developer to perform their development activities which includes adding new features, bug/vulnerability fixing etc. <br>
-This is main area where the issue/vulnerabilities tracked by the Red team addressed. 
+<p> This is a development environment configured for an open source project, pre-bundled with all the required tools and dependencies that would help the developer to perform their development activities which includes adding new features, bug/vulnerability fixing etc. </p>
+<p>This is main area where the issue/vulnerabilities tracked by the Red team will be addressed. 
  </p>
 
 <h4> BeSecure Environment for Red Teams/Teaming </h4>
 
-<p> This is a security environment configured for an open source project, pre-bundled with all the required tools and dependencies that would help the security team members to perform their security testing activities.<br>
-Team will be identifying the bugs/related vulnerabilities using various security tools installed in this environment. 
+<p> This is a security environment configured for an open source project, pre-bundled with all the required tools and dependencies that would help the red team members to perform their security testing activities.</p>
+<p>Team will be identify the bugs/related vulnerabilities using various security tools installed in this environment. 
  </p>
 
 
