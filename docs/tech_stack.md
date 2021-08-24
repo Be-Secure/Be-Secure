@@ -19,7 +19,7 @@ hide:
 
 * [Language and framework [L&F]](./bes-lang-framework-tech-stack.md): Be-Secure tech stacks to secure language and framework built on generic languages e.g. Ruby & Rails, PHP & Symphony, Python & Django, Javascript & Angular/Node etc.
 
-* [Application [A]](./bes-app-tech-stack.md): Be-Secure tech stacks for fully function open source applications like Drupal, magneto, odoo etc. 
+* [Application [A]](./bes-app-tech-stack.md)  
 
 * [Distributed & Decentralized Application [DA]](./bes-dist-decent-tech-stack.md): Be-Secure tech stacks for distributed and decentralized Distributed application, few e.g. are Blockchain frameworks like Hyperledger Indy, Hyperledger Fabric , Quorum etc. 
 
@@ -32,15 +32,13 @@ hide:
 
 <h4> BeSecure Environment for Blue teams/Teaming </h4>
 
-<p> This is a development environment configured for an open source project, pre-bundled with all the required tools and dependencies that would help the developer to perform their development activities which includes adding new features, bug/vulnerability fixing etc. </p>
-<p>This is main area where the issue/vulnerabilities tracked by the Red team will be addressed. 
+<p> This is an environment configured for an open source project, prebundled with the required security tools and dependencies that would permit the Blue team to validate application of security patches and confirm compliance to all defined security controls. 
  </p>
 
 <h4> BeSecure Environment for Red Teams/Teaming </h4>
 
-<p> This is a security environment configured for an open source project, pre-bundled with all the required tools and dependencies that would help the red team members to perform their security testing activities.</p>
-<p>Team will be identify the bugs/related vulnerabilities using various security tools installed in this environment. 
+<p> This is an environment configured for the Red team, prebundled with the required security tools and dependencies to conduct red teaming activities on an open source project with focus on unearthing vulnerabilities and exploits to compromise the security posture of the project. 
  </p>
 
-
+The Security assessment report of the tracked project will be updated under [BeSLighthouse](https://be-secure.github.io/BeSLighthouse) project.
 
