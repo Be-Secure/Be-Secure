@@ -25,19 +25,19 @@ Each Be-Secure technology stack will be associated with atleast two types of BeS
 
 #### Be-Secure Open Source Technology stacks are –
 
-* [DevOps [DO]](./docs/bes-devops-tech-stack.md) 
+* [DevOps [DO]](./docs/bes-devops-tech-stack.md) : Be-Secure tech stacks to secure open source devops tools eg. Ansible, Puppet etc.
 <img src="docs/assets/images/devops_logo.png" alt="DO" width="200px" height="200px"> 
 
-* [Language and framework [L&F]](./docs/bes-lang-framework-tech-stack.md)  
+* [Language and framework [L&F]](./docs/bes-lang-framework-tech-stack.md): Be-Secure tech stacks to secure language and framework built on generic languages e.g. Ruby & Rails, PHP & Symphony, Python & Django, Javascript & Angular/Node etc.
 <img src="docs/assets/images/lan_logo.png" alt="L&F" width="200px" height="200px"> 
 
-* [Application [A]](./docs/bes-app-tech-stack.md) 
+* [Application [A]](./docs/bes-app-tech-stack.md) : Be-Secure tech stacks for fully function open source applications like Drupal, magneto, odoo etc.
 <img src="docs/assets/images/app_logo.png" alt="A" width="200px" height="200px"> 
 
-* [Distributed & Decentralized Application [DA]](./docs/bes-dist-decent-tech-stack.md) 
+* [Distributed & Decentralized Application [DA]](./docs/bes-dist-decent-tech-stack.md): Be-Secure tech stacks for distributed and decentralized Distributed application, few e.g. are Blockchain frameworks like Hyperledger Indy, Hyperledger Fabric , Quorum etc. 
 <img src="docs/assets/images/dist_app_logo.png" alt="DA" width="200px" height="200px"> 
 
-* [Open-source Security Tool [S]](./docs/bes-open-source-security-tool-tech-stack.md) 
+* [Open-source Security Tool [S]](./docs/bes-open-source-security-tool-tech-stack.md):  Be-Secure tech stacks for open source security tools eg. ZAP, BeEF etc. 
 <img src="docs/assets/images/sec_logo.png" alt="S" width="200px" height="200px"> 
 
 

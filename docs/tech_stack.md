@@ -19,7 +19,7 @@ hide:
 
 * [Language and framework [L&F]](./bes-lang-framework-tech-stack.md): Be-Secure tech stacks to secure language and framework built on generic languages e.g. Ruby & Rails, PHP & Symphony, Python & Django, Javascript & Angular/Node etc.
 
-* [Application [A]](./bes-app-tech-stack.md): Be-Secure tech stacks for fully function open source applications like Drupal, magneto, odoo etc. 
+* [Application [A]](./bes-app-tech-stack.md)  
 
 * [Distributed & Decentralized Application [DA]](./bes-dist-decent-tech-stack.md): Be-Secure tech stacks for distributed and decentralized Distributed application, few e.g. are Blockchain frameworks like Hyperledger Indy, Hyperledger Fabric , Quorum etc. 
 
