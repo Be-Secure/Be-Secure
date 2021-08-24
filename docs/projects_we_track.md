@@ -161,7 +161,7 @@ Ghidra is a software reverse engineering (SRE) framework created and maintained 
 
 
 <h2><b>differential-privacy</b></h2>
-<img src="../assets/images/projects-logos/differential-privacy" alt="no image"  height="100px"  width="100px" align="left"> <br>
+<!-- <img src="../assets/images/projects-logos/differential-privacy.png" alt="no image"  height="100px"  width="100px" align="left"> <br> -->
 <b>Repository tool | S </b><p>
 This repository contains libraries to generate ε- and (ε, δ)-differentially private statistics over datasets
 </p>
@@ -245,7 +245,7 @@ OSSEC is a full platform to monitor and control your systems. It mixes together 
 <p align="right"><a href="https://github.com/Be-Secure/ossec-hids"> LEARN MORE >> </a></p></p>
 
 <h2><b>Zeek</b></h2>
-<img src="../assets/images/projects-logos/zeek" alt="no image"  height="100px"  width="100px" align="left"> <br>
+<img src="../assets/images/projects-logos/zeek-logo.png" alt="no image"  height="100px"  width="100px" align="left"> <br>
 <b>Network tool | S </b><p>
 A powerful framework for network traffic analysis and security monitoring.
 </p>
