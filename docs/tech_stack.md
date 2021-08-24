@@ -25,7 +25,7 @@ hide:
 
 * [Open-source Security Tool [S]](./bes-open-source-security-tool-tech-stack.md): Be-Secure tech stacks for open source security tools eg. ZAP, BeEF etc. 
 
-<img src="../assets/images/tech_stack_list_image.png" alt="Tech stack image" width="900px" height="1200px">
+<img src="./assets/images/tech_stack_list_image.png" alt="Tech stack image" width="900px" height="1200px">
 
 <p> Each BeSecure tech stack will be associated with two types of BeSman environments namely the Development or Provisioning environment [Dev] as well as the security testing or security sandbox environment [Sec]. </p>
 
