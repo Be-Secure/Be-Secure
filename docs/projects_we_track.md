@@ -449,8 +449,6 @@ all manner of organisations and individuals.
 <p align="right"><a href="https://github.com/Be-Secure/moodle"> LEARN MORE >> </a></p></p>
 
 
-
-
 <h2><b>Odoo</b></h2>
 <img src="./assets/images/projects-logos/odoo.PNG" alt="no image"  height="100px"  width="100px" align="left"> <br>
 <b></b><p>
@@ -461,3 +459,12 @@ The main Odoo Apps include an Open Source CRM, Website Builder, eCommerce, Wareh
 Odoo Apps can be used as stand-alone applications, but they also integrate seamlessly so you get a full-featured Open Source ERP when you install several Apps.
 </p>
 <p align="right"><a href="https://github.com/Be-Secure/odoo"> LEARN MORE >> </a></p></p>
+
+
+
+<h2><b>KOB</b></h2>
+<!-- <img src="./assets/images/projects-logos/odoo.PNG" alt="no image"  height="100px"  width="100px" align="left"> <br> -->
+<b></b><p>
+KOBman , is A command line utility inspired from sdkman !! KOBMan gives you a kob command on your shell , you can use it to automate the setup of various development environments required for KOB projects
+</p>
+<p align="right"><a href="https://github.com/kobman/kobman.github.io"> LEARN MORE >> </a></p></p>
