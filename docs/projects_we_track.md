@@ -465,6 +465,6 @@ Odoo Apps can be used as stand-alone applications, but they also integrate seaml
 <h2><b>KOB</b></h2>
 <!-- <img src="./assets/images/projects-logos/odoo.PNG" alt="no image"  height="100px"  width="100px" align="left"> <br> -->
 <b></b><p>
-KOBman , is A command line utility inspired from sdkman !! KOBMan gives you a kob command on your shell , you can use it to automate the setup of various development environments required for KOB projects
+KochiOrgBook is a community initiative focused on building a digital ecosystem for the various associations in Kochi. 
 </p>
 <p align="right"><a href="https://github.com/kobman/kobman.github.io"> LEARN MORE >> </a></p></p>
