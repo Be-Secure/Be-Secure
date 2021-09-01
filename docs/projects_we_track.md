@@ -462,9 +462,9 @@ Odoo Apps can be used as stand-alone applications, but they also integrate seaml
 
 
 
-<h2><b>KOB</b></h2>
+<h2><b>KochiOrgBook (KOB)</b></h2>
 <!-- <img src="./assets/images/projects-logos/odoo.PNG" alt="no image"  height="100px"  width="100px" align="left"> <br> -->
 <b></b><p>
 KochiOrgBook is a community initiative focused on building a digital ecosystem for the various associations in Kochi. 
 </p>
-<p align="right"><a href="https://github.com/kobman/kobman.github.io"> LEARN MORE >> </a></p></p>
+<p align="right"><a href="https://thekochiorgbook.github.io/KochiOrgBook/index.html"> LEARN MORE >> </a></p></p>
