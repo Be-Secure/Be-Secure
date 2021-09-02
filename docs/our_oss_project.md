@@ -6,6 +6,10 @@ hide:
     - toc
 ---
 
+### **BeSlighthouse**
+
+Its a community dashboard for TAVOSS Components that are security assessed by the Be-Secure community.<br><br>
+[LEARN MORE >> ](https://be-secure.github.io/BeSLighthouse)
 
 ### **BeSman**
 
@@ -20,7 +24,3 @@ This project is for an easy local deployment of Be-Secure environments.<br><br>
 [LEARN MORE >> ](https://github.com/Be-Secure/oah-bes-vm)
 
 
-### **BeSlighthouse**
-
-Its a community dashboard for TAVOSS Components that are security assessed by the Be-Secure community.<br><br>
-[LEARN MORE >> ](https://be-secure.github.io/BeSLighthouse)
