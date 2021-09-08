@@ -51,6 +51,7 @@ Security assessment environments aid Developers and researchers to identify secu
 
 Be-Secure Community members can provide information and notifications about product defects, mitigations, quality, and supportability and have this information rapidly flow forward across the ecosystem system to all users, and users can rapidly update their software or implement mitigations as appropriate.
 
+<p align="right"><a href="https://be-secure.github.io/"> LEARN MORE >> </a></p></p>
 
 #### OSS Project We Track :
 

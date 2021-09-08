@@ -468,3 +468,103 @@ Odoo Apps can be used as stand-alone applications, but they also integrate seaml
 KochiOrgBook is a community initiative focused on building a digital ecosystem for the various associations in Kochi. 
 </p>
 <p align="right"><a href="https://thekochiorgbook.github.io/KochiOrgBook/index.html"> LEARN MORE >> </a></p></p>
+
+
+<h2><b>Jackhammer</b></h2>
+<img src="./assets/images/projects-logos/xxxx" alt="no image"  height="100px"  width="100px" align="left"> <br>
+<b></b><p>
+Jackhammer is a collaboration tool built with an aim of bridging the gap between Security team vs dev team, QA team and being a facilitator for TPM to understand and track the quality of the code going into production. It could do static code analysis and dynamic analysis with inbuilt vulnerability management capability. It finds security vulnerabilities in the target applications and it helps security teams to manage the chaos in this new age of continuous integration and continuous/multiple deployments.
+</p>
+<p align="right"><a href="https://github.com/Be-Secure/jackhammer"> LEARN MORE >> </a></p></p>
+
+<h2><b>Terminalizer</b></h2>
+<img src="./assets/images/projects-logos/term.PNG" alt="no image"  height="100px"  width="100px" align="left"> <br>
+<b></b><p>
+Record your terminal and generate animated gif images or share a web player link terminalizer.com
+</p>
+<p align="right"><a href="https://github.com/Be-Secure/terminalizer"> LEARN MORE >> </a></p></p>
+
+
+<h2><b>Lycan</b></h2>
+<!-- <img src="./assets/images/projects-logos/xxxx" alt="no image"  height="100px"  width="100px" align="left"> <br> -->
+<b></b><p>
+Lycan is an implementation of the OpenC2 OASIS standard for command and control messaging. The current implementation is based on the Language Specification v1.0.
+
+Given the influence of STIX/CyBoX on OpenC2, this library is heavily based on the STIX 2 Python API internals. Property validation and object extension support aligns with STIX2 conventions and OpenC2 custom properties also support stix2 properties.
+</p>
+<p align="right"><a href="https://github.com/Be-Secure/openc2-lycan-python"> LEARN MORE >> </a></p></p>
+
+
+
+<h2><b>SWIG-WX</b></h2>
+<!-- <img src="./assets/images/projects-logos/xxxx" alt="no image"  height="100px"  width="100px" align="left"> <br> -->
+<b></b><p>
+SWIG reads annotated C/C++ header files and creates wrapper code (glue
+code) in order to make the corresponding C/C++ libraries available to
+the listed languages, or to extend C/C++ programs with a scripting
+language.
+</p>
+<p align="right"><a href="https://github.com/Be-Secure/swig-wx"> LEARN MORE >> </a></p></p>
+
+
+<h2><b>Shellinabox</b></h2>
+<!-- <img src="./assets/images/projects-logos/xxxx" alt="no image"  height="100px"  width="100px" align="left"> <br> -->
+<b></b><p>
+Shell In A Box implements a web server that can export arbitrary command line tools to a web based terminal emulator. This emulator is accessible to any JavaScript and CSS enabled web browser and does not require any additional browser plugins.
+</p>
+<p align="right"><a href="https://github.com/Be-Secure/shellinabox"> LEARN MORE >> </a></p></p>
+
+
+<h2><b>Osmedeus</b></h2>
+<img src="./assets/images/projects-logos/Osmed.PNG" alt="no image"  height="100px"  width="100px" align="left"> <br>
+<b></b><p>
+Osmedeus allows you automated run the collection of awesome tools to reconnaissance and vulnerability scanning against the target.
+</p>
+<p align="right"><a href="https://github.com/Be-Secure/Osmedeus"> LEARN MORE >> </a></p></p>
+
+
+<h2><b>TKLDev</b></h2>
+<!-- <img src="./assets/images/projects-logos/xxxx" alt="no image"  height="100px"  width="100px" align="left"> <br> -->
+<b></b><p>
+TKLDev is the mother of all TurnKey apps. It's used to give birth to all TurnKey apps, including new versions of itself. It's designed to make simple things simple, and hard things possible. It's a self-contained build system that can be used to rapidly prototype and repeatably build any generic Debian-based Linux distribution or TurnKey GNU/Linux system from source.
+</p>
+<p align="right"><a href="https://github.com/Be-Secure/tkldev"> LEARN MORE >> </a></p></p>
+
+<h2><b>Patton</b></h2>
+<!-- <img src="./assets/images/projects-logos/xxxx" alt="no image"  height="100px"  width="100px" align="left"> <br> -->
+<b></b><p>
+Patton is a set of tools for helping admins and security auditors to search for vulnerabilities in software components and computer systems.
+
+Patton contains, at this moment, the tools needed to analyze vulnerabilities on Ubuntu, Debian and RHEL 8 or newer systems and we are currently working on increasing the targets to include Python dependencies.
+
+Patton is an OWASP project: https://owasp.org/www-project-patton/
+</p>
+<p align="right"><a href="https://github.com/Be-Secure/patton"> LEARN MORE >> </a></p></p>
+
+
+<h2><b>PPM - PHP Process Manager</b></h2>
+<img src="./assets/images/projects-logos/ppp.PNG" alt="no image"  height="100px"  width="100px" align="left"> <br>
+<b></b><p>
+PHP-PM is a process manager, supercharger and load balancer for PHP applications.
+
+It's based on ReactPHP and works best with applications that use request-response frameworks like Symfony's HTTPKernel. The approach of this is to kill the expensive bootstrap of PHP (declaring symbols, loading/parsing files) and the bootstrap of feature-rich frameworks. See Performance section for a quick hint. PHP-PM basically spawns several PHP instances as worker bootstraping your application (eg. the whole Symfony Kernel) and hold it in the memory to be prepared for every incoming request: This is why PHP-PM makes your application so fast.
+</p>
+<p align="right"><a href="https://github.com/Be-Secure/php-pm"> LEARN MORE >> </a></p></p>
+
+<h2><b>phpcs-security-audit</b></h2>
+<!-- <img src="./assets/images/projects-logos/xxxx" alt="no image"  height="100px"  width="100px" align="left"> <br> -->
+<b></b><p>
+phpcs-security-audit is a set of PHP_CodeSniffer rules that finds vulnerabilities and weaknesses related to security in PHP code.
+
+It currently has core PHP rules as well as Drupal 7 specific rules.
+
+The tool also checks for CVE issues and security advisories related to the CMS/framework. This enables you to follow the versioning of components during static code analysis.
+</p>
+<p align="right"><a href="https://github.com/Be-Secure/phpcs-security-audit"> LEARN MORE >> </a></p></p>
+
+<h2><b>TurnKey Core</b></h2>
+<!-- <img src="./assets/images/projects-logos/xxxx" alt="no image"  height="100px"  width="100px" align="left"> <br> -->
+<b></b><p>
+TurnKey Core is the base operating system which all TurnKey GNU/Linux solutions share in common. It is commonly deployed standalone as a convenient starting point for custom system integrations. Benefits include automatic daily security updates, 1-click backup and restore, a web control panel, and preconfigured system monitoring with optional email alerts.
+</p>
+<p align="right"><a href="https://github.com/Be-Secure/core"> LEARN MORE >> </a></p></p>
