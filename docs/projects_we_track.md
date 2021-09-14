@@ -568,3 +568,129 @@ The tool also checks for CVE issues and security advisories related to the CMS/f
 TurnKey Core is the base operating system which all TurnKey GNU/Linux solutions share in common. It is commonly deployed standalone as a convenient starting point for custom system integrations. Benefits include automatic daily security updates, 1-click backup and restore, a web control panel, and preconfigured system monitoring with optional email alerts.
 </p>
 <p align="right"><a href="https://github.com/Be-Secure/core"> LEARN MORE >> </a></p></p>
+
+
+<h2><b>deployment</b></h2>
+<!-- <img src="./assets/images/projects-logos/xxxx" alt="no image"  height="100px"  width="100px" align="left"> <br> -->
+<b></b><p>
+
+The Software Assurance Marketplace (SWAMP) is a platform for running software assurance tools on your code. It is a joint effort of four research institutions -- the Morgridge Institute for Research, Indiana University, the University of Illinois at Urbana-Champaign, and the University of Wisconsin-Madison -- to advance the capabilities and increase the adoption of software assurance technologies through an open continuous assurance facility. 
+
+
+</p>
+<p align="right"><a href="https://github.com/be-secure/deployment"> LEARN MORE >> </a></p></p>
+
+
+<h2><b>openc2-lycan-python</b></h2>
+<!-- <img src="./assets/images/projects-logos/xxxx" alt="no image"  height="100px"  width="100px" align="left"> <br> -->
+<b></b><p>
+
+Lycan is an implementation of the OpenC2 OASIS standard for command and control messaging. The current implementation is based on the Language Specification v1.0.
+
+Given the influence of STIX/CyBoX on OpenC2, this library is heavily based on the STIX 2 Python API internals. Property validation and object extension support aligns with STIX2 conventions and OpenC2 custom properties also support stix2 properties.
+
+</p>
+<p align="right"><a href="https://github.com/be-secure/openc2-lycan-python"> LEARN MORE >> </a></p></p>
+
+
+
+<h2><b>powerfulseal</b></h2>
+<!-- <img src="./assets/images/projects-logos/xxxx" alt="no image"  height="100px"  width="100px" align="left"> <br> -->
+<b></b><p>
+
+A powerful chaos engineering tool for Kubernetes clusters.
+PowerfulSeal injects failure into your Kubernetes clusters, so that you can detect problems as early as possible. It allows for writing scenarios describing complete chaos experiments.
+
+</p>
+<p align="right"><a href="https://github.com/be-secure/powerfulseal"> LEARN MORE >> </a></p></p>
+
+
+
+<h2><b>mkdocs-material</b></h2>
+<!-- <img src="./assets/images/projects-logos/xxxx" alt="no image"  height="100px"  width="100px" align="left"> <br> -->
+<b></b><p>
+
+Material for MkDocs is a theme for MkDocs, a static site generator geared towards (technical) project documentation. If you're familiar with Python, you can install Material for MkDocs with pip, the Python package manager. If not, we recommended using docker.
+
+</p>
+<p align="right"><a href="https://github.com/be-secure/mkdocs-material"> LEARN MORE >> </a></p></p>
+
+
+
+
+<h2><b>ros_comm</b></h2>
+<!-- <img src="./assets/images/projects-logos/xxxx" alt="no image"  height="100px"  width="100px" align="left"> <br> -->
+<b></b><p>
+
+ROS communications-related packages, including core client libraries (roscpp, rospy, roslisp) and graph introspection tools (rostopic, rosnode, rosservice, rosparam).
+
+</p>
+<p align="right"><a href="https://github.com/be-secure/ros_comm"> LEARN MORE >> </a></p></p>
+
+
+
+
+
+<h2><b>emacs-secondmate</b></h2>
+<!-- <img src="./assets/images/projects-logos/xxxx" alt="no image"  height="100px"  width="100px" align="left"> <br> -->
+<b></b><p>
+
+An open-source, mini imitation of GitHub Copilot using EleutherAI GPT-Neo-2.7B (via Huggingface Model Hub) for Emacs.
+
+This is a much smaller model so will likely not be as effective as Copilot, but can still be interesting to play around with!
+
+</p>
+<p align="right"><a href="https://github.com/be-secure/emacs-secondmate"> LEARN MORE >> </a></p></p>
+
+
+
+
+<h2><b>asciinema</b></h2>
+<!-- <img src="./assets/images/projects-logos/xxxx" alt="no image"  height="100px"  width="100px" align="left"> <br> -->
+<b></b><p>
+
+asciinema project is built of several complementary pieces:
+
+command-line based terminal session recorder, asciinema,
+website with an API at asciinema.org,
+javascript player
+
+When you run asciinema rec in your terminal the recording starts, capturing all output that is being printed to your terminal while you’re issuing the shell commands. When the recording finishes (by hitting Ctrl-D or typing exit) then the captured output is uploaded to asciinema.org website and prepared for playback on the web.
+</p>
+<p align="right"><a href="https://github.com/be-secure/asciinema"> LEARN MORE >> </a></p></p>
+
+
+
+<h2><b>deploy</b></h2>
+<!-- <img src="./assets/images/projects-logos/xxxx" alt="no image"  height="100px"  width="100px" align="left"> <br> -->
+<b></b><p>
+
+ansistrano.deploy and ansistrano.rollback are Ansible roles to easily manage the deployment process for scripting applications such as PHP, Python and Ruby. It's an Ansible port for Capistrano.
+
+</p>
+<p align="right"><a href="https://github.com/be-secure/deploy"> LEARN MORE >> </a></p></p>
+
+
+
+
+<h2><b>clara-copilot</b></h2>
+<!-- <img src="./assets/images/projects-logos/xxxx" alt="no image"  height="100px"  width="100px" align="left"> <br> -->
+<b></b><p>
+
+A alternative to Github Copilot for vscode until you get the access to github copilot
+
+</p>
+<p align="right"><a href="https://github.com/be-secure/clara-copilot"> LEARN MORE >> </a></p></p>
+
+
+
+<h2><b>Lockdoor-Framework</b></h2>
+<!-- <img src="./assets/images/projects-logos/xxxx" alt="no image"  height="100px"  width="100px" align="left"> <br> -->
+<b></b><p>
+
+Lockdoor Framework : A Penetration Testing framework with Cyber Security Resources
+
+</p>
+<p align="right"><a href="https://github.com/be-secure/Lockdoor-Framework"> LEARN MORE >> </a></p></p>
+
+
