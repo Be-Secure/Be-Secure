@@ -661,7 +661,7 @@ When you run asciinema rec in your terminal the recording starts, capturing all 
 
 
 
-<h2><b>deploy</b></h2>
+<h2><b>ansistrano/deploy</b></h2>
 <!-- <img src="./assets/images/projects-logos/xxxx" alt="no image"  height="100px"  width="100px" align="left"> <br> -->
 <b></b><p>
 
