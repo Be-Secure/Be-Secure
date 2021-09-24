@@ -24,3 +24,11 @@ This project is for an easy local deployment of Be-Secure environments.<br><br>
 [LEARN MORE >> ](https://github.com/Be-Secure/oah-bes-vm)
 
 
+### **oah-bes-vm**
+
+Its the project for easy local deployment of Be-Secure environments.
+
+
+### **BeSlighthouse**
+
+BeSlighthouse is a community dashboard for TAVOSS Components that are security assessed by the Be-Secure community.
