@@ -6,7 +6,6 @@ hide:
     - toc
 ---
 
-
 <h1> Be-Secure Open Source Security Tech Stacks: </h1>
 
 <p> Open source is a vast technology space. We have frequent releases, bug fixes / patches being published very frequently. It is quite a tedious and time consuming effort for an organization to keep track of all changes that happen across the open source software landscape. Hence we have categorised open source technologies into five Be-Secure Open Source security tech stacks or blue prints to help the Be-Secure community navigate through security assessment of open source projects that are part of one of these categories. </p>
@@ -19,7 +18,7 @@ hide:
 
 * [Language and framework [L&F]](./bes-lang-framework-tech-stack.md): Be-Secure tech stacks to secure language and framework built on generic languages e.g. Ruby & Rails, PHP & Symphony, Python & Django, Javascript & Angular/Node etc.
 
-* [Application [A]](./bes-app-tech-stack.md)  
+* [Application [A]](./bes-app-tech-stack.md) : Be-Secure tech stacks for fully function open source applications like Drupal, magneto, odoo etc.
 
 * [Distributed & Decentralized Application [DA]](./bes-dist-decent-tech-stack.md): Be-Secure tech stacks for distributed and decentralized Distributed application, few e.g. are Blockchain frameworks like Hyperledger Indy, Hyperledger Fabric , Quorum etc. 
 
