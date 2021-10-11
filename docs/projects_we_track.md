@@ -471,7 +471,7 @@ KochiOrgBook is a community initiative focused on building a digital ecosystem f
 
 
 <h2><b>Jackhammer</b></h2>
-<img src="./assets/images/projects-logos/xxxx" alt="no image"  height="100px"  width="100px" align="left"> <br>
+<!-- <img src="./assets/images/projects-logos/xxxx" alt="no image"  height="100px"  width="100px" align="left"> <br> -->
 <b></b><p>
 Jackhammer is a collaboration tool built with an aim of bridging the gap between Security team vs dev team, QA team and being a facilitator for TPM to understand and track the quality of the code going into production. It could do static code analysis and dynamic analysis with inbuilt vulnerability management capability. It finds security vulnerabilities in the target applications and it helps security teams to manage the chaos in this new age of continuous integration and continuous/multiple deployments.
 </p>
@@ -543,7 +543,7 @@ Patton is an OWASP project: https://owasp.org/www-project-patton/
 
 
 <h2><b>PPM - PHP Process Manager</b></h2>
-<img src="./assets/images/projects-logos/ppp.PNG" alt="no image"  height="100px"  width="100px" align="left"> <br>
+<!-- <img src="./assets/images/projects-logos/ppp.PNG" alt="no image"  height="100px"  width="100px" align="left"> <br> -->
 <b></b><p>
 PHP-PM is a process manager, supercharger and load balancer for PHP applications.
 
