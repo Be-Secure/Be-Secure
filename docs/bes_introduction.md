@@ -8,7 +8,7 @@ hide:
 
 <h1>Be-Secure</h1>
 
-<p>Its an umbrella of open source security projects, utilities tracker and maintained by the Be-Secure community with a purpose to enable internet scale opensource security by aggregating oss technology stack, and offering a cutting edge open source security tools in an efficient way.</p>
+<p>Its an umbrella of open source security projects and utilities tracker maintained by the Be-Secure community with a purpose to enable internet scale open source security by aggregating open source technology stack, and offering a cutting edge open source security tools in an efficient way.</p>
 
 <h3>Vision</h3>
 
