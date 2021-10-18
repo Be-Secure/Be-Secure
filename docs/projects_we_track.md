@@ -694,3 +694,71 @@ Lockdoor Framework : A Penetration Testing framework with Cyber Security Resourc
 <p align="right"><a href="https://github.com/be-secure/Lockdoor-Framework"> LEARN MORE >> </a></p></p>
 
 
+<h2><b>switchboard-dapp</b></h2><p>
+Switchboard dApp is a revolutionary decentralized application that allows management of identities, assets, applications, services and access controls with DIDs(Decentralised Identifiers) and VCs(Verifiable Credentials)
+</p>
+<p align="right"><a href="https://github.com/Be-Secure/switchboard-dapp"> LEARN MORE >> </a></p></p>
+
+
+<h2><b>iam-contracts </b></h2>
+<p>
+    This package consists of EVM smart contracts related to EnergyWeb IAM.
+    This is an implementation of an ENS resolver that represents a role definition. It extends the ENS Public Resolver with additional resolver profiles, specifically for the use case of issuing and verify role claims using a smart contract. In other words, this custom ENS resolver allows some properties of a role definition to be (usefully) readable by another smart contract
+</p>
+ <p align="right"><a href="https://github.com/Be-Secure/iam-contracts"> LEARN MORE >> </a></p></p>
+
+<h2><b>iam-client-lib</b></h2>
+<p>
+Identity and Access Management (IAM) Client Library:
+TypeScript library to be used within decentralized applications for authentication and authorization using DIDs (Decentralized Identifiers) and VCs (Verifiable Credentials)
+</p>
+<p align="right"><a href="https://github.com/Be-Secure/iam-client-lib"> LEARN MORE >> </a></p></p>
+
+<h2><b>passport-did-auth</b></h2>
+<p>
+    This repository consists of a Node.js Password Strategy which provides verification of the issuance of claims made regarding roles defined in an Ethereum Naming System (ENS).
+</p>
+<p align="right"><a href="https://github.com/Be-Secure/passport-did-auth"> LEARN MORE >> </a></p></p>
+
+<h2><b>meta-agl-demo</b></h2>
+<p>
+    The meta-agl-demo layer is the reference user interface layer for the DEMO platform of Automotive Grade Linux (AGL). The layer provides a reference platform and applications. The BitBake target name for the DEMO platform is agl-demo-platform, which is the full DEMO platform image.
+</p>
+<p align="right"><a href="https://github.com/Be-Secure/meta-agl-demo"> LEARN MORE >> </a></p></p>
+
+
+<h2><b>meta-agl-devel </b></h2>
+<p>
+    The meta-agl-devel layer contains components that are being tested or still in development. The layer also contains software packages that Original Equipment Manufacturers (OEMs) need but are not included in the AGL software.
+</p>
+<p align="right"><a href="https://github.com/Be-Secure/meta-agl-devel"> LEARN MORE >> </a></p></p>
+
+
+<h2><b>meta-agl</b></h2>
+<p>
+    The meta-agl layer provides the minimal set of software to boot an AGL Distribution system. You use this layer as the minimal core on which to build AGL profiles.
+    NOTE: The meta-agl layer does not include a reference UI. The reference UI is included as part of the meta-agl-demo layer.
+</p>
+<p align="right"><a href="https://github.com/Be-Secure/meta-agl"> LEARN MORE >> </a></p></p>
+
+<h2><b>iam-cache-server</b></h2>
+<p>
+    Cache server for decentralised Identity and Access Management
+</p>
+<p align="right"><a href="https://github.com/Be-Secure/iam-cache-server"> LEARN MORE >> </a></p></p>
+
+
+<h2><b>skf-labs </b></h2>
+<p>
+    Here we find all the labs and write-ups for the security knowledge framework!
+These labs are correlated to knowledge-base id's which are on their place
+again correlated to security controls such as from the ASVS or NIST, etc.
+</p>
+<p align="right"><a href="https://github.com/Be-Secure/skf-labs"> LEARN MORE >> </a></p></p>
+
+
+<h2><b>skf-flask</b></h2>
+<p>
+    The OWASP Security Knowledge Framework is an open source web application that explains secure coding principles in multiple programming languages. The goal of OWASP-SKF is to help you learn and integrate security by design in your software development and build applications that are secure by design. OWASP-SKF does this through manageable software development projects with checklists (using OWASP-ASVS/OWASP-MASVS or custom security checklists) and labs to practice security verification (using SKF-Labs, OWASP Juice-shop, and best practice code examples from SKF and the OWASP-Cheatsheets).
+</p>
+<p align="right"><a href="https://github.com/Be-Secure/skf-flask"> LEARN MORE >> </a></p></p>
