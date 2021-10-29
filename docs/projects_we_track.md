@@ -471,7 +471,6 @@ KochiOrgBook is a community initiative focused on building a digital ecosystem f
 
 
 <h2><b>Jackhammer</b></h2>
-<img src="./assets/images/projects-logos/xxxx" alt="no image"  height="100px"  width="100px" align="left"> <br>
 <b></b><p>
 Jackhammer is a collaboration tool built with an aim of bridging the gap between Security team vs dev team, QA team and being a facilitator for TPM to understand and track the quality of the code going into production. It could do static code analysis and dynamic analysis with inbuilt vulnerability management capability. It finds security vulnerabilities in the target applications and it helps security teams to manage the chaos in this new age of continuous integration and continuous/multiple deployments.
 </p>
@@ -486,7 +485,6 @@ Record your terminal and generate animated gif images or share a web player link
 
 
 <h2><b>Lycan</b></h2>
-<!-- <img src="./assets/images/projects-logos/xxxx" alt="no image"  height="100px"  width="100px" align="left"> <br> -->
 <b></b><p>
 Lycan is an implementation of the OpenC2 OASIS standard for command and control messaging. The current implementation is based on the Language Specification v1.0.
 
@@ -497,7 +495,6 @@ Given the influence of STIX/CyBoX on OpenC2, this library is heavily based on th
 
 
 <h2><b>SWIG-WX</b></h2>
-<!-- <img src="./assets/images/projects-logos/xxxx" alt="no image"  height="100px"  width="100px" align="left"> <br> -->
 <b></b><p>
 SWIG reads annotated C/C++ header files and creates wrapper code (glue
 code) in order to make the corresponding C/C++ libraries available to
@@ -508,7 +505,6 @@ language.
 
 
 <h2><b>Shellinabox</b></h2>
-<!-- <img src="./assets/images/projects-logos/xxxx" alt="no image"  height="100px"  width="100px" align="left"> <br> -->
 <b></b><p>
 Shell In A Box implements a web server that can export arbitrary command line tools to a web based terminal emulator. This emulator is accessible to any JavaScript and CSS enabled web browser and does not require any additional browser plugins.
 </p>
@@ -524,14 +520,12 @@ Osmedeus allows you automated run the collection of awesome tools to reconnaissa
 
 
 <h2><b>TKLDev</b></h2>
-<!-- <img src="./assets/images/projects-logos/xxxx" alt="no image"  height="100px"  width="100px" align="left"> <br> -->
 <b></b><p>
 TKLDev is the mother of all TurnKey apps. It's used to give birth to all TurnKey apps, including new versions of itself. It's designed to make simple things simple, and hard things possible. It's a self-contained build system that can be used to rapidly prototype and repeatably build any generic Debian-based Linux distribution or TurnKey GNU/Linux system from source.
 </p>
 <p align="right"><a href="https://github.com/Be-Secure/tkldev"> LEARN MORE >> </a></p></p>
 
 <h2><b>Patton</b></h2>
-<!-- <img src="./assets/images/projects-logos/xxxx" alt="no image"  height="100px"  width="100px" align="left"> <br> -->
 <b></b><p>
 Patton is a set of tools for helping admins and security auditors to search for vulnerabilities in software components and computer systems.
 
@@ -543,7 +537,6 @@ Patton is an OWASP project: https://owasp.org/www-project-patton/
 
 
 <h2><b>PPM - PHP Process Manager</b></h2>
-<img src="./assets/images/projects-logos/ppp.PNG" alt="no image"  height="100px"  width="100px" align="left"> <br>
 <b></b><p>
 PHP-PM is a process manager, supercharger and load balancer for PHP applications.
 
@@ -552,7 +545,6 @@ It's based on ReactPHP and works best with applications that use request-respons
 <p align="right"><a href="https://github.com/Be-Secure/php-pm"> LEARN MORE >> </a></p></p>
 
 <h2><b>phpcs-security-audit</b></h2>
-<!-- <img src="./assets/images/projects-logos/xxxx" alt="no image"  height="100px"  width="100px" align="left"> <br> -->
 <b></b><p>
 phpcs-security-audit is a set of PHP_CodeSniffer rules that finds vulnerabilities and weaknesses related to security in PHP code.
 
@@ -563,7 +555,6 @@ The tool also checks for CVE issues and security advisories related to the CMS/f
 <p align="right"><a href="https://github.com/Be-Secure/phpcs-security-audit"> LEARN MORE >> </a></p></p>
 
 <h2><b>TurnKey Core</b></h2>
-<!-- <img src="./assets/images/projects-logos/xxxx" alt="no image"  height="100px"  width="100px" align="left"> <br> -->
 <b></b><p>
 TurnKey Core is the base operating system which all TurnKey GNU/Linux solutions share in common. It is commonly deployed standalone as a convenient starting point for custom system integrations. Benefits include automatic daily security updates, 1-click backup and restore, a web control panel, and preconfigured system monitoring with optional email alerts.
 </p>
@@ -571,7 +562,6 @@ TurnKey Core is the base operating system which all TurnKey GNU/Linux solutions 
 
 
 <h2><b>deployment</b></h2>
-<!-- <img src="./assets/images/projects-logos/xxxx" alt="no image"  height="100px"  width="100px" align="left"> <br> -->
 <b></b><p>
 
 The Software Assurance Marketplace (SWAMP) is a platform for running software assurance tools on your code. It is a joint effort of four research institutions -- the Morgridge Institute for Research, Indiana University, the University of Illinois at Urbana-Champaign, and the University of Wisconsin-Madison -- to advance the capabilities and increase the adoption of software assurance technologies through an open continuous assurance facility. 
@@ -582,7 +572,6 @@ The Software Assurance Marketplace (SWAMP) is a platform for running software as
 
 
 <h2><b>openc2-lycan-python</b></h2>
-<!-- <img src="./assets/images/projects-logos/xxxx" alt="no image"  height="100px"  width="100px" align="left"> <br> -->
 <b></b><p>
 
 Lycan is an implementation of the OpenC2 OASIS standard for command and control messaging. The current implementation is based on the Language Specification v1.0.
@@ -595,7 +584,6 @@ Given the influence of STIX/CyBoX on OpenC2, this library is heavily based on th
 
 
 <h2><b>powerfulseal</b></h2>
-<!-- <img src="./assets/images/projects-logos/xxxx" alt="no image"  height="100px"  width="100px" align="left"> <br> -->
 <b></b><p>
 
 A powerful chaos engineering tool for Kubernetes clusters.
@@ -607,7 +595,6 @@ PowerfulSeal injects failure into your Kubernetes clusters, so that you can dete
 
 
 <h2><b>mkdocs-material</b></h2>
-<!-- <img src="./assets/images/projects-logos/xxxx" alt="no image"  height="100px"  width="100px" align="left"> <br> -->
 <b></b><p>
 
 Material for MkDocs is a theme for MkDocs, a static site generator geared towards (technical) project documentation. If you're familiar with Python, you can install Material for MkDocs with pip, the Python package manager. If not, we recommended using docker.
@@ -619,7 +606,6 @@ Material for MkDocs is a theme for MkDocs, a static site generator geared toward
 
 
 <h2><b>ros_comm</b></h2>
-<!-- <img src="./assets/images/projects-logos/xxxx" alt="no image"  height="100px"  width="100px" align="left"> <br> -->
 <b></b><p>
 
 ROS communications-related packages, including core client libraries (roscpp, rospy, roslisp) and graph introspection tools (rostopic, rosnode, rosservice, rosparam).
@@ -632,7 +618,6 @@ ROS communications-related packages, including core client libraries (roscpp, ro
 
 
 <h2><b>emacs-secondmate</b></h2>
-<!-- <img src="./assets/images/projects-logos/xxxx" alt="no image"  height="100px"  width="100px" align="left"> <br> -->
 <b></b><p>
 
 An open-source, mini imitation of GitHub Copilot using EleutherAI GPT-Neo-2.7B (via Huggingface Model Hub) for Emacs.
@@ -646,7 +631,6 @@ This is a much smaller model so will likely not be as effective as Copilot, but 
 
 
 <h2><b>asciinema</b></h2>
-<!-- <img src="./assets/images/projects-logos/xxxx" alt="no image"  height="100px"  width="100px" align="left"> <br> -->
 <b></b><p>
 
 asciinema project is built of several complementary pieces:
@@ -662,7 +646,6 @@ When you run asciinema rec in your terminal the recording starts, capturing all 
 
 
 <h2><b>ansistrano/deploy</b></h2>
-<!-- <img src="./assets/images/projects-logos/xxxx" alt="no image"  height="100px"  width="100px" align="left"> <br> -->
 <b></b><p>
 
 ansistrano.deploy and ansistrano.rollback are Ansible roles to easily manage the deployment process for scripting applications such as PHP, Python and Ruby. It's an Ansible port for Capistrano.
@@ -674,7 +657,6 @@ ansistrano.deploy and ansistrano.rollback are Ansible roles to easily manage the
 
 
 <h2><b>clara-copilot</b></h2>
-<!-- <img src="./assets/images/projects-logos/xxxx" alt="no image"  height="100px"  width="100px" align="left"> <br> -->
 <b></b><p>
 
 A alternative to Github Copilot for vscode until you get the access to github copilot
@@ -685,7 +667,6 @@ A alternative to Github Copilot for vscode until you get the access to github co
 
 
 <h2><b>Lockdoor-Framework</b></h2>
-<!-- <img src="./assets/images/projects-logos/xxxx" alt="no image"  height="100px"  width="100px" align="left"> <br> -->
 <b></b><p>
 
 Lockdoor Framework : A Penetration Testing framework with Cyber Security Resources
