@@ -743,3 +743,90 @@ again correlated to security controls such as from the ASVS or NIST, etc.
     The OWASP Security Knowledge Framework is an open source web application that explains secure coding principles in multiple programming languages. The goal of OWASP-SKF is to help you learn and integrate security by design in your software development and build applications that are secure by design. OWASP-SKF does this through manageable software development projects with checklists (using OWASP-ASVS/OWASP-MASVS or custom security checklists) and labs to practice security verification (using SKF-Labs, OWASP Juice-shop, and best practice code examples from SKF and the OWASP-Cheatsheets).
 </p>
 <p align="right"><a href="https://github.com/Be-Secure/skf-flask"> LEARN MORE >> </a></p></p>
+
+
+<h2><b>primeng</b></h2>
+<p>
+The Most Powerful Angular UI Component Library.
+PrimeNG is a rich set of open source native Angular UI components.
+</p>
+<p align="right"><a href="https://github.com/Be-Secure/primeng"> LEARN MORE >> </a></p></p>
+
+<h2><b>protocol-specifications</b></h2>
+<p>
+The Most Powerful Angular UI Component Library.
+PrimeNG is a rich set of open source native Angular UI components.Beckn is an open protocol that allows local businesses across any industry to be discovered and engaged by any beckn-enabled application. Beckn protocol helps businesses co-create solutions for the masses seamlessly, by combining services of any form or provider.
+
+Beckn protocol is a collection of open specifications consisting of protocol APIs, message formats, network design and reference architectures to allow any two entities to execute commercial transactions without being on the same platform.
+
+</p>
+<p align="right"><a href="https://github.com/Be-Secure/protocol-specifications"> LEARN MORE >> </a></p></p>
+
+
+
+<h2><b>DevSecOps-MaturityModel</b></h2>
+<p>
+From a startup to a multinational corporation the software development industry is currently dominated by agile frameworks and product teams and as part of it DevOps strategies. It has been observed that during the implementation, security aspects are usually neglected or are at least not sufficient taken account of. It is often the case that standard safety requirements of the production environment are not utilized or applied to the build pipeline in the continuous integration environment with containerization or concrete docker. Therefore, the docker registry is often not secured which might result in the theft of the entire company’s source code.
+
+The OWASP DevSecOps Maturity Model provides opportunities to harden DevOps strategies and shows how these can be prioritized.
+</p>
+<p align="right"><a href="https://github.com/Be-Secure/DevSecOps-MaturityModel"> LEARN MORE >> </a></p></p>
+
+
+
+<h2><b>toit</b></h2>
+<p>
+This repository contains the Toit language implementation. It is fully open source and consists of the compiler, virtual machine, and standard libraries that together enable Toit programs to run on an ESP32.
+</p>
+<p align="right"><a href="https://github.com/Be-Secure/toit"> LEARN MORE >> </a></p></p>
+
+
+
+<h2><b>conjur</b></h2>
+<p>
+A seamless open source interface to securely authenticate, control and audit non-human access across tools, applications, containers and cloud environments via robust secrets management.
+
+Conjur is designed to run in a Docker container(s), using Postgresql as the backing data store. It's easy to run both Conjur and Postgresql in Docker; see the demo directory for an example.
+</p>
+<p align="right"><a href="https://github.com/Be-Secure/conjur"> LEARN MORE >> </a></p></p>
+
+<h2><b>samm</b></h2>
+<p>
+OWASP SAMM has moved to a new organization: https://github.com/owaspsamm. There you will now find both the core model as well as all derived projects.
+</p>
+<p align="right"><a href="https://github.com/Be-Secure/samm"> LEARN MORE >> </a></p></p>
+
+
+<h2><b>windster-tailwind-dashboard</b></h2>
+<p>
+Windster is a free and open-source Tailwind CSS admin dashboard layout featuring responsive sidebar layouts, authentication pages, charts, users, products pages and hundreds of Tailwind CSS components based on the Flowbite component library such as buttons, dropdowns, navbars, modals, datepickers, and more.
+</p>
+<p align="right"><a href="https://github.com/Be-Secure/windster-tailwind-dashboard"> LEARN MORE >> </a></p></p>
+
+
+<h2><b>summon</b></h2>
+<p>
+summon is a command-line tool to make working with secrets easier.
+
+It provides an interface for
+
+Reading a secrets.yml file
+Fetching secrets from a trusted store
+Exporting secret values to a sub-process environment
+</p>
+<p align="right"><a href="https://github.com/Be-Secure/summon"> LEARN MORE >> </a></p></p>
+
+
+<h2><b>appflowy</b></h2>
+<p>
+AppFlowy is an open-source alternative to Notion. You are in charge of your data and customizations. Built with Flutter and Rust.
+</p>
+<p align="right"><a href="https://github.com/Be-Secure/appflowy"> LEARN MORE >> </a></p></p>
+
+
+<h2><b>augur</b></h2>
+<p>
+Augur is a software suite for collecting and measuring structured data about free and open-source software (FOSS) communities.
+</p>
+<p align="right"><a href="https://github.com/Be-Secure/augur"> LEARN MORE >> </a></p></p>
+
