@@ -830,3 +830,93 @@ Augur is a software suite for collecting and measuring structured data about fre
 </p>
 <p align="right"><a href="https://github.com/Be-Secure/augur"> LEARN MORE >> </a></p></p>
 
+
+<h2><b>
+Manticore
+</b></h2>
+<p>
+Manticore is a symbolic execution tool for analysis of smart contracts and binaries.
+
+Features<br>
+Program Exploration: Manticore can execute a program with symbolic inputs and explore all the possible states it can reach
+Input Generation: Manticore can automatically produce concrete inputs that result in a given program state
+Error Discovery: Manticore can detect crashes and other failure cases in binaries and smart contracts
+Instrumentation: Manticore provides fine-grained control of state exploration via event callbacks and instruction hooks
+Programmatic Interface: Manticore exposes programmatic access to its analysis engine via a Python API
+</p>
+<p align="right"><a href="https://github.com/Be-Secure/manticore"> LEARN MORE >> </a></p></p>
+
+<h2><b>Vulhub</b></h2>
+<p>
+Vulhub is an open-source collection of pre-built vulnerable docker environments. No pre-existing knowledge of docker is required, just execute two simple commands and you have a vulnerable environment.
+</p>
+<p align="right"><a href="https://github.com/Be-Secure/vulhub"> LEARN MORE >> </a></p></p>
+
+
+<h2><b>Plot</b></h2>
+<p>
+Observable Plot is a JavaScript library for exploratory data visualization.<p>
+
+Introduction<br>
+Installing<br>
+API Reference<br>
+Changelog<br>
+Contributing<br>
+</p>
+<p align="right"><a href="https://github.com/Be-Secure/plot"> LEARN MORE >> </a></p></p>
+
+
+
+<h2><b>clusterfuzz</b></h2>
+<p>
+ClusterFuzz is a scalable fuzzing infrastructure that finds security and stability issues in software.
+
+Google uses ClusterFuzz to fuzz all Google products and as the fuzzing backend for OSS-Fuzz.
+
+ClusterFuzz provides many features which help seamlessly integrate fuzzing into a software project's development process:
+</p>
+<p align="right"><a href="https://github.com/Be-Secure/clusterfuzz"> LEARN MORE >> </a></p></p>
+
+
+<h2><b>llvm-project</b></h2>
+<p>
+The LLVM project has multiple components. The core of the project is itself called "LLVM". This contains all of the tools, libraries, and header files needed to process intermediate representations and convert them into object files. Tools include an assembler, disassembler, bitcode analyzer, and bitcode optimizer. It also contains basic regression tests.
+</p>
+<p align="right"><a href="https://github.com/Be-Secure/llvm-project"> LEARN MORE >> </a></p></p>
+
+
+
+<h2><b>UTM</b></h2>
+<p>
+UTM is a full featured system emulator and virtual machine host for iOS and macOS. It is based off of QEMU. In short, it allows you to run Windows, Linux, and more on your Mac, iPhone, and iPad. 
+</p>
+<p align="right"><a href="https://github.com/Be-Secure/UTM"> LEARN MORE >> </a></p></p>
+
+
+
+<h2><b>openboxes</b></h2>
+<p>
+OpenBoxes is an Open Source Inventory and Supply Chain Management System. The initial implementation of OpenBoxes will occur at Partners In Health-supported facilities in Haiti.
+</p>
+<p align="right"><a href="https://github.com/Be-Secure/openboxes"> LEARN MORE >> </a></p></p>
+
+
+<h2><b>dkan</b></h2>
+<p>
+DKAN is an open-source open-data platform inspired by CKAN (Comprehensive Knowledge Archive Network) and built on top of the very popular Drupal CMS (Content Management System).
+</p>
+<p align="right"><a href="https://github.com/Be-Secure/dkan"> LEARN MORE >> </a></p></p>
+
+
+<h2><b>openemr</b></h2>
+<p>
+OpenEMR is a Free and Open Source electronic health records and medical practice management application. It features fully integrated electronic health records, practice management, scheduling, electronic billing, internationalization, free support, a vibrant community, and a whole lot more. It runs on Windows, Linux, Mac OS X, and many other platforms
+</p>
+<p align="right"><a href="https://github.com/Be-Secure/openemr"> LEARN MORE >> </a></p></p>
+
+
+<h2><b>php-src</b></h2>
+<p>
+PHP is a popular general-purpose scripting language that is especially suited to web development. Fast, flexible and pragmatic, PHP powers everything from your blog to the most popular websites in the world. PHP is distributed under the PHP License v3.01.
+</p>
+<p align="right"><a href="https://github.com/Be-Secure/php-src"> LEARN MORE >> </a></p></p>
