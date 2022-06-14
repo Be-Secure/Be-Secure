@@ -24,9 +24,15 @@ This project is for an easy local deployment of Be-Secure environments.<br><br>
 [LEARN MORE >> ](https://github.com/Be-Secure/oah-bes-vm)
 
 
-### **oah-bes-vm**
+### **besecure-ce-env-repo**
+This repository contains various environment scripts for Be-Secure environments.
+[LEARN MORE >> ](https://github.com/Be-Secure/besecure-ce-env-repo)
 
-Its the project for easy local deployment of Be-Secure environments.
+
+
+### **besecure-ce-playbook-repo**
+This repository contains various playbooks for Be-Secure environments operations.
+[LEARN MORE >> ](https://github.com/Be-Secure/besecure-ce-playbook-repo)
 
 
 ### **BeSlighthouse**
