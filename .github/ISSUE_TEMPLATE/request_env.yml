@@ -24,7 +24,17 @@ body:
     validations:
       required: true
 
-
+  - type: textarea
+    id: requirements
+    attributes: 
+      label: Requirements
+      description: Project requirements. Write None if no requirements necessary.
+      placeholder: |
+        1. ..
+        2. ..
+    validations:
+      required: true
+      
   - type: input
     id: version
     attributes:
