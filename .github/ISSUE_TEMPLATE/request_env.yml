@@ -1,0 +1,71 @@
+name: New BeSman Environment Request
+description: Request for adding new BeSman environment for a tool/project
+title: "bes env:<name of the tool/project>"
+labels: [bes env, triage]
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reaching out to us. Please fill out the below details. 
+        Please make sure that the title of the project is in the format - bes env:<name of the tool/project>.
+        Eg:- bes env: Fastjson
+  
+  - type: textarea
+    id: details
+    attributes:
+      label: Project details
+      description: Enter details about the project.
+      placeholder: |
+        Tell us about
+        1. What the project is 
+        2. What does it do
+        3. Key features
+    validations:
+      required: true
+
+  - type: textarea
+    id: requirements
+    attributes: 
+      label: Requirements
+      description: Project requirements. Write None if no requirements necessary.
+      placeholder: |
+        1. ..
+        2. ..
+    validations:
+      required: true
+      
+  - type: input
+    id: version
+    attributes:
+      label: Version of the project
+      placeholder: Enter the version of the project
+    validations:
+      required: true
+
+  - type: dropdown
+    id: env_type
+    attributes:
+      label: Environment Type
+      description: Type of the environment - Development/Security
+      options:
+        - Dev
+        - Sec
+    validations:
+      required: true
+  
+  - type: input
+    id: repo
+    attributes:
+      label: GitHub url to the project repository
+      placeholder: Enter the url here
+    validations:
+      required: true
+  
+  - type: textarea  
+    id: remarks
+    attributes:
+      label: Remarks
+      description: Please enter any messages you wish to convey
+    validations:
+      required: false
