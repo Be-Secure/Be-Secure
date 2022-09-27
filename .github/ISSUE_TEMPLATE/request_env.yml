@@ -1,4 +1,4 @@
-name: New BeSman Environment Request
+name: BeSman Environment Request
 description: Request for adding new BeSman environment for a tool/project
 title: "bes env:<name of the tool/project>"
 labels: [bes env, triage]
