@@ -68,3 +68,7 @@ You can [raise an issue](./raise_issue.md) once you encounter any issue with usi
 &nbsp;
 
 If you are interested in resolving identified issues with the known list of BeSman environments or BeSman utility, you can [raise a pull request](./raise_pull_request.md) with the required fixes. We value your contributions.
+
+### Request BeSman environment.
+
+Please use this [link](https://github.com/Be-Secure/Be-Secure/issues/new?assignees=&labels=bes+env%2Ctriage&template=request_env.yml&title=bes+env%3A%3Cname+of+the+tool%2Fproject%3E) to request Be-Secure community for developing an environment for a project/tool 
