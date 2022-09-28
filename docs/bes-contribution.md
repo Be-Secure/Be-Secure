@@ -1,6 +1,6 @@
 ---
 template: main.html
-title: How to Contribute
+title: How to contribute
 hide: 
     - navigation
     - toc
@@ -52,7 +52,7 @@ People *love* thorough bug reports.
 
 
 ### Use a Consistent Coding Style
-You must follow the coding standard described in the [Be-Secure review Checklist](./checklist.md).
+You must follow the coding standard described in the [Be-Secure review Checklist](./bes-checklist.md).
 
 
 ### Developers View
@@ -71,4 +71,16 @@ If you are interested in resolving identified issues with the known list of BeSm
 
 ### Request BeSman environment.
 
-Please use this [link](https://github.com/Be-Secure/Be-Secure/issues/new?assignees=&labels=bes+env%2Ctriage&template=request_env.yml&title=bes+env%3A%3Cname+of+the+tool%2Fproject%3E) to request Be-Secure community for developing an environment for a project/tool 
+Please use this [link](https://github.com/Be-Secure/Be-Secure/issues/new?assignees=&labels=bes+env%2Ctriage&template=request_env.yml&title=bes+env%3A%3Cname+of+the+tool%2Fproject%3E) to request Be-Secure community for developing an environment for a project/tool
+
+### License
+
+Be-Secure Project is [Apache 2.0](https://en.wikipedia.org/wiki/Apache_License#:~:text=The%20Apache%20License%20is%20a,license%2C%20without%20concern%20for%20royalties) licensed. In short, when you submit code changes, your submissions are understood to be under the same Apache License 2.0 that covers the project. Feel free to contact the maintainers if that is a concern.
+
+By contributing, please ensure that you accept the [Developer’s Certificate Origin](https://github.com/apps/dco) that will be available as part of your pull request.
+
+
+#### FAQs
+
+Click here for [FAQs](./bes-faq.md)
+
