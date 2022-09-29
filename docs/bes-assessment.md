@@ -30,7 +30,7 @@ hide:
 
 
 
-# Be-Secure Lab - An Open Source Security Lab 
+# BeS Lab - An Open Source Security Lab 
 
 The lab is designed to deliver enterprise grade trusted and verified open source software (TAVOSS) and customized open source security services.
 
@@ -49,12 +49,6 @@ Objective of Open Source Security Lab:
 For easy consumption by any open source community member/ open source security specialist to conduct security assessment activities. The lab services will be hosted on the resources owned by the security specialist.
 
 ![lib](./assets/images/Bes_LiB.png)
-
-### 1. Open Source Security Lab as a Service (O31E)
-
-For organization to consume the capabilities of a lab to secure their open source assets. In O31E the services will be hosted on dedicated instances.
-
-![o31e](./assets/images/Bes_O31E.png)
 
 
 
