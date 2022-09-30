@@ -29,7 +29,7 @@ ____________________________________
 
 The contributor merges the isolated code change pull request to the local branch created specifically for this code review.
 and tests out the functionalty,do a thorough review based on the [checklist provided by the team Be-Secure](./bes-checklist.md). Once the the contributor feels like the code is functional , and it satisfies the checklist
-they should provide a LGTM approval in the hyperledgerkochi/KOBman's [pull section](https://github.com/Be-Secure/Be-Secure/pulls) . Only then the code gets merged to Be-Secure's github [master repository](https://github.com/Be-Secure/Be-Secure).
+they should provide a LGTM approval in the Be-Secure [pull section](https://github.com/Be-Secure/Be-Secure/pulls) . Only then the code gets merged to Be-Secure's github [master repository](https://github.com/Be-Secure/Be-Secure).
 
 A code reviewer is recommeded to follow the listed steps , before providing LGTM approval. 
 
