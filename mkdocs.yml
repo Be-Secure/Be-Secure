@@ -143,11 +143,11 @@ markdown_extensions:
 # Page tree
 nav:
   - Home: index.md
-  - About: bes_introduction.md
-  - Tech stack: tech_stack.md
-  - Tracked OSS projects: projects_we_track.md
-  - Our OSS projects: our_oss_project.md
-  - Security Assessment: assessment.md
-  - Contribute: contribute.md
+  - About: bes-introduction.md
+  - Tech stack: bes-tech_stack.md
+  - Tracked OSS projects: bes-projects_we_track.md
+  - Our OSS projects: bes-our_oss_project.md
+  - Security Assessment: bes-assessment.md
+  - Contribute: bes-contribution.md
 
   
