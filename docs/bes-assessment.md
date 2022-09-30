@@ -44,7 +44,7 @@ Objective of Open Source Security Lab:
 
 ## Provisioning of Open Source Security Lab
 
-### 1. Lab in a Box (LiB)
+### Lab in a Box (LiB)
 
 For easy consumption by any open source community member/ open source security specialist to conduct security assessment activities. The lab services will be hosted on the resources owned by the security specialist.
 

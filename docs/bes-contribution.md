@@ -67,7 +67,7 @@ You can set up BeSman utility by following the steps mentioned in the [Readme fi
 You can [raise an issue](./bes-raise_issue.md) once you encounter any issue with using available Besman environment scripts or using BeSman utility, we will be glad to help address the issue for you.
 &nbsp;
 
-If you are interested in resolving identified issues with the known list of BeSman environments or BeSman utility, you can [raise a pull request](./raise_pull_request.md) with the required fixes. We value your contributions.
+If you are interested in resolving identified issues with the known list of BeSman environments or BeSman utility, you can [raise a pull request](./bes-raise_pull_request.md) with the required fixes. We value your contributions.
 
 ### Request BeSman environment.
 
