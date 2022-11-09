@@ -6,7 +6,7 @@
 
 It is recommended to create a new branch in developer's local github repository for working on new code changes/features .
 Once developer's code change has completed the developer should make a pull request to any other [contributor's](https://github.com/Be-secure/be-secure/network/members) 
-recommended branch to testing the code out based on the [checklist](./checklist.md) . 
+recommended branch to testing the code out based on the [checklist](./bes-checklist.md) . 
 
 A developer is recommeded to follow the listed steps , for successful merge of their code pull requests. 
 
@@ -28,8 +28,8 @@ ____________________________________
 ### Pull request from code reviewer's point of view
 
 The contributor merges the isolated code change pull request to the local branch created specifically for this code review.
-and tests out the functionalty,do a thorough review based on the [checklist provided by the team Be-Secure](./checklist.md). Once the the contributor feels like the code is functional , and it satisfies the checklist
-they should provide a LGTM approval in the hyperledgerkochi/KOBman's [pull section](https://github.com/Be-Secure/Be-Secure/pulls) . Only then the code gets merged to Be-Secure's github [master repository](https://github.com/Be-Secure/Be-Secure).
+and tests out the functionalty,do a thorough review based on the [checklist provided by the team Be-Secure](./bes-checklist.md). Once the the contributor feels like the code is functional , and it satisfies the checklist
+they should provide a LGTM approval in the Be-Secure [pull section](https://github.com/Be-Secure/Be-Secure/pulls) . Only then the code gets merged to Be-Secure's github [master repository](https://github.com/Be-Secure/Be-Secure).
 
 A code reviewer is recommeded to follow the listed steps , before providing LGTM approval. 
 
@@ -37,7 +37,7 @@ A code reviewer is recommeded to follow the listed steps , before providing LGTM
 
 **step 3:** Once merged need to test it out by releasing a local version and install/test kob utility from the code reviewers local system.
 
-**step 4:** If the functionality is working as expected , do thorough code review based on [checklist ](./checklist.md)
+**step 4:** If the functionality is working as expected , do thorough code review based on [checklist ](./bes-checklist.md)
 
 **step 5:** Finally if the code passes the checklist , give a LGTM approval 
 
