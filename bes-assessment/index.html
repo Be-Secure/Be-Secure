@@ -16,7 +16,7 @@
     
     
       
-        <title>Issue template - Be-Secure</title>
+        <title>Security Assessment (Community Edition) - Be-Secure</title>
       
     
     
@@ -67,7 +67,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#issue-template" class="md-skip">
+        <a href="#be-secure-seven-stage-security-assessment" class="md-skip">
           Skip to content
         </a>
       
@@ -106,7 +106,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Issue template
+              Security Assessment (Community Edition)
             
           </span>
         </div>
@@ -211,7 +211,7 @@
 
 
   <li class="md-tabs__item">
-    <a href="../bes_introduction/" class="md-tabs__link">
+    <a href="../bes-introduction/" class="md-tabs__link">
       About
     </a>
   </li>
@@ -223,7 +223,7 @@
 
 
   <li class="md-tabs__item">
-    <a href="../tech_stack/" class="md-tabs__link">
+    <a href="../bes-tech_stack/" class="md-tabs__link">
       Tech stack
     </a>
   </li>
@@ -235,7 +235,7 @@
 
 
   <li class="md-tabs__item">
-    <a href="../projects_we_track/" class="md-tabs__link">
+    <a href="../bes-projects_we_track/" class="md-tabs__link">
       Tracked OSS projects
     </a>
   </li>
@@ -247,7 +247,7 @@
 
 
   <li class="md-tabs__item">
-    <a href="../our_oss_project/" class="md-tabs__link">
+    <a href="../bes-our_oss_project/" class="md-tabs__link">
       Our OSS projects
     </a>
   </li>
@@ -256,10 +256,12 @@
         
   
   
+    
+  
 
 
   <li class="md-tabs__item">
-    <a href="../assessment/" class="md-tabs__link">
+    <a href="./" class="md-tabs__link md-tabs__link--active">
       Security Assessment
     </a>
   </li>
@@ -271,7 +273,7 @@
 
 
   <li class="md-tabs__item">
-    <a href="../contribute/" class="md-tabs__link">
+    <a href="../bes-contribution/" class="md-tabs__link">
       Contribute
     </a>
   </li>
@@ -287,7 +289,9 @@
           
             
               
-              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" hidden>
                 <div class="md-sidebar__scrollwrap">
                   <div class="md-sidebar__inner">
                     
@@ -353,7 +357,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../bes_introduction/" class="md-nav__link">
+      <a href="../bes-introduction/" class="md-nav__link">
         About
       </a>
     </li>
@@ -368,7 +372,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../tech_stack/" class="md-nav__link">
+      <a href="../bes-tech_stack/" class="md-nav__link">
         Tech stack
       </a>
     </li>
@@ -383,7 +387,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../projects_we_track/" class="md-nav__link">
+      <a href="../bes-projects_we_track/" class="md-nav__link">
         Tracked OSS projects
       </a>
     </li>
@@ -398,7 +402,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../our_oss_project/" class="md-nav__link">
+      <a href="../bes-our_oss_project/" class="md-nav__link">
         Our OSS projects
       </a>
     </li>
@@ -411,11 +415,21 @@
 
   
   
+    
   
-    <li class="md-nav__item">
-      <a href="../assessment/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         Security Assessment
       </a>
+      
     </li>
   
 
@@ -428,7 +442,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../contribute/" class="md-nav__link">
+      <a href="../bes-contribution/" class="md-nav__link">
         Contribute
       </a>
     </li>
@@ -443,7 +457,9 @@
             
             
               
-              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" hidden>
                 <div class="md-sidebar__scrollwrap">
                   <div class="md-sidebar__inner">
                     
@@ -451,21 +467,8 @@
   
   
   
+    
   
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#issue-template" class="md-nav__link">
-    Issue Template
-  </a>
-  
-</li>
-      
-    </ul>
   
 </nav>
                   </div>
@@ -478,21 +481,49 @@
               
                 
                 
-                  <h1>Issue template</h1>
+                <h1 id="be-secure-seven-stage-security-assessment">Be-Secure seven stage security assessment</h1>
+<p>This section describes the seven stages of Be-Secure CE security assessment to enhance the security posture of open source projects / open source tech stacks. </p>
+<p><img alt="Security assessment" src="../assets/images/Enhance_BeSman.png" /></p>
+<p>Once we receive a request from the community member / user of Be-Secure project to assess an open source tech stack, we will fork the respective open source project into Be-Secure namespace. Then we will commence with our seven stage security assessment as listed below - </p>
+<ol>
+<li>
+<p>First stage: Identification of the blueprint for BeSman environment using the details on the open source tech stack that has been shared. </p>
+</li>
+<li>
+<p>Second stage: If a suitable blueprint doesn’t exist, build a new BeSman environment. This will be the base environment to perform development activities for the shared open source tech stack. </p>
+</li>
+<li>
+<p>Third stage: Build the security testing environment/sandbox that can be utilized for conducting security testing for the specific open source tech stack. </p>
+</li>
+<li>
+<p>Fourth stage: Conduct security assessment and identify the vulnerabilities in it. This vulnerability information will be published. </p>
+</li>
+<li>
+<p>Fifth stage: Identify and develop security patches for the identified vulnerabilities. </p>
+</li>
+<li>
+<p>Sixth stage: Upgrade the respective BeSman environments with the confirmed new security patches to strengthen their security posture. Publish the upgraded BeSman environments for active consumption </p>
+</li>
+<li>
+<p>Seventh stage: For an existing BeSman environment, the focus is on identifying the latest security vulnerabilities and mapping it to the respective environment. This is a continuous activity that is focused on enhancing the security posture of BeSman environments to address the latest identified vulnerabilities. </p>
+</li>
+</ol>
+<h1 id="bes-lab-an-open-source-security-lab">BeS Lab - An Open Source Security Lab</h1>
+<p>The lab is designed to deliver enterprise grade trusted and verified open source software (TAVOSS) and customized open source security services.</p>
+<p>Objective of Open Source Security Lab:</p>
+<ol>
+<li>Perform open source and security compliance checks.</li>
+<li>Generate Trusted And Verified Open Source Software (TAVOSS) components.</li>
+<li>Customizing security environments for performing security testing activities.</li>
+<li>Generating security assets to perform open source security testing in an efficient manner.</li>
+<li>Perform continuous fuzzing of onboarded projects to identify and publish inherent vulnerabilities.</li>
+</ol>
+<h2 id="provisioning-of-open-source-security-lab">Provisioning of Open Source Security Lab</h2>
+<h3 id="lab-in-a-box-lib">Lab in a Box (LiB)</h3>
+<p>For easy consumption by any open source community member/ open source security specialist to conduct security assessment activities. The lab services will be hosted on the resources owned by the security specialist.</p>
+<p><img alt="lib" src="../assets/images/Bes_LiB.png" /></p>
                 
-                <h3 id="issue-template">Issue Template</h3>
-<p>We regret for the issue that you are facing, Thanks for helping us by raising an issue so that we can improve ourself to do the best.
-Mark one of the issues given below with respect to the issue you are facing with:</p>
-<ul>
-<li>[ ] Issue facing with installation or setup of BeSman utility. </li>
-<li>[ ] Issue facing while running an environment.</li>
-<li>[ ] Issue facing while adding a new environment or new file.</li>
-<li>[ ] Other issues: please provide the issue in the comment box</li>
-</ul>
-<hr />
-<p><strong>Please explain the Issue / Feature Request here:</strong></p>
-<hr />
-<p><strong>Please provide the necessary screenshots or documents regarding the issue:</strong></p>
+                  
                 
               
               
@@ -513,6 +544,41 @@ Mark one of the issues given below with respect to the issue you are facing with
       
         
 <footer class="md-footer">
+  
+    <nav class="md-footer__inner md-grid" aria-label="Footer">
+      
+        
+        <a href="../bes-our_oss_project/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Our OSS projects" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              Our OSS projects
+            </div>
+          </div>
+        </a>
+      
+      
+        
+        <a href="../bes-contribution/" class="md-footer__link md-footer__link--next" aria-label="Next: Contribute" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              Contribute
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
   
   <div class="md-footer-meta md-typeset">
     <div class="md-footer-meta__inner md-grid">

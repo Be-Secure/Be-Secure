@@ -16,7 +16,7 @@
     
     
       
-        <title>Security Assessment (Community Edition) - Be-Secure</title>
+        <title>Bes checklist - Be-Secure</title>
       
     
     
@@ -101,7 +101,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Security Assessment (Community Edition)
+              Bes checklist
             
           </span>
         </div>
@@ -206,7 +206,7 @@
 
 
   <li class="md-tabs__item">
-    <a href="../bes_introduction/" class="md-tabs__link">
+    <a href="../bes-introduction/" class="md-tabs__link">
       About
     </a>
   </li>
@@ -218,7 +218,7 @@
 
 
   <li class="md-tabs__item">
-    <a href="../tech_stack/" class="md-tabs__link">
+    <a href="../bes-tech_stack/" class="md-tabs__link">
       Tech stack
     </a>
   </li>
@@ -230,7 +230,7 @@
 
 
   <li class="md-tabs__item">
-    <a href="../projects_we_track/" class="md-tabs__link">
+    <a href="../bes-projects_we_track/" class="md-tabs__link">
       Tracked OSS projects
     </a>
   </li>
@@ -242,7 +242,7 @@
 
 
   <li class="md-tabs__item">
-    <a href="../our_oss_project/" class="md-tabs__link">
+    <a href="../bes-our_oss_project/" class="md-tabs__link">
       Our OSS projects
     </a>
   </li>
@@ -251,12 +251,10 @@
         
   
   
-    
-  
 
 
   <li class="md-tabs__item">
-    <a href="./" class="md-tabs__link md-tabs__link--active">
+    <a href="../bes-assessment/" class="md-tabs__link">
       Security Assessment
     </a>
   </li>
@@ -268,7 +266,7 @@
 
 
   <li class="md-tabs__item">
-    <a href="../contribute/" class="md-tabs__link">
+    <a href="../bes-contribution/" class="md-tabs__link">
       Contribute
     </a>
   </li>
@@ -284,9 +282,7 @@
           
             
               
-                
-              
-              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" hidden>
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
                 <div class="md-sidebar__scrollwrap">
                   <div class="md-sidebar__inner">
                     
@@ -352,7 +348,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../bes_introduction/" class="md-nav__link">
+      <a href="../bes-introduction/" class="md-nav__link">
         About
       </a>
     </li>
@@ -367,7 +363,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../tech_stack/" class="md-nav__link">
+      <a href="../bes-tech_stack/" class="md-nav__link">
         Tech stack
       </a>
     </li>
@@ -382,7 +378,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../projects_we_track/" class="md-nav__link">
+      <a href="../bes-projects_we_track/" class="md-nav__link">
         Tracked OSS projects
       </a>
     </li>
@@ -397,7 +393,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../our_oss_project/" class="md-nav__link">
+      <a href="../bes-our_oss_project/" class="md-nav__link">
         Our OSS projects
       </a>
     </li>
@@ -410,19 +406,11 @@
 
   
   
-    
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-      
-      
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../bes-assessment/" class="md-nav__link">
         Security Assessment
       </a>
-      
     </li>
   
 
@@ -435,7 +423,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../contribute/" class="md-nav__link">
+      <a href="../bes-contribution/" class="md-nav__link">
         Contribute
       </a>
     </li>
@@ -455,30 +443,126 @@
               
                 
                 
-                <h1> Be-Secure seven stage security assessment </h1>
-
-<p> This section describes the seven stages of Be-Secure CE security assessment to enhance the security posture of open source projects / open source tech stacks. </p>
-
-<p><img alt="Security assessment" src="../assets/images/Enhance_BeSman.png" /></p>
-<p> Once we receive a request from the community member / user of Be-Secure project to assess an open source tech stack, we will fork the respective open source project into Be-Secure namespace. Then we will commence with our seven stage security assessment as listed below - </p>
-
-<ul>
-
-<li> First stage: Identification of the blueprint for BeSman environment using the details on the open source tech stack that has been shared. </li>
-
-<li> Second stage: If a suitable blueprint doesn’t exist, build a new BeSman environment. This will be the base environment to perform development activities for the shared open source tech stack. </li>
-
-<li> Third stage: Build the security testing environment/sandbox that can be utilized for conducting security testing for the specific open source tech stack. </li>
-
-<li> Fourth stage: Conduct security assessment and identify the vulnerabilities in it. This vulnerability information will be published. </li>
-
-<li> Fifth stage: Identify and develop security patches for the identified vulnerabilities. </li>
-
-<li> Sixth stage: Upgrade the respective BeSman environments with the confirmed new security patches to strengthen their security posture. Publish the upgraded BeSman environments for active consumption </li>
-
-<li> Seventh stage: For an existing BeSman environment, the focus is on identifying the latest security vulnerabilities and mapping it to the respective environment. This is a continuous activity that is focused on enhancing the security posture of BeSman environments to address the latest identified vulnerabilities. </li>
+                  <h1>Bes checklist</h1>
                 
-                  
+                <table>
+<thead>
+<tr>
+<th align="center"><ins> Sl.No <ins></th>
+<th><ins> Checkpoints <ins></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><strong>A</strong></td>
+<td><p align=center><strong>Naming Convention</strong></p></td>
+</tr>
+<tr>
+<td align="center">A.1</td>
+<td>All Command files will have a prefix besman-XXXX.sh and  XXXX must be the command name</td>
+</tr>
+<tr>
+<td align="center">A.2</td>
+<td>All Environment files will have a prefix besman-XXXXX.sh and XXXXX  must be the environment name</td>
+</tr>
+<tr>
+<td align="center">A.3</td>
+<td>All Internal besman functions that will be called in other bes scripts must begin with __bes</td>
+</tr>
+<tr>
+<td align="center">A.4</td>
+<td>All function names should have meaningful names which denote what they are intended to do</td>
+</tr>
+<tr>
+<td align="center"><a href="#">A.5</a></td>
+<td>All besman  environment scripts should have standard set of functions included in them and follow the following naming convention <br> <br>__bes_XXXX_YYYY() function  where XXXX is the corresponding command and YYYY is the environment name <br> <br> For example, if the environment name is "yyyy", then the corresponding commands would look like:- <br> <br> __besman_install_yyyy() <br> __besman_uninstall_yyyy() <br> __besman_update_yyyy() <br> __besman_upgrade_yyyy() <br> __besman_validate_yyyy() <br> __besman_start_yyyy() <br> __besman_stop_yyyy()</td>
+</tr>
+<tr>
+<td align="center"><strong>B</strong></td>
+<td><p align=center><strong>Variable definition &amp; Scoping</strong></p></td>
+</tr>
+<tr>
+<td align="center">B.1</td>
+<td>All environment variables should be in caps (eg besman_VERSION)</td>
+</tr>
+<tr>
+<td align="center">B.2</td>
+<td>All export variables used in a script should be initiatlized in besman-init.sh</td>
+</tr>
+<tr>
+<td align="center">B.3</td>
+<td>The environment variables should be invoked using export (in the beginning of the script) if they are intended to be used as is in the script</td>
+</tr>
+<tr>
+<td align="center">B.4</td>
+<td>All local variables should be in small letters (eg argument(1))</td>
+</tr>
+<tr>
+<td align="center">B.5</td>
+<td>The scope of local variables newly introduced should be confined to the functions they are defined in or within the script they have been defined</td>
+</tr>
+<tr>
+<td align="center">B.6</td>
+<td>Any variable defined in a script which is to be reused in another script should be defined as Environment Variable</td>
+</tr>
+<tr>
+<td align="center"><strong>C</strong></td>
+<td><p align=center><strong>Function Usage</strong></p></td>
+</tr>
+<tr>
+<td align="center">C.1</td>
+<td>__besman_echo function should be used instead of echo to display messages in the script</td>
+</tr>
+<tr>
+<td align="center">C.2</td>
+<td>__besman_echo_debug function should be used to display specific error message in the script</td>
+</tr>
+<tr>
+<td align="center">C.3</td>
+<td>Functions to return -1 if they encounter any error during execution or don't satisfy the condition being validated or processed</td>
+</tr>
+<tr>
+<td align="center">C.4</td>
+<td>Return code from function execution other than 0 to be processed for exiting from script</td>
+</tr>
+<tr>
+<td align="center"><strong>D</strong></td>
+<td><p align=center><strong>Test Scripts</strong></p></td>
+</tr>
+<tr>
+<td align="center">D.1</td>
+<td>All command scripts should have their correspondiing test scripts available for verification purpose and be made available along with code changes during code submission</td>
+</tr>
+<tr>
+<td align="center">D.2</td>
+<td>All environment scripts should have their corresponding test scripts available for verification purpose and be made available along with code changes during code submission</td>
+</tr>
+<tr>
+<td align="center">D.3</td>
+<td>All test scripts should have the following standard set of functions included in them :– <br> <strong>test_bes_init() <br> </strong> test_bes_execute() <br> <strong> test_bes_validate() <br> </strong> test_bes_cleanup() <br> __ test_bes_run()</td>
+</tr>
+<tr>
+<td align="center"><strong>E</strong></td>
+<td><p align=center><strong>Raising Pull Request</strong></p></td>
+</tr>
+<tr>
+<td align="center">E.1</td>
+<td>Pull request should be raised only after the code has been tested in the local environment by the developer, code reviewed &amp; feedback comments closed by the developer</td>
+</tr>
+<tr>
+<td align="center">E.2</td>
+<td>Code reviewers should raise pull request against the developer's repository to share feedback comments</td>
+</tr>
+<tr>
+<td align="center">E.3</td>
+<td>Proper comments should be given explaining the changes in the code at a high level while raising the pull request</td>
+</tr>
+<tr>
+<td align="center">E.4</td>
+<td>Verify if code can be optimized further - <br> * Remove indented if else loops with appropriate case statements <br> * Group lines of code into a function (if they are intended to achieve a specific objective) <br> * Reuse of existing defined functions than creating newer functions</td>
+</tr>
+</tbody>
+</table>
                 
               
               
@@ -499,41 +583,6 @@
       
         
 <footer class="md-footer">
-  
-    <nav class="md-footer__inner md-grid" aria-label="Footer">
-      
-        
-        <a href="../our_oss_project/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Our OSS projects" rel="prev">
-          <div class="md-footer__button md-icon">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
-          </div>
-          <div class="md-footer__title">
-            <div class="md-ellipsis">
-              <span class="md-footer__direction">
-                Previous
-              </span>
-              Our OSS projects
-            </div>
-          </div>
-        </a>
-      
-      
-        
-        <a href="../contribute/" class="md-footer__link md-footer__link--next" aria-label="Next: Contribute" rel="next">
-          <div class="md-footer__title">
-            <div class="md-ellipsis">
-              <span class="md-footer__direction">
-                Next
-              </span>
-              Contribute
-            </div>
-          </div>
-          <div class="md-footer__button md-icon">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
-          </div>
-        </a>
-      
-    </nav>
   
   <div class="md-footer-meta md-typeset">
     <div class="md-footer-meta__inner md-grid">
