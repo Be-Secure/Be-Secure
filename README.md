@@ -1,6 +1,13 @@
-## Be-Secure
+## Be-Secure (BeS)
 
-Be Secure is an umbrella of open source security project.
+Developed by open source security specialists, Be-Secure is an ecosystem project for the open source security community. Among the tools included in the suite are open source security tools, sandbox environments for security assessments, as well as custom utilities written for the open source security community. Security assessment capabilities are provided by the platform through the aggregation of various open source security assessment services and utilities.
+
+Be-Secure is an open-source project that is led by the Be-Secure Community. This community is transforming next generation Application security threat models and security assessment playbooks into global commons. Anyone can access these threat models and security assessment playbooks and participate in their development, transforming them from an enterprise asset to a global commons.
+
+Unlike other offensive security environments which bundle in hundreds of tools all into a single environment for red teaming or blue teaming, the focus of creating the BeS environment is to make each security testing environment recyclable with minimal memory footprint and simple to execute with minimal script or parameter modification.
+
+BeS environments will include cherry-picked open source tools that have been tried and tested, as well as playbooks for performing security assessments.
+
 
 #### Why Be-Secure
 
@@ -9,6 +16,8 @@ Open source is the way forward to develop new capabilities through collaboration
 #### Who is Be-Secure for –
 
 Organisations, open source developers, security researchers, auditors, and regulators can all benefit from Be-Secure.
+
+The Be-Secure Community encourages security specialists to participate in scripting of various threat models and creating security assessment playbooks while experimenting with custom tools and security testing environments.
 
 
 #### TAVOSS 
