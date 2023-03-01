@@ -64,7 +64,7 @@ Be-Secure Community members can provide information and notifications about prod
 
 #### OSS Project We Track :
 
-[open source security assessement done By Be-secure Community](./docs/projects_we_track.md)
+Click [here](https://be-secure.github.io/BeSLighthouse/projectOfInterest/) to view the list of projects we track.
 
 #### OSS Project We Contribute :
 
