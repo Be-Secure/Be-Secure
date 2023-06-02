@@ -5,8 +5,8 @@ on:
     branches:
       - main
     paths:
-      - docs/**
-      - bes_theme/**
+      - docs/
+      - bes_theme/
 jobs:
   deploy:
     runs-on: ubuntu-latest
