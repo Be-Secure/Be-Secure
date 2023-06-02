@@ -9,7 +9,6 @@ hide:
 
 BeSman is a command-line utility to provision customized environments for each open source projects.
 
-
 ## Environments
 
 We have two types of BeSman environments – **Red Team(RT)** and **Blue Team(BT)**.
