@@ -7,7 +7,7 @@ hide:
 
 ## What is BeSman?
 
-BeSman is a command-line utility to provision customized environments for each open source projects. 
+BeSman is a command-line utility to provision customized environments for each open source projects.
 
 ## Environments
 
