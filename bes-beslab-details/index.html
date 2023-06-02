@@ -16,7 +16,7 @@
     
     
       
-        <title>Licence - Be-Secure</title>
+        <title>BeSLab - Be-Secure</title>
       
     
     
@@ -66,6 +66,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#what-is-beslab" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -101,7 +106,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Licence
+              BeSLab
             
           </span>
         </div>
@@ -439,16 +444,122 @@
               </div>
             
             
+              
+                
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#what-is-beslab" class="md-nav__link">
+    What is BesLab?
+  </a>
+  
+    <nav class="md-nav" aria-label="What is BesLab?">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#we-have-developed-a-cli-tool-named-bliman-that-uses-a-genesisyaml-to-bring-in-beslab-usling-bliman" class="md-nav__link">
+    We have developed a CLI tool named BLIman that uses a Genesis.yaml to bring in BeSlab usling `BLIman.
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#what-is-bliman" class="md-nav__link">
+    What is BLIman?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#what-is-a-genesis-file" class="md-nav__link">
+    What is a Genesis file ?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#various-way-to-install-beslab-using-bliman" class="md-nav__link">
+    Various way to install BeSLab using BLIman
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#features" class="md-nav__link">
+    Features
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#how-to-use" class="md-nav__link">
+    How to use ?
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
           
           <div class="md-content" data-md-component="content">
             <article class="md-content__inner md-typeset">
               
                 
                 
-                  <h1>Licence</h1>
+                  <h1>BeSLab</h1>
                 
-                <p>Be-Secure Project is <a href="https://en.wikipedia.org/wiki/Apache_License#:~:text=The%20Apache%20License%20is%20a,license%2C%20without%20concern%20for%20royalties">Apache 2.0</a> licensed. In short, when you submit code changes, your submissions are understood to be under the same Apache License 2.0 that covers the project. Feel free to contact the maintainers if that is a concern.</p>
-<p>By contributing, please ensure that you accept the <a href="https://github.com/apps/dco">Developer’s Certificate Origin</a> that will be available as part of your pull request.</p>
+                <h2 id="what-is-beslab">What is BesLab?</h2>
+<p>BeSLab is an open source security lab dedicated to fortifying open source projects against potential vulnerabilities. Designed to operate efficiently even in low-resource settings, BeSLab provides a comprehensive solution that grants complete control and transparency to application security and security operations teams. Additionally, it serves as a valuable resource for security researchers by streamlining the process of bringing open source projects under scrutiny and significantly reducing remediation time.</p>
+<p>With BeSLab, security professionals can leverage its suite of tools and functionalities to conduct thorough assessments, perform rigorous testing, and identify potential security gaps within open source projects. By offering complete visibility and control, BeSLab empowers security teams to implement robust security measures and safeguards, ensuring the integrity and resilience of open source software. You can leverage BeS Environment Script Repository &amp; BeS Playbooks to Launch OSS Security exploits(Red Teaming) and patching OSS vulnerabilites (Blue Teaming) from within a BeSLab.</p>
+<h3 id="we-have-developed-a-cli-tool-named-bliman-that-uses-a-genesisyaml-to-bring-in-beslab-usling-bliman">We have developed a CLI tool named BLIman that uses a <code>Genesis.yaml</code> to bring in BeSlab usling `BLIman.</h3>
+<h2 id="what-is-bliman">What is BLIman?</h2>
+<p>This is a commandline tool to install BeSLab using Genesis.yaml.</p>
+<h2 id="what-is-a-genesis-file">What is a Genesis file ?</h2>
+<p>Genesis file is the main configuration file to bring up the lab. This file contains all the lab configuration as a whole. Example: 
+ 1. which OS to use 
+ 2. which tools to be installed
+ 3. what all are the folder structure to be there
+ 4. will there be any package manager etc.</p>
+<p>There is a <code>default_genesis.yaml</code> file which can be placed at user_home/root/.bliman. BLIman would generate the config.yaml file for oah-bes-vm from genesis.yaml file export variables.</p>
+<h2 id="various-way-to-install-beslab-using-bliman">Various way to install BeSLab using BLIman</h2>
+<ol>
+<li>host mode using oah-bes-vm/ansible</li>
+<li>bare metal mode using ansible and oah-bes-vm</li>
+<li>directly using besman without oah-bes-vm/ansible using BeSlab env scripts from BeSLab repository.</li>
+</ol>
+<h2 id="features">Features</h2>
+<ul>
+<li>designed to run on low resource setting</li>
+<li>user can specify which tool to add which to remove</li>
+<li>quickly bring up the lab for red teaming (RT) and Blue teaming (BT) activity</li>
+<li>simple deployment using <code>BLiMan</code></li>
+</ul>
+<h2 id="how-to-use">How to use ?</h2>
+<p>The development is underway and the steps will be shared here soon.</p>
                 
                   
                 
