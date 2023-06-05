@@ -47,12 +47,12 @@ A toolkit project for the Be-Secure community contributors which reduces manual 
 
     `bes-dev-kit --help`
 
-## Install from source
+## Build from source
 
 ### Pre-requisites
 
 * [poetry](https://python-poetry.org/). Use the [link](https://python-poetry.org/docs/) to install Poetry.
-* [Github CLI(gh)](https://github.com/cli/cli/blob/trunk/docs/install_linux.md)
+* [Git](https://git-scm.com/downloads)
   
 ### Steps
 
@@ -88,10 +88,10 @@ This command takes the necessary data from report files & downloads consolidated
 
 `bes-dev-kit validate-report-file​`
 
-It helps pull request reviewers to validates the naming convention of report files / if report files are available.​
+It helps maintainer to validates the naming convention of report files / if report files are available.​
 
 ### Validate version details file​
 
 `bes-dev-kit validate-version-file​`
 
-It helps pull request reviewers to validates naming convention & version tag of version file in besecure-osspoi-datastore.​
+It helps maintainer to validates naming convention & version tag of version file in besecure-osspoi-datastore.​
