@@ -607,6 +607,54 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
+  <a href="#create-an-environment-script" class="md-nav__link">
+    Create an environment script
+  </a>
+  
+    <nav class="md-nav" aria-label="Create an environment script">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#dependent-on-ansible-roles" class="md-nav__link">
+    Dependent on ansible roles
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#benefits" class="md-nav__link">
+    Benefits
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#standalone-environment-script" class="md-nav__link">
+    Standalone environment script
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#benefits_1" class="md-nav__link">
+    Benefits
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#list-the-available-environments" class="md-nav__link">
+    List the available environments
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#install-an-environment" class="md-nav__link">
     Install an environment
   </a>
@@ -614,15 +662,15 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#validate-the-installation" class="md-nav__link">
-    Validate the installation
+  <a href="#uninstall-an-environment" class="md-nav__link">
+    Uninstall an environment
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#uninstall-an-environment" class="md-nav__link">
-    Uninstall an environment
+  <a href="#validate-the-installation" class="md-nav__link">
+    Validate the installation
   </a>
   
 </li>
@@ -791,81 +839,103 @@ Moreover, the base BeSman environment is highly adaptable and can be further cus
 </li>
 </ol>
 <h2 id="usage">Usage</h2>
+<h3 id="create-an-environment-script">Create an environment script</h3>
+<h4 id="dependent-on-ansible-roles">Dependent on ansible roles</h4>
+<p>Clone the <a href="https://github.com/Be-Secure/besecure-ce-env-repo">repo</a> before running the command. </p>
+<pre><code>bes create -env &lt;environment&gt; -V &lt;version&gt;
+</code></pre>
+<p>Once you run the command, you will be prompted to provide the path to the cloned dir.</p>
+<p>This command would create an environment script which piggybacks on Ansible roles as well as a configuration file. Both the files will be present in your <code>besecure-ce-env-repo</code> dir. </p>
+<p>The template of the config file is given below. You can use this to modify the parameters of the environment script as well as ansible roles</p>
+<pre><code>---
+BESMAN_ORG: Be-Secure
+BESMAN_OSSP: 
+BESMAN_OSSP_CLONE_PATH: $HOME/$BESMAN_OSSP
+BESMAN_ANSIBLE_ROLES_PATH: $BESMAN_DIR/tmp/$BESMAN_OSSP/roles
+BESMAN_ANSIBLE_ROLES: # Comma separated list of ansible roles &lt;namespace&gt;/&lt;repo&gt;,&lt;namespace&gt;/&lt;repo&gt; 
+BESMAN_OSS_TRIGGER_PLAYBOOK_PATH: $BESMAN_DIR/tmp/$BESMAN_OSSP
+BESMAN_OSS_TRIGGER_PLAYBOOK: besman-$BESMAN_OSSP-[BT/RT]-trigger-playbook.yaml
+BESMAN_DISPLAY_SKIPPED_ANSIBLE_HOSTS: false
+# Please add other variables as well as ansible variables here`
+openjdk_version: 1.8
+</code></pre>
+<p>If you wish to modify the parameters of the config file,</p>
+<ol>
+<li>Visit the <a href="https://github.com/Be-Secure/besecure-ce-env-repo">env repo</a></li>
+<li>Move into the dir of the project you wish to install</li>
+<li>Copy the config file</li>
+<li>Paste it in you <code>user home</code> under the same name.</li>
+<li>Modify the parameters</li>
+<li>Run the install</li>
+</ol>
+<h4 id="benefits">Benefits</h4>
+<ul>
+<li><strong>Control</strong> - Easier control over the tools which gets installed.</li>
+<li><strong>Configurability</strong> - Easier to configure the tool parameters.</li>
+</ul>
+<h4 id="standalone-environment-script">Standalone environment script</h4>
+<p>If you wish to create a standalone environment script which doesn't rely on Ansible roles, run the below command.</p>
+<pre><code>bes create -env &lt;environment&gt; -V &lt;version&gt; basic
+</code></pre>
+<h4 id="benefits_1">Benefits</h4>
+<ul>
+<li><strong>Light weight</strong> - Light weight script as it doesn't rely on ansible or roles.</li>
+</ul>
+<h3 id="list-the-available-environments">List the available environments</h3>
+<p>At any time, besman can install environments from a single source - </p>
+<ol>
+<li>
+<p>A remote environment repo</p>
+<pre><code>bes set BESMAN_LOCAL_ENV False
+bes set BESMAN_ENV_REPOS &lt;namespace&gt;/&lt;repo&gt;
+bes list
+</code></pre>
+<p>The output will mention which repo BeSman points to now.</p>
+</li>
+<li>
+<p>Local environment dir</p>
+<pre><code>bes set BESMAN_LOCAL_ENV False
+bes set BESMAN_LOCAL_ENV_DIR &lt;complete path to you besecure-ce-env-repo dir&gt;
+bes list
+</code></pre>
+<p>The output will mention the dir BeSman points to now.</p>
+<p>When you run the <code>create</code> command, the list command will be automatically updated to point to the local env dir.</p>
+</li>
+</ol>
 <h3 id="install-an-environment">Install an environment</h3>
-<p>All the BeSman environments reside in the <a href="https://github.com/Be-Secure/besecure-ce-env-repo">Be-Secure environment repo</a>. The respective environments will be pulled during installation.</p>
-<ol>
-<li>
-<p>Run the below command and confirm the required environment is listed.</p>
-<pre><code>bes list
+<p>You can install and environment by running the below command. Make sure the environment is listed when running the <code>bes list</code> command.</p>
+<pre><code>bes install -env &lt;environment name&gt; -V &lt;version&gt;
 </code></pre>
-</li>
-<li>
-<p>If not, run the below command to update the list</p>
-<pre><code>bes update
-</code></pre>
-</li>
-<li>
-<p>Confirm by running <code>bes list</code></p>
-</li>
-<li>Run the below command to install the environment<pre><code>bes install -env &lt;Github Org&gt;/&lt;Github namespae&gt;/&lt;environment name&gt; -V &lt;version&gt;
-</code></pre>
-</li>
-</ol>
-<h3 id="validate-the-installation">Validate the installation</h3>
-<ol>
-<li>Run the below command to validate the tools installed by the environment.<pre><code>bes validate -env &lt;environment name&gt;
-</code></pre>
-</li>
-</ol>
+<p>The default configuration file for the environment will be residing next to the environment script inside the remote repo or the local directory.</p>
+<p>If you wish to override any default values have a copy of the configuration file in your <code>user home</code> dir and make the changes.</p>
 <h3 id="uninstall-an-environment">Uninstall an environment</h3>
-<ol>
-<li>
 <p>Run the below command to uninstall an environment. This would remove the tools installed using installation.</p>
 <pre><code>bes uninstall -env &lt;environment name&gt;
 </code></pre>
-</li>
-<li>
-<p>You can validate the uninstallation using <code>validate</code> command.</p>
-</li>
-</ol>
+<h3 id="validate-the-installation">Validate the installation</h3>
+<p>Validate the installation/uninstalltion by running,</p>
+<pre><code>bes validate -env &lt;environment name&gt;
+</code></pre>
 <h3 id="update-configurations">Update configurations</h3>
-<ol>
-<li>Run the below command to update the configurations in an environment<pre><code>bes update -env &lt;environment name&gt;
+<p>Run the below command to update the configurations in an environment</p>
+<pre><code>bes update -env &lt;environment name&gt;
 </code></pre>
-</li>
-</ol>
 <h3 id="reset-configurations">Reset configurations</h3>
-<ol>
-<li>Run the below command to reset the configurations to default.<pre><code>bes reset -env &lt;environment name&gt;
+<p>Run the below command to reset the configurations to default.</p>
+<pre><code>bes reset -env &lt;environment name&gt;
 </code></pre>
-</li>
-</ol>
 <h3 id="install-an-environment-from-a-different-repo">Install an environment from a different repo</h3>
 <ol>
-<li>Make sure you have a repo with the format similar to <a href="https://github.com/Be-Secure/besecure-ce-env-repo">Be-Secure environment repo</a>.</li>
+<li>Make sure you fork or have a repo with the format similar to <a href="https://github.com/Be-Secure/besecure-ce-env-repo">Be-Secure environment repo</a>.</li>
 <li>Update the <code>list.txt</code> file in the repo to reflect the <code>GitHub org</code> and <code>Repo name</code>.</li>
 <li>
-<p>Open terminal and bring up the user configurations for BeSman.</p>
-<pre><code>nano $HOME/.besman/etc/user-config.cfg
+<p>Run the bes set command to make BeSman point to a different repo.</p>
+<pre><code>bes set BESMAN_LOCAL_ENV False
+bes set BESMAN_ENV_REPOS &lt;namespace&gt;/&lt;repo&gt;
 </code></pre>
 </li>
 <li>
-<p>Append the repo details to the variable <code>BESMAN_ENV_REPOS</code> in the below format.</p>
-<pre><code>BESMAN_ENV_REPOS=Be-Secure/besecure-ce-env-repo,&lt;github org&gt;/&lt;repo name&gt;
-</code></pre>
-</li>
-<li>
-<p>Upload the changes to memory.</p>
-<pre><code>source $HOME/.besman/bin/besman-init.sh
-</code></pre>
-</li>
-<li>
-<p>Update the list.</p>
-<pre><code>bes update
-</code></pre>
-</li>
-<li>
-<p>Confirm updation</p>
+<p>Run the list command</p>
 <pre><code>bes list
 </code></pre>
 </li>
