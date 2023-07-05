@@ -23,7 +23,7 @@ The BT environmnets are bundled with all the tools necessary for a Blue Team use
 
 ## Playbooks
 
-Be-Secure playbooks are created to run exploits as well as automate activities like security assessments.
+[Be-Secure playbooks](https://github.com/Be-Secure/besecure-ce-playbook-repo) are created to run exploits as well as automate activities like security assessments.
 
 There are three types of playbook - **Automated**, **Semi-automated** and **Manual**
 
