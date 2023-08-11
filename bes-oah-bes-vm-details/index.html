@@ -16,7 +16,7 @@
     
     
       
-        <title>S Tech Stack - Be-Secure</title>
+        <title>oah-bes-vm - Be-Secure</title>
       
     
     
@@ -66,6 +66,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#what-is-oah-bes-vm" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -101,7 +106,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              S Tech Stack
+              oah-bes-vm
             
           </span>
         </div>
@@ -439,81 +444,113 @@
               </div>
             
             
+              
+                
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
           
           <div class="md-content" data-md-component="content">
             <article class="md-content__inner md-typeset">
               
                 
                 
-                <h1> Open Source Security Tools [S] Tech Stack </h1>
-
-<p><img src="./assets/images/sec_logo.png" alt="DO" width="200px" height="200px"></p>
-<!-- ![app tech stack](./assets/images/sec_logo.jpeg) -->
-
-<p>This security stack focuses on all open source security tools and to secure these tools for utilization.</p>
-<blockquote>
-<p><strong>Application Security Testing (SAST )</strong></p>
-</blockquote>
-<table>
-<thead>
-<tr>
-<th>Sl.No</th>
-<th>BeSman Env name</th>
-<th>Dependencies</th>
-<th>Entities Prebundled in besman Env</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>01</td>
-<td>bes-appsastsec-env</td>
-<td></td>
-<td>SAST-LGTM, Sonarqube, Semgrep, Gosec, OpenVAS, Vega, Grabber</td>
-</tr>
-</tbody>
-</table>
-<blockquote>
-<p><strong>Application Security Testing (DAST)</strong></p>
-</blockquote>
-<table>
-<thead>
-<tr>
-<th>Sl.No</th>
-<th>BeSman Env name</th>
-<th>Dependencies</th>
-<th>Entities Prebundled in besman Env</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>01</td>
-<td>bes-pensec-env</td>
-<td></td>
-<td>DAST - ZAP, GoLismero, Metasploit, Burp Suite CE</td>
-</tr>
-</tbody>
-</table>
-<blockquote>
-<p><strong>Penetration Testing</strong></p>
-</blockquote>
-<table>
-<thead>
-<tr>
-<th>Sl.No</th>
-<th>BeSman Env name</th>
-<th>Dependencies</th>
-<th>Entities Prebundled in besman Env</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>01</td>
-<td>bes-pensec-env</td>
-<td></td>
-<td>Kali Linux, Parrot Sec</td>
-</tr>
-</tbody>
-</table>
+                <h1 id="what-is-oah-bes-vm">What is oah-bes-vm?</h1>
+<p>A substrate that brings up bundles of BeS &amp; other tools to perform Red Team &amp; Blue Team activity.</p>
+<h1 id="who-are-the-end-users">Who are the end users?</h1>
+<p>RT &amp; BT activist of BeS community.</p>
+<h1 id="features-of-oah-bes-vm">Features of oah-bes-vm?</h1>
+<ul>
+<li>
+<p>Offers bundles of BeS tools that would enable users to fast track their Red Teaming / Blue Teaming activities by significantly reducing effort spent on setting up respective environments.  </p>
+</li>
+<li>
+<p>It helps to isolate the installation of BeS projects in a specific environment. </p>
+</li>
+<li>
+<p>According to the needs, user can configure oah-bes-vm during installation. </p>
+</li>
+</ul>
+<h1 id="list-of-tools">List of tools</h1>
+<h2 id="bes-tools">BeS tools</h2>
+<ol>
+<li>
+<p>BeSman</p>
+</li>
+<li>
+<p>BeS-dev-kit</p>
+</li>
+</ol>
+<h1 id="how-to-bring-up-oah-bes-vm">How to bring up oah-bes-vm?</h1>
+<p>There are two modes to bring up oah-bes-vm. </p>
+<ol>
+<li>
+<p>Install all BeS &amp; other tools directly to the host system without using VirtualBox.</p>
+</li>
+<li>
+<p>Bring up VirtualBox &amp; install BeS &amp; other tools inside it.</p>
+</li>
+</ol>
+<h3 id="steps">Steps</h3>
+<p><strong>Install oah-shell</strong></p>
+<ol>
+<li>
+<p>Open your terminal</p>
+</li>
+<li>
+<p>Install oah-shell</p>
+<p><code>curl -L https://raw.githubusercontent.com/Be-secure/oah-installer/master/install.sh | bash</code></p>
+</li>
+<li>
+<p>Confirm the installation oah-shell by executing the below command which would list various oah commands</p>
+<p><code>oah</code></p>
+</li>
+<li>
+<p>Execute the below command to get the list of environments</p>
+<p><code>oah list</code></p>
+<p><strong>Note:</strong> Make sure oah-bes-vm is listed. If not, execute step 2 and run the below command</p>
+<p><code>source ${OAH_DIR}/bin/oah-init</code></p>
+</li>
+</ol>
+<p><strong>Execute below command to setup oah-bes-vm without using VirtualBox.</strong></p>
+<pre><code>`oah install -s oah-bes-vm`
+</code></pre>
+<h2 id="or">or</h2>
+<p><strong>Follow below steps to setup oah-bes-vm inside VirtualBox.</strong></p>
+<h5 id="pre-requisites">Pre-requisites</h5>
+<ul>
+<li><a href="https://www.virtualbox.org/wiki/Downloads">VirtualBox</a></li>
+<li><a href="https://www.vagrantup.com/">Vagrant</a></li>
+<li><a href="https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html">Ansible</a></li>
+</ul>
+<h5 id="execute-the-below-command">Execute the below command</h5>
+<pre><code>`oah install -v oah-bes-vm`
+</code></pre>
+<h1 id="faq">FAQ</h1>
+<ol>
+<li>
+<p><strong>What is oah-shell?</strong></p>
+<p>Ans: oah-shell is an open-source utility to setup oah-bes-vm.</p>
+</li>
+<li>
+<p><strong>What is the default username &amp; password for oah-bes-vm?</strong></p>
+<p>Ans: Username- vagrant &amp; password- vagrant</p>
+</li>
+</ol>
                 
                   
                 
