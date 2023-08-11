@@ -81,6 +81,10 @@ There are two modes to bring up oah-bes-vm.
 
 # FAQ
 
-1. What is oah-shell?
+1. **What is oah-shell?**
 
     Ans: oah-shell is an open-source utility to setup oah-bes-vm.
+
+2. **What is the default username & password for oah-bes-vm?**
+    
+    Ans: Username- vagrant & password- vagrant
