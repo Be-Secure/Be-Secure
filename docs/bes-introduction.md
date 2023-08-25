@@ -27,9 +27,19 @@ hide:
 
 <p> Organizations, open source developers, security researchers, auditors and regulators – all can benefit from Be-Secure </p>
 
-<h2> TAVOSS </h2>
+<h2> TAVOSS: Trusted and Verified Open Source Software </h2>
 
-<p> TAVOSS is Trusted And Verified Open Source Software that has undergone a security assessment by the Be-Secure community. </p>
+TAVOSS is a set of principles and practices that can help to accelerate the adoption of open source in enterprises. TAVOSS software is vetted and secure, which can help to address security concerns. The software is also accompanied by documentation and support, which can help to address the lack of knowledge and cultural resistance. </p>
+
+<h2> Benefits of TAVOSS </h2>
+
+- Enhanced maintenance practices and reduced costs.
+
+- Expertise in specific open source projects, driving efficient patching and maintenance.
+
+- Fueling innovation and supporting sustainable development practices.
+
+- Rapid remediation of vulnerabilities and an increased level of security awareness.
 
 <h2> Benefits from Be-Secure </h2>
 
