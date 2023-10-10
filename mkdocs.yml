@@ -145,7 +145,7 @@ nav:
   - Home: index.md
   - About: bes-introduction.md
   - Tech stack: bes-tech_stack.md
-  - Tracked OSS projects: https://be-secure.github.io/BeSLighthouse/projectOfInterest/
+  - Tracked OSS projects: https://be-secure.github.io/BeSLighthouse/POI
   - Our OSS projects: bes-our_oss_project.md
   - Security Assessment: bes-assessment.md
   - Contribute: bes-contribution.md
