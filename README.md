@@ -64,7 +64,7 @@ Be-Secure Community members can provide information and notifications about prod
 
 #### OSS Project We Track :
 
-Click [here](https://be-secure.github.io/BeSLighthouse/projectOfInterest/) to view the list of projects we track.
+Click [here](https://be-secure.github.io/BeSLighthouse/POI) to view the list of projects we track.
 
 #### OSS Project We Contribute :
 
