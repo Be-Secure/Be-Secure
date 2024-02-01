@@ -10,7 +10,8 @@ hide:
 
 <h1> Open Source Security Tools [S] Tech Stack </h1>
 
-<img src="./assets/images/sec_logo.png" alt="DO" width="200px" height="200px">
+<!-- <img src="./assets/images/sec_logo.png" alt="DO" width="200px" height="200px"> -->
+![S](./assets/images/sec_logo_200_200.png)
 
 <!-- ![app tech stack](./assets/images/sec_logo.jpeg) -->
 

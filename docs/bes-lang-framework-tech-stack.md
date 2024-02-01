@@ -9,7 +9,9 @@ hide:
 
 <h1> Language & framework [L&F] Tech Stack </h1>
 
-<img src="./assets/images/lan_logo.png" alt="DO" width="200px" height="200px">
+<!-- <img src="./assets/images/lan_logo.png" alt="DO" width="200px" height="200px"> -->
+![L&F](./assets/images/lan_logo_200_200.png)
+
 
 <!-- ![lan tech stack](./assets/images/lan_logo.jpeg) -->
 
