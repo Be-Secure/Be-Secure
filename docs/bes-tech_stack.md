@@ -15,7 +15,7 @@ hide:
 
 <h4> Be-Secure Open Source Security tech stacks are - </h4>
 
-* [DevOps [DO]](./bes-devops-tech-stack.md) : Be-Secure tech stacks to secure open source devops tools eg. Ansible, Puppet etc.  
+* [DevOps and Infrastructure tools [DO]](./bes-devops-tech-stack.md) : Be-Secure tech stacks to secure open source devops and infrastructure tools eg. Ansible, Puppet, Opentofu etc.  
 
 * [Language and framework [L&F]](./bes-lang-framework-tech-stack.md): Be-Secure tech stacks to secure language and framework built on generic languages e.g. Ruby & Rails, PHP & Symphony, Python & Django, Javascript & Angular/Node etc.
 
