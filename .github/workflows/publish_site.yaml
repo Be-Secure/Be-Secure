@@ -3,11 +3,12 @@ name: GitHub Pages
 on:
   push:
     branches:
-      - master
+      - asa1997-patch-1
     paths:
       - docs/**
       - bes_theme/**
       - mkdocs.yml
+      - .github
 jobs:
   deploy:
     runs-on: ubuntu-latest
@@ -50,4 +51,5 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./site
+          
   
