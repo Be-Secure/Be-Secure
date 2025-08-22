@@ -8,7 +8,7 @@ on:
       - docs/**
       - bes_theme/**
       - mkdocs.yml
-      - .github
+      - .github/
 jobs:
   deploy:
     runs-on: ubuntu-latest
