@@ -3,7 +3,7 @@ name: GitHub Pages
 on:
   push:
     branches:
-      - asa1997-patch-1
+      - master
     paths:
       - docs/**
       - bes_theme/**
