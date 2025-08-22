@@ -12,7 +12,7 @@
       
       
       <link rel="icon" href="../assets/favicon.png">
-      <meta name="generator" content="mkdocs-1.5.3, Be-Secure-7.1.11">
+      <meta name="generator" content="mkdocs-1.6.1, Be-Secure-7.1.11">
     
     
       
@@ -67,7 +67,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#what-is-beslighthouse" class="md-skip">
+        <a href="#beslighthouse" class="md-skip">
           Skip to content
         </a>
       
@@ -463,30 +463,139 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#what-is-beslighthouse" class="md-nav__link">
-    What is BeSLighthouse?
+  <a href="#beslighthouse" class="md-nav__link">
+    BeSLighthouse
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#how-to-run-beslighthouse-locally" class="md-nav__link">
-    How to run BeSLighthouse locally?
+  <a href="#getting-started" class="md-nav__link">
+    Getting Started
   </a>
   
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#what-bes-tech-stack" class="md-nav__link">
-    What BeS Tech Stack
-  </a>
-  
-    <nav class="md-nav" aria-label="What BeS Tech Stack">
+    <nav class="md-nav" aria-label="Getting Started">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#beslighthouse-support-five-type-of-tech-stack-which-is-being-listed-in-project-of-interest-below-is-detail-explanation-about-it" class="md-nav__link">
-    BeSLighthouse support five type of Tech Stack which is being listed in Project Of Interest, below is detail explanation about it.
+  <a href="#run-beslighthouse-locally" class="md-nav__link">
+    Run BeSLighthouse locally
+  </a>
+  
+    <nav class="md-nav" aria-label="Run BeSLighthouse locally">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#prerequisites" class="md-nav__link">
+    Prerequisites
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#set-up-datastore" class="md-nav__link">
+    Set up datastore
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#start-beslighthouse" class="md-nav__link">
+    Start BeSLighthouse
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#deploymentupgrade-in-any-beslab-instance" class="md-nav__link">
+    Deployment/Upgrade in any BeSLab instance
+  </a>
+  
+    <nav class="md-nav" aria-label="Deployment/Upgrade in any BeSLab instance">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-navigate-to-the-beslighthouse-installation-folder" class="md-nav__link">
+    1. Navigate to the BeSLighthouse installation folder
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-download-the-latest-beslighthouse-release" class="md-nav__link">
+    2. Download the latest BeSLighthouse release
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-extract-the-downloaded-archive" class="md-nav__link">
+    3. Extract the downloaded archive
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-rename-the-extracted-folder" class="md-nav__link">
+    4. Rename the extracted folder
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-verify-the-port-configuration-in-packagejson" class="md-nav__link">
+    5. Verify the port configuration in package.json
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6-update-apidetailsconfigjson" class="md-nav__link">
+    6. Update apiDetailsConfig.json
+  </a>
+  
+    <nav class="md-nav" aria-label="6. Update apiDetailsConfig.json">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#github-configuration" class="md-nav__link">
+    GitHub Configuration
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#gitlab-configuration" class="md-nav__link">
+    GitLab Configuration
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#7-restart-the-beslighthouse-service" class="md-nav__link">
+    7. Restart the BeSLighthouse service
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#8-verify-the-deployment" class="md-nav__link">
+    8. Verify the deployment
   </a>
   
 </li>
@@ -497,15 +606,63 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#languages-track-in-beslighthouse-link" class="md-nav__link">
-    Languages track in BeSLighthouse Link
+  <a href="#usage" class="md-nav__link">
+    Usage
+  </a>
+  
+    <nav class="md-nav" aria-label="Usage">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#projects-of-interest-poi" class="md-nav__link">
+    Projects Of Interest (POI)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#vulnerabilities-of-interest-voi" class="md-nav__link">
+    Vulnerabilities Of Interest (VOI)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#models-of-interest-moi" class="md-nav__link">
+    Models Of Interest (MOI)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#datasets-of-interest-doi" class="md-nav__link">
+    Datasets of Interest (DOI)
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#technology-stack" class="md-nav__link">
+    Technology Stack
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#version-history-in-beslighthouse" class="md-nav__link">
-    Version history in BeSLighthouse
+  <a href="#report-issue" class="md-nav__link">
+    Report Issue
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#license" class="md-nav__link">
+    License
   </a>
   
 </li>
@@ -525,81 +682,147 @@
                 
                   <h1>BeSLighthouse</h1>
                 
-                <h2 id="what-is-beslighthouse">What is BeSLighthouse?</h2>
-<p>BeSlighthouse is community dashboard for security assessment of Open-Source Security Tech Stacks.</p>
-<h2 id="how-to-run-beslighthouse-locally">How to run BeSLighthouse locally?</h2>
-<ol>
-<li>
-<p>Clone the BeSLighthouse project locally.</p>
-<pre><code>git clone https://github.com/Be-Secure/BeSLighthouse
-</code></pre>
-</li>
-<li>
-<p>Install all the required dependency in BeSLighthouse.</p>
-<pre><code>cd BeSLighthouse
-pip install -r requirements.txt
-</code></pre>
-</li>
-<li>
-<p>Run the application using mkdocs</p>
-<pre><code>mkdocs serve
-</code></pre>
-</li>
-</ol>
-<h2 id="what-bes-tech-stack">What BeS Tech Stack</h2>
-<h4 id="beslighthouse-support-five-type-of-tech-stack-which-is-being-listed-in-project-of-interest-below-is-detail-explanation-about-it">BeSLighthouse support five type of Tech Stack which is being listed in Project Of Interest, below is detail explanation about it.</h4>
+                <h2 id="beslighthouse">BeSLighthouse</h2>
+<p>Pronounced as "B-e-S Lighthouse", is a dashboard project for visulaizing the security assessment and risk posture of open source projects and ML models tracked by a BeS lab deployment. BeSecure community hosts an instance of BeSLighthouse <a href="https://be-secure.github.io/BeSLighthouse/">here</a>.</p>
+<h2 id="getting-started">Getting Started</h2>
+<p>BeSLighthouse is a <a href="https://react.dev/">React</a> based web interface project that expects a BeS lab ecosystem datastore to pull the data and visualize it. The BeSecure community datastore is maintained in GitHub.com under Be-Secure namespace.</p>
+<h3 id="run-beslighthouse-locally">Run BeSLighthouse locally</h3>
+<p>To try out BeSLighthouse on your own machine, clone the latest release tag and set up the datastore.</p>
+<h4 id="prerequisites">Prerequisites</h4>
 <ul>
-<li><a href="../bes-devops-tech-stack/">DevOps [DO]</a>: Be-Secure tech stacks to secure open source devops tools eg. Ansible, Puppet etc...</li>
-<li><a href="../bes-lang-framework-tech-stack/">Language and framework [L&amp;F]</a>: Be-Secure tech stacks to secure language and framework built on generic languages e.g: Ruby &amp; Rails,
-    PHP &amp; Symphony, Python &amp; Django, JavaScript &amp; Angular/NodeJs etc...</li>
-<li><a href="../bes-app-tech-stack/">Application [A]</a>: Be-Secure tech stacks for fully function open-source application like Drupal, magneto, odoo etc...</li>
-<li><a href="../bes-dist-decent-tech-stack/">Distributed &amp; Decentralized Application [DA]</a>: Be-Secure tech stacks for distributed and decentralized Distributed application, few e.g: are Blockchain frameworks like Hyperledger Indy, Hyperledger Fabric, Quorum etc...</li>
-<li><a href="../bes-open-source-security-tool-tech-stack/">Open-source Security Tool [s]</a>: Be-Secure tech stacks for open-source security tools eg: ZAP, BeEF etc.</li>
+<li>Install NodeJS v16.0 or higher</li>
 </ul>
-<h2 id="languages-track-in-beslighthouse-link">Languages track in BeSLighthouse <a href="https://be-secure.github.io/Be-Secure/bes-beslab-details/">Link</a></h2>
-<p>There are many languages which are being tracked in BeSLighthouse like: <strong>JavaScript</strong>, <strong>Java</strong>, <strong>C</strong>, <strong>C++</strong>, <strong>python</strong> etc...</p>
-<h2 id="version-history-in-beslighthouse">Version history in BeSLighthouse</h2>
-<ol>
-<li>Version history contains the detail about the project like:<ul>
-<li>Project name.</li>
-<li>BeS Tracking ID.</li>
-<li>BeS Tech Stack.</li>
-<li>Description about the project.</li>
-<li>Release Date of the track project.</li>
-<li>Known Vulnerability count.</li>
-<li>Version of project being track.</li>
+<h4 id="set-up-datastore">Set up datastore</h4>
+<p>The current version of BeSLighthouse assumes that the lab assets details are stored in a Git repository structure. The <a href="https://github.com/Be-Secure/BeSLighthouse/blob/main/src/dataStore.ts">datastore.ts</a> file should be edited to point to your lab's datastore repository. The path urls you see now in the file points to the BeSecure community lab datastore. You can create a Git repository structure in your GitHub or GitLab namespace as given below. Then update the path variables in datastore.ts file.</p>
+<pre><code>- Be-Secure
+    - besecure-assets-store
+    - besecure-assessment-datastore
+    - besecure-ml-assessment-datastore
+</code></pre>
+<h4 id="start-beslighthouse">Start BeSLighthouse</h4>
+<ul>
+<li>Clone the latest release tag into your local machine</li>
+<li>Update datastore.ts with the path</li>
+<li>Build and start the project</li>
 </ul>
-</li>
-<li>Assessment Report which give overview about the assessment being done like:<ul>
-<li>Scorecard.</li>
-<li>Criticality Score.</li>
-<li>Sonarqube report.</li>
-<li>Codeql report.</li>
-<li>SBOM report.</li>
-<li>Fossology report.</li>
-<li>Fuzz report.</li>
-<li>snyk report.</li>
+<pre><code>&gt; npm install --force
+
+Set the environment variable NODE_OPTIONS to --openssl-legacy-provider. This environment variable is used to specify options or flags to be passed to the Node.js runtime. In this case, it sets the OpenSSL provider to use the legacy provider instead of the default one.
+
+Linux / MacOS
+&gt; export NODE_OPTIONS=--openssl-legacy-provider
+
+Windows Powershell / CMD
+&gt; set NODE_OPTIONS=--openssl-legacy-provider
+
+&gt; npm start
+</code></pre>
+<h2 id="deploymentupgrade-in-any-beslab-instance">Deployment/Upgrade in any BeSLab instance</h2>
+<p>Follow these steps to deploy or upgrade BeSLighthouse in a BeSLab environment:</p>
+<h3 id="1-navigate-to-the-beslighthouse-installation-folder">1. Navigate to the BeSLighthouse installation folder</h3>
+<p>Use the following command to navigate to the installation directory:  </p>
+<p><code>bash
+   cd &lt;Path to BeSLighthouse installation folder e.g., /opt&gt;</code></p>
+<h3 id="2-download-the-latest-beslighthouse-release">2. Download the latest BeSLighthouse release</h3>
+<p>Download the latest version of BeSLighthouse from GitHub:  </p>
+<p><code>bash
+   curl -LJO https://github.com/Be-Secure/BeSLighthouse/archive/refs/tags/&lt;beslighthouse-version&gt;.tar.gz</code></p>
+<p>Replace <code>&lt;beslighthouse-version&gt;</code> with the desired version.</p>
+<h3 id="3-extract-the-downloaded-archive">3. Extract the downloaded archive</h3>
+<p>Extract the contents of the downloaded <code>.tar.gz</code> file:  </p>
+<p><code>bash
+   tar -xvzf beslighthouse-&lt;beslighthouse-version&gt;.tar.gz</code></p>
+<h3 id="4-rename-the-extracted-folder">4. Rename the extracted folder</h3>
+<p>Rename the extracted BeSLighthouse folder:  </p>
+<p><code>bash
+   mv BeSLighthouse-&lt;beslighthouse-version&gt; BeSLighthouse</code></p>
+<h3 id="5-verify-the-port-configuration-in-packagejson">5. Verify the port configuration in <code>package.json</code></h3>
+<p>Ensure that the <code>PORT=80</code> is set in the <code>start</code> script parameter of the <code>package.json</code> file.</p>
+<h3 id="6-update-apidetailsconfigjson">6. Update <code>apiDetailsConfig.json</code></h3>
+<p>Configure the <code>src/apiDetailsConfig.json</code> file according to your requirement.</p>
+<h4 id="github-configuration">GitHub Configuration</h4>
+<p>If you are using <strong>GitHub</strong>, use the following template:</p>
+<p><code>json
+   {
+      "github": {
+         "namespace": "Be-Secure",
+         "branch": "main",
+         "apiUrl": "https://raw.githubusercontent.com",
+         "token": "YOUR_GITHUB_API_TOKEN"
+      },
+      "gitlab": {
+         "namespace": "",
+         "branch": "",
+         "apiUrl": "",
+         "gitLabUrl": "",
+         "token": ""
+      },
+      "activeTool": "github",
+      "version": "0.20.3",
+      "labName": "Be-Secure Community Lab"
+   }</code></p>
+<h4 id="gitlab-configuration">GitLab Configuration</h4>
+<p>If you are using <strong>GitLab</strong>, use the following template:</p>
+<p><code>json
+   {
+      "github": {
+         "namespace": "",
+         "branch": "",
+         "apiUrl": "",
+         "token": ""
+      },
+      "gitlab": {
+         "namespace": "labAdmin",
+         "branch": "main",
+         "apiUrl": "https://gitlab.example.com/api/v4",
+         "gitLabUrl": "https://gitlab.example.com",
+         "token": "YOUR_GITLAB_API_TOKEN"
+      },
+      "activeTool": "gitlab",
+      "version": "0.20.3",
+      "labName": "Be-Secure Community Lab"
+   }</code></p>
+<p><strong>Notes:</strong></p>
+<ul>
+<li>Replace <code>"YOUR_GITHUB_API_TOKEN"</code> or <code>"YOUR_GITLAB_API_TOKEN"</code> with your respective tokens.</li>
+<li>Adjust the <code>namespace</code>, <code>branch</code>, <code>apiUrl</code>, and <code>gitLabUrl</code> values to match your environment.</li>
 </ul>
-</li>
-<li>Show the graph of the Vulnerabilities have been found for the version being track:<ul>
-<li>No_of_Vulnerabilities</li>
-<li>DoS</li>
-<li>Code_Execution</li>
-<li>ByPass_something</li>
-<li>Sql_Injection</li>
-<li>XSS</li>
-<li>Overflow</li>
-<li>Memory_Corruption</li>
-<li>Directory_Traversal</li>
-<li>Http_Response_splitting</li>
-<li>No_of_expoloits</li>
-<li>File_Inclusion</li>
-<li>Gain_Information</li>
-<li>Gain_Privileges</li>
-<li>CSRF</li>
+<p>For more details on generating API tokens, refer to the GitHub or GitLab documentation.</p>
+<h3 id="7-restart-the-beslighthouse-service">7. Restart the BeSLighthouse service</h3>
+<p>Restart the service to apply the changes:  </p>
+<p><code>bash
+   systemctl restart beslighthouse.service</code></p>
+<h3 id="8-verify-the-deployment">8. Verify the deployment</h3>
+<p>Open your browser and check that BeSLighthouse has been successfully upgraded to the new version.</p>
+<hr />
+<p><strong>Note:</strong> Replace <code>&lt;beslighthouse-version&gt;</code> with the actual version you are upgrading to.</p>
+<h2 id="usage">Usage</h2>
+<p>A BeS lab ecosystem focus on addressing common security requirements of open source projects, ML models and ML datasets. BeSLighthouse is the face of a BeS lab instance. It gives a detailed view of the open source projects, ML models, ML datasets and the vulnerabilities being tracked in the lab.  </p>
+<h3 id="projects-of-interest-poi">Projects Of Interest (POI)</h3>
+<p>Open source projects tracked by the BeS lab is listed in the POI dashboard. The tracking involes forking the open source projects into the Git namespace of the lab and proactively assess each version source code for vulnerabilities. Project details page gives the comprehensive view of the risk posture of the proejct, including the known vulnerabilities.</p>
+<h3 id="vulnerabilities-of-interest-voi">Vulnerabilities Of Interest (VOI)</h3>
+<p>Known vulnerabilities that are of interest to the BeS lab is listed in the VOI dashboard. The lab may want to share the information about known vulnerabilities and the affected projects within its tracked projects.</p>
+<h3 id="models-of-interest-moi">Models Of Interest (MOI)</h3>
+<p>Pretrained machine learning models are available in various public platforms that can put to use for many useful usecases. These open source models may contain severe secutiry vulnerabilities. The ML models tracked by the lab is listed in MOI dashboard. Model card (details page) gives a holistic view of the risk posture and the various attack emulation on that particular model.</p>
+<h3 id="datasets-of-interest-doi">Datasets of Interest (DOI)</h3>
+<p>Publicly availbable training dataset that are of interest to the BeS lab is listed in the DOI dashboard. Currently not available for public access. This feature is coming soon.</p>
+<h2 id="technology-stack">Technology Stack</h2>
+<ul>
+<li>NodeJS</li>
+<li>React</li>
+<li>Typescript</li>
 </ul>
-</li>
-</ol>
+<h2 id="report-issue">Report Issue</h2>
+<p>BeSLighthouse uses GitHub's integrated issue tracking system to record bugs and feature requests. If you want to raise an issue, please follow the recommendations below:</p>
+<ul>
+<li>Before you log a bug, please search the <a href="https://github.com/Be-Secure/BeSLighthouse/issues">issue tracker</a> to see if someone has already reported the problem.</li>
+<li>If the issue doesn't already exist, <a href="https://github.com/Be-Secure/BeSLighthouse/issues/new/choose">create a new issue</a>.</li>
+<li>Please provide as much information as possible with the issue report.
+We like to know the BeSLighthouse version you're using.</li>
+<li>If possible, try to attach the screenshot of the issue.</li>
+</ul>
+<h2 id="license">License</h2>
+<p>BeSLighthouse is an Open Source software released under the <a href="https://www.apache.org/licenses/LICENSE-2.0.html">Apache 2.0 license</a>.</p>
                 
                   
                 
