@@ -1,3 +1,10 @@
+---
+template: main.html
+title: BeSLighthouse
+hide:
+    - navigation
+---
+
 ## BeSLighthouse
 
 Pronounced as "B-e-S Lighthouse", is a dashboard project for visulaizing the security assessment and risk posture of open source projects and ML models tracked by a BeS lab deployment. BeSecure community hosts an instance of BeSLighthouse [here](https://be-secure.github.io/BeSLighthouse/).
